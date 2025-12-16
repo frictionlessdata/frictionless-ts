@@ -5,7 +5,7 @@ prev: false
 title: "FieldsMissingError"
 ---
 
-Defined in: [error/types/Fields.ts:9](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Fields.ts#L9)
+Defined in: [error/types/Fields.ts:9](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/error/types/Fields.ts#L9)
 
 ## Extends
 
@@ -17,7 +17,7 @@ Defined in: [error/types/Fields.ts:9](https://github.com/datisthq/frictionless-t
 
 > **fieldNames**: `string`[]
 
-Defined in: [error/types/Fields.ts:6](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Fields.ts#L6)
+Defined in: [error/types/Fields.ts:6](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/error/types/Fields.ts#L6)
 
 #### Inherited from
 
@@ -29,7 +29,7 @@ Defined in: [error/types/Fields.ts:6](https://github.com/datisthq/frictionless-t
 
 > **type**: `"fields/missing"`
 
-Defined in: [error/types/Fields.ts:10](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Fields.ts#L10)
+Defined in: [error/types/Fields.ts:10](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/error/types/Fields.ts#L10)
 
 #### Overrides
 

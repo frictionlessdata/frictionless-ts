@@ -5,7 +5,7 @@ prev: false
 title: "ListConstraints"
 ---
 
-Defined in: [field/types/List.ts:33](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/List.ts#L33)
+Defined in: [field/types/List.ts:33](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/List.ts#L33)
 
 List-specific constraints
 
@@ -19,7 +19,7 @@ List-specific constraints
 
 > `optional` **enum**: `string`[] \| `any`[][]
 
-Defined in: [field/types/List.ts:48](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/List.ts#L48)
+Defined in: [field/types/List.ts:48](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/List.ts#L48)
 
 Restrict values to a specified set of lists
 Either as delimited strings or arrays
@@ -30,7 +30,7 @@ Either as delimited strings or arrays
 
 > `optional` **maxLength**: `number`
 
-Defined in: [field/types/List.ts:42](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/List.ts#L42)
+Defined in: [field/types/List.ts:42](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/List.ts#L42)
 
 Maximum number of list items
 
@@ -40,7 +40,7 @@ Maximum number of list items
 
 > `optional` **minLength**: `number`
 
-Defined in: [field/types/List.ts:37](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/List.ts#L37)
+Defined in: [field/types/List.ts:37](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/List.ts#L37)
 
 Minimum number of list items
 
@@ -50,7 +50,7 @@ Minimum number of list items
 
 > `optional` **required**: `boolean`
 
-Defined in: [field/types/Base.ts:62](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L62)
+Defined in: [field/types/Base.ts:62](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Base.ts#L62)
 
 Indicates if field is allowed to be null/empty
 
@@ -64,7 +64,7 @@ Indicates if field is allowed to be null/empty
 
 > `optional` **unique**: `boolean`
 
-Defined in: [field/types/Base.ts:67](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L67)
+Defined in: [field/types/Base.ts:67](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Base.ts#L67)
 
 Indicates if values must be unique within the column
 

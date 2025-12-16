@@ -5,7 +5,7 @@ prev: false
 title: "Resource"
 ---
 
-Defined in: [resource/Resource.ts:12](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/resource/Resource.ts#L12)
+Defined in: [resource/Resource.ts:12](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/resource/Resource.ts#L12)
 
 Data Resource interface built on top of the Data Package standard and Polars DataFrames
 
@@ -27,7 +27,7 @@ https://datapackage.org/standard/data-resource/
 
 > `optional` **$schema**: `string`
 
-Defined in: [resource/Resource.ts:16](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/resource/Resource.ts#L16)
+Defined in: [resource/Resource.ts:16](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/resource/Resource.ts#L16)
 
 JSON schema profile URL for validation
 
@@ -37,7 +37,7 @@ JSON schema profile URL for validation
 
 > `optional` **bytes**: `number`
 
-Defined in: [resource/Resource.ts:73](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/resource/Resource.ts#L73)
+Defined in: [resource/Resource.ts:73](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/resource/Resource.ts#L73)
 
 Size of the file in bytes
 
@@ -47,7 +47,7 @@ Size of the file in bytes
 
 > `optional` **data**: `unknown`
 
-Defined in: [resource/Resource.ts:34](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/resource/Resource.ts#L34)
+Defined in: [resource/Resource.ts:34](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/resource/Resource.ts#L34)
 
 Inline data content instead of referencing an external file
 Either path or data must be provided
@@ -58,7 +58,7 @@ Either path or data must be provided
 
 > `optional` **description**: `string`
 
-Defined in: [resource/Resource.ts:68](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/resource/Resource.ts#L68)
+Defined in: [resource/Resource.ts:68](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/resource/Resource.ts#L68)
 
 A description of the resource
 
@@ -68,7 +68,7 @@ A description of the resource
 
 > `optional` **dialect**: `string` \| [`Dialect`](/reference/_frictionless-ts/metadata/dialect/)
 
-Defined in: [resource/Resource.ts:95](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/resource/Resource.ts#L95)
+Defined in: [resource/Resource.ts:95](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/resource/Resource.ts#L95)
 
 Table dialect specification
 Describes delimiters, quote characters, etc.
@@ -83,7 +83,7 @@ https://datapackage.org/standard/table-dialect/
 
 > `optional` **encoding**: `string`
 
-Defined in: [resource/Resource.ts:58](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/resource/Resource.ts#L58)
+Defined in: [resource/Resource.ts:58](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/resource/Resource.ts#L58)
 
 Character encoding of the resource
 
@@ -99,7 +99,7 @@ Character encoding of the resource
 
 > `optional` **format**: `string`
 
-Defined in: [resource/Resource.ts:46](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/resource/Resource.ts#L46)
+Defined in: [resource/Resource.ts:46](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/resource/Resource.ts#L46)
 
 The file format
 
@@ -115,7 +115,7 @@ The file format
 
 > `optional` **hash**: `string`
 
-Defined in: [resource/Resource.ts:78](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/resource/Resource.ts#L78)
+Defined in: [resource/Resource.ts:78](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/resource/Resource.ts#L78)
 
 Hash of the resource data
 
@@ -125,7 +125,7 @@ Hash of the resource data
 
 > `optional` **jsonSchema**: `string` \| [`Descriptor`](/reference/_frictionless-ts/metadata/descriptor/)
 
-Defined in: [resource/Resource.ts:109](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/resource/Resource.ts#L109)
+Defined in: [resource/Resource.ts:109](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/resource/Resource.ts#L109)
 
 Schema for the json data
 Describes fields in the json, constraints, etc.
@@ -140,7 +140,7 @@ https://json-schema.org/
 
 > `optional` **licenses**: [`License`](/reference/_frictionless-ts/metadata/license/)[]
 
-Defined in: [resource/Resource.ts:88](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/resource/Resource.ts#L88)
+Defined in: [resource/Resource.ts:88](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/resource/Resource.ts#L88)
 
 License information
 
@@ -150,7 +150,7 @@ License information
 
 > `optional` **mediatype**: `string`
 
-Defined in: [resource/Resource.ts:52](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/resource/Resource.ts#L52)
+Defined in: [resource/Resource.ts:52](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/resource/Resource.ts#L52)
 
 The media type of the resource
 
@@ -166,7 +166,7 @@ The media type of the resource
 
 > **name**: `string`
 
-Defined in: [resource/Resource.ts:22](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/resource/Resource.ts#L22)
+Defined in: [resource/Resource.ts:22](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/resource/Resource.ts#L22)
 
 Unique resource identifier
 Should use lowercase alphanumeric characters, periods, hyphens, and underscores
@@ -177,7 +177,7 @@ Should use lowercase alphanumeric characters, periods, hyphens, and underscores
 
 > `optional` **path**: `string` \| `string`[]
 
-Defined in: [resource/Resource.ts:28](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/resource/Resource.ts#L28)
+Defined in: [resource/Resource.ts:28](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/resource/Resource.ts#L28)
 
 A reference to the data itself, can be a path URL or array of paths
 Either path or data must be provided
@@ -188,7 +188,7 @@ Either path or data must be provided
 
 > `optional` **schema**: `string` \| [`Schema`](/reference/_frictionless-ts/metadata/schema/)
 
-Defined in: [resource/Resource.ts:102](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/resource/Resource.ts#L102)
+Defined in: [resource/Resource.ts:102](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/resource/Resource.ts#L102)
 
 Schema for the tabular data
 Describes fields in the table, constraints, etc.
@@ -203,7 +203,7 @@ https://datapackage.org/standard/table-schema/
 
 > `optional` **sources**: [`Source`](/reference/_frictionless-ts/metadata/source/)[]
 
-Defined in: [resource/Resource.ts:83](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/resource/Resource.ts#L83)
+Defined in: [resource/Resource.ts:83](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/resource/Resource.ts#L83)
 
 Data sources
 
@@ -213,7 +213,7 @@ Data sources
 
 > `optional` **title**: `string`
 
-Defined in: [resource/Resource.ts:63](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/resource/Resource.ts#L63)
+Defined in: [resource/Resource.ts:63](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/resource/Resource.ts#L63)
 
 Human-readable title
 
@@ -223,7 +223,7 @@ Human-readable title
 
 > `optional` **type**: `"table"`
 
-Defined in: [resource/Resource.ts:40](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/resource/Resource.ts#L40)
+Defined in: [resource/Resource.ts:40](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/resource/Resource.ts#L40)
 
 The resource type
 

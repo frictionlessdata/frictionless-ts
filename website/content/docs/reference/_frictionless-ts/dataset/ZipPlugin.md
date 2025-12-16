@@ -5,7 +5,7 @@ prev: false
 title: "ZipPlugin"
 ---
 
-Defined in: [dataset/plugins/zip/plugin.ts:5](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/dataset/plugins/zip/plugin.ts#L5)
+Defined in: [dataset/plugins/zip/plugin.ts:5](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/dataset/plugins/zip/plugin.ts#L5)
 
 ## Implements
 
@@ -27,7 +27,7 @@ Defined in: [dataset/plugins/zip/plugin.ts:5](https://github.com/datisthq/fricti
 
 > **loadPackage**(`source`): `Promise`\<`undefined` \| [`Package`](/reference/frictionless-ts/package/)\>
 
-Defined in: [dataset/plugins/zip/plugin.ts:6](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/dataset/plugins/zip/plugin.ts#L6)
+Defined in: [dataset/plugins/zip/plugin.ts:6](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/dataset/plugins/zip/plugin.ts#L6)
 
 #### Parameters
 
@@ -49,7 +49,7 @@ Defined in: [dataset/plugins/zip/plugin.ts:6](https://github.com/datisthq/fricti
 
 > **savePackage**(`dataPackage`, `options`): `Promise`\<`undefined` \| \{ `path`: `undefined`; \}\>
 
-Defined in: [dataset/plugins/zip/plugin.ts:14](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/dataset/plugins/zip/plugin.ts#L14)
+Defined in: [dataset/plugins/zip/plugin.ts:14](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/dataset/plugins/zip/plugin.ts#L14)
 
 #### Parameters
 

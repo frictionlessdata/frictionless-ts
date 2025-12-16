@@ -5,7 +5,7 @@ prev: false
 title: "IntegerConstraints"
 ---
 
-Defined in: [field/types/Integer.ts:38](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Integer.ts#L38)
+Defined in: [field/types/Integer.ts:38](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Integer.ts#L38)
 
 **`Internal`**
 
@@ -21,7 +21,7 @@ Integer-specific constraints
 
 > `optional` **enum**: `string`[] \| `number`[]
 
-Defined in: [field/types/Integer.ts:63](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Integer.ts#L63)
+Defined in: [field/types/Integer.ts:63](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Integer.ts#L63)
 
 Restrict values to a specified set
 Can be an array of integers or strings that parse to integers
@@ -32,7 +32,7 @@ Can be an array of integers or strings that parse to integers
 
 > `optional` **exclusiveMaximum**: `string` \| `number`
 
-Defined in: [field/types/Integer.ts:57](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Integer.ts#L57)
+Defined in: [field/types/Integer.ts:57](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Integer.ts#L57)
 
 Exclusive maximum allowed value
 
@@ -42,7 +42,7 @@ Exclusive maximum allowed value
 
 > `optional` **exclusiveMinimum**: `string` \| `number`
 
-Defined in: [field/types/Integer.ts:52](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Integer.ts#L52)
+Defined in: [field/types/Integer.ts:52](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Integer.ts#L52)
 
 Exclusive minimum allowed value
 
@@ -52,7 +52,7 @@ Exclusive minimum allowed value
 
 > `optional` **maximum**: `string` \| `number`
 
-Defined in: [field/types/Integer.ts:47](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Integer.ts#L47)
+Defined in: [field/types/Integer.ts:47](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Integer.ts#L47)
 
 Maximum allowed value
 
@@ -62,7 +62,7 @@ Maximum allowed value
 
 > `optional` **minimum**: `string` \| `number`
 
-Defined in: [field/types/Integer.ts:42](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Integer.ts#L42)
+Defined in: [field/types/Integer.ts:42](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Integer.ts#L42)
 
 Minimum allowed value
 
@@ -72,7 +72,7 @@ Minimum allowed value
 
 > `optional` **required**: `boolean`
 
-Defined in: [field/types/Base.ts:62](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L62)
+Defined in: [field/types/Base.ts:62](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Base.ts#L62)
 
 Indicates if field is allowed to be null/empty
 
@@ -86,7 +86,7 @@ Indicates if field is allowed to be null/empty
 
 > `optional` **unique**: `boolean`
 
-Defined in: [field/types/Base.ts:67](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L67)
+Defined in: [field/types/Base.ts:67](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Base.ts#L67)
 
 Indicates if values must be unique within the column
 

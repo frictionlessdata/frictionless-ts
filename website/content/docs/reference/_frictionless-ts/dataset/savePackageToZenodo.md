@@ -7,7 +7,7 @@ title: "savePackageToZenodo"
 
 > **savePackageToZenodo**(`dataPackage`, `options`): `Promise`\<\{ `datasetUrl`: `string`; `path`: `string`; \}\>
 
-Defined in: [dataset/plugins/zenodo/package/save.ts:17](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/dataset/plugins/zenodo/package/save.ts#L17)
+Defined in: [dataset/plugins/zenodo/package/save.ts:17](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/dataset/plugins/zenodo/package/save.ts#L17)
 
 Save a package to Zenodo
 

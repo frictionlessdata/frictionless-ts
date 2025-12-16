@@ -27,8 +27,8 @@ export default defineConfig({
         "frictionless-ts is a fast TypeScript data management framework built on top of the Data Package standard and Polars DataFrames. It supports various formats like CSV, JSON, and Parquet and integrates with data platforms such as CKAN, Zenodo, and GitHub",
       customCss: ["/styles/custom.css"],
       logo: {
-        src: "/assets/dpkit-logo.svg",
-        alt: "dpkit Logo",
+        src: "/assets/frictionless-logo.svg",
+        alt: "frictionless Logo",
       },
       social: [
         {

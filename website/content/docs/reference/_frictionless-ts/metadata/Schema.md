@@ -5,7 +5,7 @@ prev: false
 title: "Schema"
 ---
 
-Defined in: [schema/Schema.ts:9](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/schema/Schema.ts#L9)
+Defined in: [schema/Schema.ts:9](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/schema/Schema.ts#L9)
 
 Table Schema definition
 Based on the specification at https://datapackage.org/standard/table-schema/
@@ -24,7 +24,7 @@ Based on the specification at https://datapackage.org/standard/table-schema/
 
 > `optional` **$schema**: `string`
 
-Defined in: [schema/Schema.ts:13](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/schema/Schema.ts#L13)
+Defined in: [schema/Schema.ts:13](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/schema/Schema.ts#L13)
 
 URL of profile (optional)
 
@@ -34,7 +34,7 @@ URL of profile (optional)
 
 > `optional` **description**: `string`
 
-Defined in: [schema/Schema.ts:28](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/schema/Schema.ts#L28)
+Defined in: [schema/Schema.ts:28](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/schema/Schema.ts#L28)
 
 Description of schema (optional)
 
@@ -44,7 +44,7 @@ Description of schema (optional)
 
 > **fields**: [`Field`](/reference/_frictionless-ts/metadata/field/)[]
 
-Defined in: [schema/Schema.ts:33](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/schema/Schema.ts#L33)
+Defined in: [schema/Schema.ts:33](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/schema/Schema.ts#L33)
 
 Fields in this schema (required)
 
@@ -54,7 +54,7 @@ Fields in this schema (required)
 
 > `optional` **fieldsMatch**: `"exact"` \| `"equal"` \| `"subset"` \| `"superset"` \| `"partial"`
 
-Defined in: [schema/Schema.ts:39](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/schema/Schema.ts#L39)
+Defined in: [schema/Schema.ts:39](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/schema/Schema.ts#L39)
 
 Field matching rule (optional)
 Default: "exact"
@@ -65,7 +65,7 @@ Default: "exact"
 
 > `optional` **foreignKeys**: `ForeignKey`[]
 
-Defined in: [schema/Schema.ts:62](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/schema/Schema.ts#L62)
+Defined in: [schema/Schema.ts:62](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/schema/Schema.ts#L62)
 
 Foreign key relationships (optional)
 
@@ -75,7 +75,7 @@ Foreign key relationships (optional)
 
 > `optional` **missingValues**: (`string` \| \{ `label`: `string`; `value`: `string`; \})[]
 
-Defined in: [schema/Schema.ts:47](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/schema/Schema.ts#L47)
+Defined in: [schema/Schema.ts:47](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/schema/Schema.ts#L47)
 
 Values representing missing data (optional)
 Default: [""]
@@ -88,7 +88,7 @@ where label provides context for why the data is missing
 
 > `optional` **name**: `string`
 
-Defined in: [schema/Schema.ts:18](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/schema/Schema.ts#L18)
+Defined in: [schema/Schema.ts:18](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/schema/Schema.ts#L18)
 
 Name of schema (optional)
 
@@ -98,7 +98,7 @@ Name of schema (optional)
 
 > `optional` **primaryKey**: `string`[]
 
-Defined in: [schema/Schema.ts:52](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/schema/Schema.ts#L52)
+Defined in: [schema/Schema.ts:52](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/schema/Schema.ts#L52)
 
 Fields uniquely identifying each row (optional)
 
@@ -108,7 +108,7 @@ Fields uniquely identifying each row (optional)
 
 > `optional` **title**: `string`
 
-Defined in: [schema/Schema.ts:23](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/schema/Schema.ts#L23)
+Defined in: [schema/Schema.ts:23](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/schema/Schema.ts#L23)
 
 Title of schema (optional)
 
@@ -118,6 +118,6 @@ Title of schema (optional)
 
 > `optional` **uniqueKeys**: `string`[][]
 
-Defined in: [schema/Schema.ts:57](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/schema/Schema.ts#L57)
+Defined in: [schema/Schema.ts:57](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/schema/Schema.ts#L57)
 
 Field combinations that must be unique (optional)

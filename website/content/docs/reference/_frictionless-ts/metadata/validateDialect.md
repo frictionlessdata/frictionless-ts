@@ -7,7 +7,7 @@ title: "validateDialect"
 
 > **validateDialect**(`source`): `Promise`\<\{ `dialect`: `undefined` \| [`Dialect`](/reference/_frictionless-ts/metadata/dialect/); `errors`: [`MetadataError`](/reference/_frictionless-ts/metadata/metadataerror/)[]; `valid`: `boolean`; \}\>
 
-Defined in: [dialect/validate.ts:12](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/dialect/validate.ts#L12)
+Defined in: [dialect/validate.ts:12](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/dialect/validate.ts#L12)
 
 Validate a Dialect descriptor (JSON Object) against its profile
 

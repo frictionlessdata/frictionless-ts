@@ -5,7 +5,7 @@ prev: false
 title: "DatetimeField"
 ---
 
-Defined in: [field/types/Datetime.ts:6](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Datetime.ts#L6)
+Defined in: [field/types/Datetime.ts:6](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Datetime.ts#L6)
 
 Datetime field type
 
@@ -23,7 +23,7 @@ Datetime field type
 
 > `optional` **constraints**: [`DatetimeConstraints`](/reference/_frictionless-ts/metadata/datetimeconstraints/)
 
-Defined in: [field/types/Base.ts:52](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L52)
+Defined in: [field/types/Base.ts:52](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Base.ts#L52)
 
 Validation constraints applied to values
 
@@ -37,7 +37,7 @@ Validation constraints applied to values
 
 > `optional` **description**: `string`
 
-Defined in: [field/types/Base.ts:25](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L25)
+Defined in: [field/types/Base.ts:25](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Base.ts#L25)
 
 Human-readable description
 
@@ -51,7 +51,7 @@ Human-readable description
 
 > `optional` **example**: `any`
 
-Defined in: [field/types/Base.ts:30](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L30)
+Defined in: [field/types/Base.ts:30](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Base.ts#L30)
 
 Example value for this field
 
@@ -65,7 +65,7 @@ Example value for this field
 
 > `optional` **examples**: `any`[]
 
-Defined in: [field/types/Base.ts:35](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L35)
+Defined in: [field/types/Base.ts:35](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Base.ts#L35)
 
 Examples for this field
 
@@ -79,7 +79,7 @@ Examples for this field
 
 > `optional` **format**: `string`
 
-Defined in: [field/types/Datetime.ts:18](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Datetime.ts#L18)
+Defined in: [field/types/Datetime.ts:18](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Datetime.ts#L18)
 
 Format of the datetime
 - default: ISO8601 format
@@ -96,7 +96,7 @@ Format of the datetime
 
 > `optional` **missingValues**: (`string` \| \{ `label`: `string`; `value`: `string`; \})[]
 
-Defined in: [field/types/Base.ts:47](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L47)
+Defined in: [field/types/Base.ts:47](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Base.ts#L47)
 
 Values representing missing data for this field
 Can be a simple array of strings or an array of {value, label} objects
@@ -112,7 +112,7 @@ where label provides context for why the data is missing
 
 > **name**: `string`
 
-Defined in: [field/types/Base.ts:10](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L10)
+Defined in: [field/types/Base.ts:10](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Base.ts#L10)
 
 Name of the field matching the column name
 
@@ -126,7 +126,7 @@ Name of the field matching the column name
 
 > `optional` **rdfType**: `string`
 
-Defined in: [field/types/Base.ts:40](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L40)
+Defined in: [field/types/Base.ts:40](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Base.ts#L40)
 
 URI for semantic type (RDF)
 
@@ -140,7 +140,7 @@ URI for semantic type (RDF)
 
 > `optional` **title**: `string`
 
-Defined in: [field/types/Base.ts:20](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L20)
+Defined in: [field/types/Base.ts:20](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Base.ts#L20)
 
 Human-readable title
 
@@ -154,6 +154,6 @@ Human-readable title
 
 > **type**: `"datetime"`
 
-Defined in: [field/types/Datetime.ts:10](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Datetime.ts#L10)
+Defined in: [field/types/Datetime.ts:10](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Datetime.ts#L10)
 
 Field type - discriminator property

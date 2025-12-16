@@ -5,7 +5,7 @@ prev: false
 title: "JsonPlugin"
 ---
 
-Defined in: [table/plugins/json/plugin.ts:12](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/plugins/json/plugin.ts#L12)
+Defined in: [table/plugins/json/plugin.ts:12](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/table/plugins/json/plugin.ts#L12)
 
 ## Implements
 
@@ -27,7 +27,7 @@ Defined in: [table/plugins/json/plugin.ts:12](https://github.com/datisthq/fricti
 
 > **loadTable**(`resource`, `options?`): `Promise`\<`undefined` \| `LazyDataFrame`\<`any`\>\>
 
-Defined in: [table/plugins/json/plugin.ts:13](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/plugins/json/plugin.ts#L13)
+Defined in: [table/plugins/json/plugin.ts:13](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/table/plugins/json/plugin.ts#L13)
 
 #### Parameters
 
@@ -53,7 +53,7 @@ Defined in: [table/plugins/json/plugin.ts:13](https://github.com/datisthq/fricti
 
 > **saveTable**(`table`, `options`): `Promise`\<`undefined` \| `string`\>
 
-Defined in: [table/plugins/json/plugin.ts:20](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/plugins/json/plugin.ts#L20)
+Defined in: [table/plugins/json/plugin.ts:20](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/table/plugins/json/plugin.ts#L20)
 
 #### Parameters
 

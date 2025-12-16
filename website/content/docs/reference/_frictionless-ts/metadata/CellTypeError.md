@@ -5,7 +5,7 @@ prev: false
 title: "CellTypeError"
 ---
 
-Defined in: [error/types/Cell.ts:24](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Cell.ts#L24)
+Defined in: [error/types/Cell.ts:24](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/error/types/Cell.ts#L24)
 
 ## Extends
 
@@ -17,7 +17,7 @@ Defined in: [error/types/Cell.ts:24](https://github.com/datisthq/frictionless-ts
 
 > **cell**: `string`
 
-Defined in: [error/types/Cell.ts:21](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Cell.ts#L21)
+Defined in: [error/types/Cell.ts:21](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/error/types/Cell.ts#L21)
 
 #### Inherited from
 
@@ -29,7 +29,7 @@ Defined in: [error/types/Cell.ts:21](https://github.com/datisthq/frictionless-ts
 
 > `optional` **fieldFormat**: `string`
 
-Defined in: [error/types/Cell.ts:27](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Cell.ts#L27)
+Defined in: [error/types/Cell.ts:27](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/error/types/Cell.ts#L27)
 
 ***
 
@@ -37,7 +37,7 @@ Defined in: [error/types/Cell.ts:27](https://github.com/datisthq/frictionless-ts
 
 > **fieldName**: `string`
 
-Defined in: [error/types/Cell.ts:19](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Cell.ts#L19)
+Defined in: [error/types/Cell.ts:19](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/error/types/Cell.ts#L19)
 
 #### Inherited from
 
@@ -49,7 +49,7 @@ Defined in: [error/types/Cell.ts:19](https://github.com/datisthq/frictionless-ts
 
 > **fieldType**: [`FieldType`](/reference/_frictionless-ts/metadata/fieldtype/)
 
-Defined in: [error/types/Cell.ts:26](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Cell.ts#L26)
+Defined in: [error/types/Cell.ts:26](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/error/types/Cell.ts#L26)
 
 ***
 
@@ -57,7 +57,7 @@ Defined in: [error/types/Cell.ts:26](https://github.com/datisthq/frictionless-ts
 
 > **rowNumber**: `number`
 
-Defined in: [error/types/Cell.ts:20](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Cell.ts#L20)
+Defined in: [error/types/Cell.ts:20](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/error/types/Cell.ts#L20)
 
 #### Inherited from
 
@@ -69,7 +69,7 @@ Defined in: [error/types/Cell.ts:20](https://github.com/datisthq/frictionless-ts
 
 > **type**: `"cell/type"`
 
-Defined in: [error/types/Cell.ts:25](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Cell.ts#L25)
+Defined in: [error/types/Cell.ts:25](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/error/types/Cell.ts#L25)
 
 #### Overrides
 

@@ -5,7 +5,7 @@ prev: false
 title: "CellUniqueError"
 ---
 
-Defined in: [error/types/Cell.ts:69](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Cell.ts#L69)
+Defined in: [error/types/Cell.ts:69](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/error/types/Cell.ts#L69)
 
 ## Extends
 
@@ -17,7 +17,7 @@ Defined in: [error/types/Cell.ts:69](https://github.com/datisthq/frictionless-ts
 
 > **cell**: `string`
 
-Defined in: [error/types/Cell.ts:21](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Cell.ts#L21)
+Defined in: [error/types/Cell.ts:21](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/error/types/Cell.ts#L21)
 
 #### Inherited from
 
@@ -29,7 +29,7 @@ Defined in: [error/types/Cell.ts:21](https://github.com/datisthq/frictionless-ts
 
 > **fieldName**: `string`
 
-Defined in: [error/types/Cell.ts:19](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Cell.ts#L19)
+Defined in: [error/types/Cell.ts:19](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/error/types/Cell.ts#L19)
 
 #### Inherited from
 
@@ -41,7 +41,7 @@ Defined in: [error/types/Cell.ts:19](https://github.com/datisthq/frictionless-ts
 
 > **rowNumber**: `number`
 
-Defined in: [error/types/Cell.ts:20](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Cell.ts#L20)
+Defined in: [error/types/Cell.ts:20](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/error/types/Cell.ts#L20)
 
 #### Inherited from
 
@@ -53,7 +53,7 @@ Defined in: [error/types/Cell.ts:20](https://github.com/datisthq/frictionless-ts
 
 > **type**: `"cell/unique"`
 
-Defined in: [error/types/Cell.ts:70](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Cell.ts#L70)
+Defined in: [error/types/Cell.ts:70](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/error/types/Cell.ts#L70)
 
 #### Overrides
 

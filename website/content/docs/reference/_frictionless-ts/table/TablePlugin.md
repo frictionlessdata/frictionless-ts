@@ -5,7 +5,7 @@ prev: false
 title: "TablePlugin"
 ---
 
-Defined in: [table/plugin.ts:27](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/plugin.ts#L27)
+Defined in: [table/plugin.ts:27](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/table/plugin.ts#L27)
 
 ## Extends
 
@@ -17,7 +17,7 @@ Defined in: [table/plugin.ts:27](https://github.com/datisthq/frictionless-ts/blo
 
 > `optional` **inferDialect**(`resource`, `options?`): `Promise`\<`undefined` \| [`Dialect`](/reference/frictionless-ts/dialect/)\>
 
-Defined in: [table/plugin.ts:33](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/plugin.ts#L33)
+Defined in: [table/plugin.ts:33](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/table/plugin.ts#L33)
 
 #### Parameters
 
@@ -39,7 +39,7 @@ Defined in: [table/plugin.ts:33](https://github.com/datisthq/frictionless-ts/blo
 
 > `optional` **inferSchema**(`resource`, `options?`): `Promise`\<`undefined` \| [`Schema`](/reference/frictionless-ts/schema/)\>
 
-Defined in: [table/plugin.ts:38](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/plugin.ts#L38)
+Defined in: [table/plugin.ts:38](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/table/plugin.ts#L38)
 
 #### Parameters
 
@@ -83,7 +83,7 @@ Defined in: dataset/build/plugin.d.ts:7
 
 > `optional` **loadTable**(`resource`, `options?`): `Promise`\<`undefined` \| [`Table`](/reference/_frictionless-ts/table/table/)\>
 
-Defined in: [table/plugin.ts:43](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/plugin.ts#L43)
+Defined in: [table/plugin.ts:43](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/table/plugin.ts#L43)
 
 #### Parameters
 
@@ -105,7 +105,7 @@ Defined in: [table/plugin.ts:43](https://github.com/datisthq/frictionless-ts/blo
 
 > `optional` **savePackage**(`dataPackage`, `options`): `Promise`\<`undefined` \| \{ `path?`: `string`; \}\>
 
-Defined in: [table/plugin.ts:28](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/plugin.ts#L28)
+Defined in: [table/plugin.ts:28](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/table/plugin.ts#L28)
 
 #### Parameters
 
@@ -131,7 +131,7 @@ Defined in: [table/plugin.ts:28](https://github.com/datisthq/frictionless-ts/blo
 
 > `optional` **saveTable**(`table`, `options`): `Promise`\<`undefined` \| `string`\>
 
-Defined in: [table/plugin.ts:48](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/plugin.ts#L48)
+Defined in: [table/plugin.ts:48](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/table/plugin.ts#L48)
 
 #### Parameters
 

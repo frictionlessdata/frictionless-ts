@@ -5,7 +5,7 @@ prev: false
 title: "JsonDocument"
 ---
 
-Defined in: [document/document/types/Json.ts:3](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/document/document/types/Json.ts#L3)
+Defined in: [document/document/types/Json.ts:3](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/document/document/types/Json.ts#L3)
 
 ## Extends
 
@@ -17,7 +17,7 @@ Defined in: [document/document/types/Json.ts:3](https://github.com/datisthq/fric
 
 > **data**: `Record`\<`string`, `any`\>
 
-Defined in: [document/document/types/Json.ts:5](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/document/document/types/Json.ts#L5)
+Defined in: [document/document/types/Json.ts:5](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/document/document/types/Json.ts#L5)
 
 ***
 
@@ -25,7 +25,7 @@ Defined in: [document/document/types/Json.ts:5](https://github.com/datisthq/fric
 
 > **type**: `"json"`
 
-Defined in: [document/document/types/Json.ts:4](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/document/document/types/Json.ts#L4)
+Defined in: [document/document/types/Json.ts:4](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/document/document/types/Json.ts#L4)
 
 #### Overrides
 

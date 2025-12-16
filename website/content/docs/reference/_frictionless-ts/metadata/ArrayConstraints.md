@@ -5,7 +5,7 @@ prev: false
 title: "ArrayConstraints"
 ---
 
-Defined in: [field/types/Array.ts:16](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Array.ts#L16)
+Defined in: [field/types/Array.ts:16](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Array.ts#L16)
 
 Array-specific constraints
 
@@ -19,7 +19,7 @@ Array-specific constraints
 
 > `optional` **enum**: `string`[] \| `any`[][]
 
-Defined in: [field/types/Array.ts:36](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Array.ts#L36)
+Defined in: [field/types/Array.ts:36](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Array.ts#L36)
 
 Restrict values to a specified set of arrays
 Serialized as JSON strings or parsed array objects
@@ -30,7 +30,7 @@ Serialized as JSON strings or parsed array objects
 
 > `optional` **jsonSchema**: `Record`\<`string`, `any`\>
 
-Defined in: [field/types/Array.ts:30](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Array.ts#L30)
+Defined in: [field/types/Array.ts:30](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Array.ts#L30)
 
 JSON Schema object for validating array items
 
@@ -40,7 +40,7 @@ JSON Schema object for validating array items
 
 > `optional` **maxLength**: `number`
 
-Defined in: [field/types/Array.ts:25](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Array.ts#L25)
+Defined in: [field/types/Array.ts:25](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Array.ts#L25)
 
 Maximum array length
 
@@ -50,7 +50,7 @@ Maximum array length
 
 > `optional` **minLength**: `number`
 
-Defined in: [field/types/Array.ts:20](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Array.ts#L20)
+Defined in: [field/types/Array.ts:20](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Array.ts#L20)
 
 Minimum array length
 
@@ -60,7 +60,7 @@ Minimum array length
 
 > `optional` **required**: `boolean`
 
-Defined in: [field/types/Base.ts:62](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L62)
+Defined in: [field/types/Base.ts:62](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Base.ts#L62)
 
 Indicates if field is allowed to be null/empty
 
@@ -74,7 +74,7 @@ Indicates if field is allowed to be null/empty
 
 > `optional` **unique**: `boolean`
 
-Defined in: [field/types/Base.ts:67](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L67)
+Defined in: [field/types/Base.ts:67](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Base.ts#L67)
 
 Indicates if values must be unique within the column
 

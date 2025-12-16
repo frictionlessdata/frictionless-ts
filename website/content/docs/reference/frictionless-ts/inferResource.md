@@ -7,7 +7,7 @@ title: "inferResource"
 
 > **inferResource**(`resource`, `options?`): `Promise`\<\{ `$schema?`: `string`; `bytes?`: `number`; `data?`: `unknown`; `description?`: `string`; `dialect?`: `string` \| [`Dialect`](/reference/frictionless-ts/dialect/); `encoding?`: `string`; `format?`: `string`; `hash?`: `string`; `jsonSchema?`: `string` \| [`Descriptor`](/reference/frictionless-ts/descriptor/); `licenses?`: [`License`](/reference/frictionless-ts/license/)[]; `mediatype?`: `string`; `name`: `string`; `path?`: `string` \| `string`[]; `schema?`: `string` \| [`Schema`](/reference/frictionless-ts/schema/); `sources?`: [`Source`](/reference/frictionless-ts/source/)[]; `title?`: `string`; `type?`: `"table"`; \}\>
 
-Defined in: [frictionless/resource/infer.ts:10](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/frictionless/resource/infer.ts#L10)
+Defined in: [frictionless/resource/infer.ts:10](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/frictionless/resource/infer.ts#L10)
 
 ## Parameters
 

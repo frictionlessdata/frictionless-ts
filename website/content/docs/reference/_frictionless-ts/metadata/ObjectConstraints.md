@@ -5,7 +5,7 @@ prev: false
 title: "ObjectConstraints"
 ---
 
-Defined in: [field/types/Object.ts:16](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Object.ts#L16)
+Defined in: [field/types/Object.ts:16](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Object.ts#L16)
 
 Object-specific constraints
 
@@ -19,7 +19,7 @@ Object-specific constraints
 
 > `optional` **enum**: `string`[] \| `Record`\<`string`, `any`\>[]
 
-Defined in: [field/types/Object.ts:36](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Object.ts#L36)
+Defined in: [field/types/Object.ts:36](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Object.ts#L36)
 
 Restrict values to a specified set of objects
 Serialized as JSON strings or object literals
@@ -30,7 +30,7 @@ Serialized as JSON strings or object literals
 
 > `optional` **jsonSchema**: `Record`\<`string`, `any`\>
 
-Defined in: [field/types/Object.ts:30](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Object.ts#L30)
+Defined in: [field/types/Object.ts:30](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Object.ts#L30)
 
 JSON Schema object for validating the object structure and properties
 
@@ -40,7 +40,7 @@ JSON Schema object for validating the object structure and properties
 
 > `optional` **maxLength**: `number`
 
-Defined in: [field/types/Object.ts:25](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Object.ts#L25)
+Defined in: [field/types/Object.ts:25](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Object.ts#L25)
 
 Maximum number of properties
 
@@ -50,7 +50,7 @@ Maximum number of properties
 
 > `optional` **minLength**: `number`
 
-Defined in: [field/types/Object.ts:20](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Object.ts#L20)
+Defined in: [field/types/Object.ts:20](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Object.ts#L20)
 
 Minimum number of properties
 
@@ -60,7 +60,7 @@ Minimum number of properties
 
 > `optional` **required**: `boolean`
 
-Defined in: [field/types/Base.ts:62](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L62)
+Defined in: [field/types/Base.ts:62](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Base.ts#L62)
 
 Indicates if field is allowed to be null/empty
 
@@ -74,7 +74,7 @@ Indicates if field is allowed to be null/empty
 
 > `optional` **unique**: `boolean`
 
-Defined in: [field/types/Base.ts:67](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L67)
+Defined in: [field/types/Base.ts:67](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Base.ts#L67)
 
 Indicates if values must be unique within the column
 

@@ -5,7 +5,7 @@ prev: false
 title: "StringConstraints"
 ---
 
-Defined in: [field/types/String.ts:36](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/String.ts#L36)
+Defined in: [field/types/String.ts:36](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/String.ts#L36)
 
 String-specific constraints
 
@@ -19,7 +19,7 @@ String-specific constraints
 
 > `optional` **enum**: `string`[]
 
-Defined in: [field/types/String.ts:55](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/String.ts#L55)
+Defined in: [field/types/String.ts:55](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/String.ts#L55)
 
 Restrict values to a specified set of strings
 
@@ -29,7 +29,7 @@ Restrict values to a specified set of strings
 
 > `optional` **maxLength**: `number`
 
-Defined in: [field/types/String.ts:45](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/String.ts#L45)
+Defined in: [field/types/String.ts:45](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/String.ts#L45)
 
 Maximum string length
 
@@ -39,7 +39,7 @@ Maximum string length
 
 > `optional` **minLength**: `number`
 
-Defined in: [field/types/String.ts:40](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/String.ts#L40)
+Defined in: [field/types/String.ts:40](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/String.ts#L40)
 
 Minimum string length
 
@@ -49,7 +49,7 @@ Minimum string length
 
 > `optional` **pattern**: `string`
 
-Defined in: [field/types/String.ts:50](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/String.ts#L50)
+Defined in: [field/types/String.ts:50](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/String.ts#L50)
 
 Regular expression pattern to match
 
@@ -59,7 +59,7 @@ Regular expression pattern to match
 
 > `optional` **required**: `boolean`
 
-Defined in: [field/types/Base.ts:62](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L62)
+Defined in: [field/types/Base.ts:62](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Base.ts#L62)
 
 Indicates if field is allowed to be null/empty
 
@@ -73,7 +73,7 @@ Indicates if field is allowed to be null/empty
 
 > `optional` **unique**: `boolean`
 
-Defined in: [field/types/Base.ts:67](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L67)
+Defined in: [field/types/Base.ts:67](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Base.ts#L67)
 
 Indicates if values must be unique within the column
 

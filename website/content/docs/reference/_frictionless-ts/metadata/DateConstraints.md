@@ -5,7 +5,7 @@ prev: false
 title: "DateConstraints"
 ---
 
-Defined in: [field/types/Date.ts:24](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Date.ts#L24)
+Defined in: [field/types/Date.ts:24](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Date.ts#L24)
 
 Date-specific constraints
 
@@ -19,7 +19,7 @@ Date-specific constraints
 
 > `optional` **enum**: `string`[]
 
-Defined in: [field/types/Date.ts:49](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Date.ts#L49)
+Defined in: [field/types/Date.ts:49](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Date.ts#L49)
 
 Restrict values to a specified set of dates
 Should be in string date format (e.g., "YYYY-MM-DD")
@@ -30,7 +30,7 @@ Should be in string date format (e.g., "YYYY-MM-DD")
 
 > `optional` **exclusiveMaximum**: `string`
 
-Defined in: [field/types/Date.ts:43](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Date.ts#L43)
+Defined in: [field/types/Date.ts:43](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Date.ts#L43)
 
 Exclusive maximum date value
 
@@ -40,7 +40,7 @@ Exclusive maximum date value
 
 > `optional` **exclusiveMinimum**: `string`
 
-Defined in: [field/types/Date.ts:38](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Date.ts#L38)
+Defined in: [field/types/Date.ts:38](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Date.ts#L38)
 
 Exclusive minimum date value
 
@@ -50,7 +50,7 @@ Exclusive minimum date value
 
 > `optional` **maximum**: `string`
 
-Defined in: [field/types/Date.ts:33](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Date.ts#L33)
+Defined in: [field/types/Date.ts:33](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Date.ts#L33)
 
 Maximum allowed date value
 
@@ -60,7 +60,7 @@ Maximum allowed date value
 
 > `optional` **minimum**: `string`
 
-Defined in: [field/types/Date.ts:28](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Date.ts#L28)
+Defined in: [field/types/Date.ts:28](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Date.ts#L28)
 
 Minimum allowed date value
 
@@ -70,7 +70,7 @@ Minimum allowed date value
 
 > `optional` **required**: `boolean`
 
-Defined in: [field/types/Base.ts:62](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L62)
+Defined in: [field/types/Base.ts:62](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Base.ts#L62)
 
 Indicates if field is allowed to be null/empty
 
@@ -84,7 +84,7 @@ Indicates if field is allowed to be null/empty
 
 > `optional` **unique**: `boolean`
 
-Defined in: [field/types/Base.ts:67](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L67)
+Defined in: [field/types/Base.ts:67](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/field/types/Base.ts#L67)
 
 Indicates if values must be unique within the column
 

@@ -5,7 +5,7 @@ prev: false
 title: "Dialect"
 ---
 
-Defined in: [dialect/Dialect.ts:8](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/dialect/Dialect.ts#L8)
+Defined in: [dialect/Dialect.ts:8](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/dialect/Dialect.ts#L8)
 
 Descriptor that describes the structure of tabular data, such as delimiters,
 headers, and other features. Following the Data Package standard:
@@ -25,7 +25,7 @@ https://datapackage.org/standard/table-dialect/
 
 > `optional` **$schema**: `string`
 
-Defined in: [dialect/Dialect.ts:12](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/dialect/Dialect.ts#L12)
+Defined in: [dialect/Dialect.ts:12](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/dialect/Dialect.ts#L12)
 
 JSON schema profile URL for validation
 
@@ -35,7 +35,7 @@ JSON schema profile URL for validation
 
 > `optional` **commentChar**: `string`
 
-Defined in: [dialect/Dialect.ts:42](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/dialect/Dialect.ts#L42)
+Defined in: [dialect/Dialect.ts:42](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/dialect/Dialect.ts#L42)
 
 Character sequence denoting the start of a comment line
 
@@ -45,7 +45,7 @@ Character sequence denoting the start of a comment line
 
 > `optional` **commentRows**: `number`[]
 
-Defined in: [dialect/Dialect.ts:37](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/dialect/Dialect.ts#L37)
+Defined in: [dialect/Dialect.ts:37](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/dialect/Dialect.ts#L37)
 
 Specific rows to be excluded from the data (zero-based)
 
@@ -55,7 +55,7 @@ Specific rows to be excluded from the data (zero-based)
 
 > `optional` **delimiter**: `string`
 
-Defined in: [dialect/Dialect.ts:47](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/dialect/Dialect.ts#L47)
+Defined in: [dialect/Dialect.ts:47](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/dialect/Dialect.ts#L47)
 
 The character used to separate fields in the data
 
@@ -65,7 +65,7 @@ The character used to separate fields in the data
 
 > `optional` **doubleQuote**: `boolean`
 
-Defined in: [dialect/Dialect.ts:62](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/dialect/Dialect.ts#L62)
+Defined in: [dialect/Dialect.ts:62](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/dialect/Dialect.ts#L62)
 
 Controls whether a sequence of two quote characters represents a single quote
 
@@ -75,7 +75,7 @@ Controls whether a sequence of two quote characters represents a single quote
 
 > `optional` **escapeChar**: `string`
 
-Defined in: [dialect/Dialect.ts:67](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/dialect/Dialect.ts#L67)
+Defined in: [dialect/Dialect.ts:67](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/dialect/Dialect.ts#L67)
 
 Character used to escape the delimiter or quote characters
 
@@ -85,7 +85,7 @@ Character used to escape the delimiter or quote characters
 
 > `optional` **header**: `boolean`
 
-Defined in: [dialect/Dialect.ts:22](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/dialect/Dialect.ts#L22)
+Defined in: [dialect/Dialect.ts:22](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/dialect/Dialect.ts#L22)
 
 Whether the file includes a header row with field names
 
@@ -95,7 +95,7 @@ Whether the file includes a header row with field names
 
 > `optional` **headerJoin**: `string`
 
-Defined in: [dialect/Dialect.ts:32](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/dialect/Dialect.ts#L32)
+Defined in: [dialect/Dialect.ts:32](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/dialect/Dialect.ts#L32)
 
 The character used to join multi-line headers
 
@@ -105,7 +105,7 @@ The character used to join multi-line headers
 
 > `optional` **headerRows**: `number`[]
 
-Defined in: [dialect/Dialect.ts:27](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/dialect/Dialect.ts#L27)
+Defined in: [dialect/Dialect.ts:27](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/dialect/Dialect.ts#L27)
 
 Row numbers (zero-based) that are considered header rows
 
@@ -115,7 +115,7 @@ Row numbers (zero-based) that are considered header rows
 
 > `optional` **itemKeys**: `string`[]
 
-Defined in: [dialect/Dialect.ts:93](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/dialect/Dialect.ts#L93)
+Defined in: [dialect/Dialect.ts:93](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/dialect/Dialect.ts#L93)
 
 For object-based data items, specifies which object properties to extract as values
 
@@ -125,7 +125,7 @@ For object-based data items, specifies which object properties to extract as val
 
 > `optional` **itemType**: `"object"` \| `"array"`
 
-Defined in: [dialect/Dialect.ts:88](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/dialect/Dialect.ts#L88)
+Defined in: [dialect/Dialect.ts:88](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/dialect/Dialect.ts#L88)
 
 The type of data item in the source: 'array' for rows represented as arrays,
 or 'object' for rows represented as objects
@@ -136,7 +136,7 @@ or 'object' for rows represented as objects
 
 > `optional` **lineTerminator**: `string`
 
-Defined in: [dialect/Dialect.ts:52](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/dialect/Dialect.ts#L52)
+Defined in: [dialect/Dialect.ts:52](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/dialect/Dialect.ts#L52)
 
 Character sequence used to terminate rows
 
@@ -146,7 +146,7 @@ Character sequence used to terminate rows
 
 > `optional` **name**: `string`
 
-Defined in: [dialect/Dialect.ts:17](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/dialect/Dialect.ts#L17)
+Defined in: [dialect/Dialect.ts:17](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/dialect/Dialect.ts#L17)
 
 The name of this dialect
 
@@ -156,7 +156,7 @@ The name of this dialect
 
 > `optional` **nullSequence**: `string`
 
-Defined in: [dialect/Dialect.ts:72](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/dialect/Dialect.ts#L72)
+Defined in: [dialect/Dialect.ts:72](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/dialect/Dialect.ts#L72)
 
 Character sequence representing null or missing values in the data
 
@@ -166,7 +166,7 @@ Character sequence representing null or missing values in the data
 
 > `optional` **property**: `string`
 
-Defined in: [dialect/Dialect.ts:82](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/dialect/Dialect.ts#L82)
+Defined in: [dialect/Dialect.ts:82](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/dialect/Dialect.ts#L82)
 
 For JSON data, the property name containing the data array
 
@@ -176,7 +176,7 @@ For JSON data, the property name containing the data array
 
 > `optional` **quoteChar**: `string`
 
-Defined in: [dialect/Dialect.ts:57](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/dialect/Dialect.ts#L57)
+Defined in: [dialect/Dialect.ts:57](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/dialect/Dialect.ts#L57)
 
 Character used to quote fields
 
@@ -186,7 +186,7 @@ Character used to quote fields
 
 > `optional` **sheetName**: `string`
 
-Defined in: [dialect/Dialect.ts:103](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/dialect/Dialect.ts#L103)
+Defined in: [dialect/Dialect.ts:103](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/dialect/Dialect.ts#L103)
 
 For spreadsheet data, the sheet name to read
 
@@ -196,7 +196,7 @@ For spreadsheet data, the sheet name to read
 
 > `optional` **sheetNumber**: `number`
 
-Defined in: [dialect/Dialect.ts:98](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/dialect/Dialect.ts#L98)
+Defined in: [dialect/Dialect.ts:98](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/dialect/Dialect.ts#L98)
 
 For spreadsheet data, the sheet number to read (zero-based)
 
@@ -206,7 +206,7 @@ For spreadsheet data, the sheet number to read (zero-based)
 
 > `optional` **skipInitialSpace**: `boolean`
 
-Defined in: [dialect/Dialect.ts:77](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/dialect/Dialect.ts#L77)
+Defined in: [dialect/Dialect.ts:77](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/dialect/Dialect.ts#L77)
 
 Whether to ignore whitespace immediately following the delimiter
 
@@ -216,6 +216,6 @@ Whether to ignore whitespace immediately following the delimiter
 
 > `optional` **table**: `string`
 
-Defined in: [dialect/Dialect.ts:108](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/dialect/Dialect.ts#L108)
+Defined in: [dialect/Dialect.ts:108](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/dialect/Dialect.ts#L108)
 
 For database sources, the table name to read

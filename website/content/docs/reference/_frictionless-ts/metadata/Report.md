@@ -5,7 +5,7 @@ prev: false
 title: "Report"
 ---
 
-Defined in: [report/Report.ts:3](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/report/Report.ts#L3)
+Defined in: [report/Report.ts:3](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/report/Report.ts#L3)
 
 ## Type Parameters
 
@@ -19,7 +19,7 @@ Defined in: [report/Report.ts:3](https://github.com/datisthq/frictionless-ts/blo
 
 > **errors**: `T`[]
 
-Defined in: [report/Report.ts:5](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/report/Report.ts#L5)
+Defined in: [report/Report.ts:5](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/report/Report.ts#L5)
 
 ***
 
@@ -27,4 +27,4 @@ Defined in: [report/Report.ts:5](https://github.com/datisthq/frictionless-ts/blo
 
 > **valid**: `boolean`
 
-Defined in: [report/Report.ts:4](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/report/Report.ts#L4)
+Defined in: [report/Report.ts:4](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/report/Report.ts#L4)

@@ -5,7 +5,7 @@ prev: false
 title: "MetadataError"
 ---
 
-Defined in: [error/types/Metadata.ts:6](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Metadata.ts#L6)
+Defined in: [error/types/Metadata.ts:6](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/error/types/Metadata.ts#L6)
 
 A descriptor error
 
@@ -19,7 +19,7 @@ A descriptor error
 
 > **message**: `string`
 
-Defined in: [error/types/Metadata.ts:9](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Metadata.ts#L9)
+Defined in: [error/types/Metadata.ts:9](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/error/types/Metadata.ts#L9)
 
 ***
 
@@ -27,7 +27,7 @@ Defined in: [error/types/Metadata.ts:9](https://github.com/datisthq/frictionless
 
 > **pointer**: `string`
 
-Defined in: [error/types/Metadata.ts:8](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Metadata.ts#L8)
+Defined in: [error/types/Metadata.ts:8](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/error/types/Metadata.ts#L8)
 
 ***
 
@@ -35,7 +35,7 @@ Defined in: [error/types/Metadata.ts:8](https://github.com/datisthq/frictionless
 
 > **type**: `"metadata"`
 
-Defined in: [error/types/Metadata.ts:7](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Metadata.ts#L7)
+Defined in: [error/types/Metadata.ts:7](https://github.com/datisthq/frictionless-ts/blob/e0090ba3a6654c978542763fc4036b3a8316ee2a/metadata/error/types/Metadata.ts#L7)
 
 #### Overrides
 
