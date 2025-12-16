@@ -1,11 +1,11 @@
 ---
-title: Data Package implementation in TypeScript
+title: frictionless-ts
 sidebar:
   order: 1
   label: Getting Started
 ---
 
-frictionless-ts is a fast TypeScript **data management** framework built on top of the **Data Package** standard and **Polars DataFrames**. It supports various formats like CSV, JSON, and Parquet and integrates with data platforms such as CKAN, Zenodo, and GitHub.
+Fast TypeScript **data management** framework built on top of the **Data Package** standard and **Polars DataFrames**. It supports various formats like CSV, JSON, and Parquet and integrates with data platforms such as CKAN, Zenodo, and GitHub.
 
 This guide will help you get started with frictionless-ts. If you are new to the core framework's tecnhologies, please take a look at the [Data Package standard](https://datapackage.org/) and [Polars DataFrames](https://pola.rs/) documentation.
 
