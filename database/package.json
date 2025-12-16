@@ -1,5 +1,5 @@
 {
-  "name": "@dpkit/database",
+  "name": "@frictionless-ts/database",
   "type": "module",
   "version": "0.0.0-dev",
   "exports": "./build/index.js",
@@ -10,6 +10,7 @@
   "repository": "https://github.com/datisthq/dpkit",
   "description": "Fast TypeScript data management framework built on top of the Data Package standard and Polars DataFrames",
   "keywords": [
+    "frictionless",
     "data",
     "polars",
     "dataframe",

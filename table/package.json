@@ -1,5 +1,5 @@
 {
-  "name": "@dpkit/table",
+  "name": "@frictionless-ts/table",
   "type": "module",
   "version": "0.0.0-dev",
   "exports": "./build/index.js",
@@ -10,6 +10,7 @@
   "repository": "https://github.com/datisthq/dpkit",
   "description": "Data Package implementation in TypeScript.",
   "keywords": [
+    "frictionless",
     "data",
     "polars",
     "dataframe",
