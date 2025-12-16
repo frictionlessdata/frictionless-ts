@@ -2,7 +2,10 @@ import os from "node:os"
 import type { BoundError } from "@frictionless-ts/metadata"
 import { createReport } from "@frictionless-ts/metadata"
 import type { Descriptor, Package } from "@frictionless-ts/metadata"
-import { loadDescriptor, validatePackageMetadata } from "@frictionless-ts/metadata"
+import {
+  loadDescriptor,
+  validatePackageMetadata,
+} from "@frictionless-ts/metadata"
 import { resolveBasepath } from "@frictionless-ts/metadata"
 import pAll from "p-all"
 import { validateResourceData } from "../resource/index.ts"

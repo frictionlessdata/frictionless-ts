@@ -2,7 +2,10 @@ import { validateFile } from "@frictionless-ts/dataset"
 import { validateDocument } from "@frictionless-ts/document"
 import type { Descriptor, Resource } from "@frictionless-ts/metadata"
 import { createReport } from "@frictionless-ts/metadata"
-import { loadDescriptor, validateResourceMetadata } from "@frictionless-ts/metadata"
+import {
+  loadDescriptor,
+  validateResourceMetadata,
+} from "@frictionless-ts/metadata"
 import { resolveBasepath } from "@frictionless-ts/metadata"
 import type { InferSchemaOptions } from "@frictionless-ts/table"
 import { validateTable } from "../table/index.ts"

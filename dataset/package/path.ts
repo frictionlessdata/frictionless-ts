@@ -1,5 +1,9 @@
 import { join, relative, resolve, sep } from "node:path"
-import { type Package, getBasepath, isRemotePath } from "@frictionless-ts/metadata"
+import {
+  type Package,
+  getBasepath,
+  isRemotePath,
+} from "@frictionless-ts/metadata"
 
 export function getPackageBasepath(dataPackage: Package) {
   const paths: string[] = []

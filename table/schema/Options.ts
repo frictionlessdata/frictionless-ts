@@ -1,4 +1,8 @@
-import type { GeojsonField, GeopointField, ListField } from "@frictionless-ts/metadata"
+import type {
+  GeojsonField,
+  GeopointField,
+  ListField,
+} from "@frictionless-ts/metadata"
 import type { StringField } from "@frictionless-ts/metadata"
 import type { FieldType } from "@frictionless-ts/metadata"
 

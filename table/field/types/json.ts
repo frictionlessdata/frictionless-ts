@@ -1,4 +1,8 @@
-import type { ArrayField, GeojsonField, ObjectField } from "@frictionless-ts/metadata"
+import type {
+  ArrayField,
+  GeojsonField,
+  ObjectField,
+} from "@frictionless-ts/metadata"
 import { inspectJsonValue } from "@frictionless-ts/metadata"
 import type { CellError } from "@frictionless-ts/metadata"
 import * as pl from "nodejs-polars"

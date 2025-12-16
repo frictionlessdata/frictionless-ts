@@ -1,5 +1,8 @@
 import { join } from "node:path"
-import { convertPackageToDescriptor, saveDescriptor } from "@frictionless-ts/metadata"
+import {
+  convertPackageToDescriptor,
+  saveDescriptor,
+} from "@frictionless-ts/metadata"
 import type { Descriptor, Package } from "@frictionless-ts/metadata"
 import { assertLocalPathVacant, copyFile } from "../../../file/index.ts"
 import { createFolder } from "../../../folder/index.ts"
