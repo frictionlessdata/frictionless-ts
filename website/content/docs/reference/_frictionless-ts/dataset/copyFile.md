@@ -7,7 +7,7 @@ title: "copyFile"
 
 > **copyFile**(`options`): `Promise`\<`void`\>
 
-Defined in: [dataset/file/copy.ts:4](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/dataset/file/copy.ts#L4)
+Defined in: [dataset/file/copy.ts:4](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/dataset/file/copy.ts#L4)
 
 ## Parameters
 

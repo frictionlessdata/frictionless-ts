@@ -1,6 +1,6 @@
-import type { DpkitError } from "../error/index.ts"
+import type { FrictionlessError } from "../error/index.ts"
 
-export function createReport<T = DpkitError>(
+export function createReport<T = FrictionlessError>(
   errors?: T[],
   options?: { maxErrors?: number },
 ) {

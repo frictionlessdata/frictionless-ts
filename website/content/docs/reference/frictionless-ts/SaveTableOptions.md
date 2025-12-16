@@ -13,7 +13,7 @@ Defined in: table/build/plugin.d.ts:10
 
 ### dialect?
 
-> `optional` **dialect**: `Dialect`
+> `optional` **dialect**: [`Dialect`](/reference/frictionless-ts/dialect/)
 
 ### format?
 
@@ -29,4 +29,4 @@ Defined in: table/build/plugin.d.ts:10
 
 ### schema?
 
-> `optional` **schema**: `Schema`
+> `optional` **schema**: [`Schema`](/reference/frictionless-ts/schema/)

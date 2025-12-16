@@ -13,7 +13,7 @@ Defined in: document/build/schema/convert/toMarkdown.d.ts:2
 
 ### schema
 
-`Schema`
+[`Schema`](/reference/frictionless-ts/schema/)
 
 ### options?
 

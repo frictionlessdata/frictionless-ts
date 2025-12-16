@@ -5,9 +5,9 @@ prev: false
 title: "inferSchemaFromTable"
 ---
 
-> **inferSchemaFromTable**(`table`, `options?`): `Promise`\<[`Schema`](/reference/_frictionless-ts/metadata/schema/)\>
+> **inferSchemaFromTable**(`table`, `options?`): `Promise`\<[`Schema`](/reference/frictionless-ts/schema/)\>
 
-Defined in: [table/schema/infer.ts:18](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/schema/infer.ts#L18)
+Defined in: [table/schema/infer.ts:18](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/schema/infer.ts#L18)
 
 ## Parameters
 
@@ -21,4 +21,4 @@ Defined in: [table/schema/infer.ts:18](https://github.com/datisthq/frictionless-
 
 ## Returns
 
-`Promise`\<[`Schema`](/reference/_frictionless-ts/metadata/schema/)\>
+`Promise`\<[`Schema`](/reference/frictionless-ts/schema/)\>

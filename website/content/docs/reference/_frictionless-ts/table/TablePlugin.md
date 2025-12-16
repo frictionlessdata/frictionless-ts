@@ -5,25 +5,25 @@ prev: false
 title: "TablePlugin"
 ---
 
-Defined in: [table/plugin.ts:27](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/plugin.ts#L27)
+Defined in: [table/plugin.ts:27](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/plugin.ts#L27)
 
 ## Extends
 
-- [`DatasetPlugin`](/reference/_frictionless-ts/dataset/datasetplugin/)
+- [`DatasetPlugin`](/reference/frictionless-ts/datasetplugin/)
 
 ## Methods
 
 ### inferDialect()?
 
-> `optional` **inferDialect**(`resource`, `options?`): `Promise`\<`undefined` \| [`Dialect`](/reference/_frictionless-ts/metadata/dialect/)\>
+> `optional` **inferDialect**(`resource`, `options?`): `Promise`\<`undefined` \| [`Dialect`](/reference/frictionless-ts/dialect/)\>
 
-Defined in: [table/plugin.ts:33](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/plugin.ts#L33)
+Defined in: [table/plugin.ts:33](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/plugin.ts#L33)
 
 #### Parameters
 
 ##### resource
 
-`Partial`\<[`Resource`](/reference/_frictionless-ts/metadata/resource/)\>
+`Partial`\<[`Resource`](/reference/frictionless-ts/resource/)\>
 
 ##### options?
 
@@ -31,21 +31,21 @@ Defined in: [table/plugin.ts:33](https://github.com/datisthq/frictionless-ts/blo
 
 #### Returns
 
-`Promise`\<`undefined` \| [`Dialect`](/reference/_frictionless-ts/metadata/dialect/)\>
+`Promise`\<`undefined` \| [`Dialect`](/reference/frictionless-ts/dialect/)\>
 
 ***
 
 ### inferSchema()?
 
-> `optional` **inferSchema**(`resource`, `options?`): `Promise`\<`undefined` \| [`Schema`](/reference/_frictionless-ts/metadata/schema/)\>
+> `optional` **inferSchema**(`resource`, `options?`): `Promise`\<`undefined` \| [`Schema`](/reference/frictionless-ts/schema/)\>
 
-Defined in: [table/plugin.ts:38](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/plugin.ts#L38)
+Defined in: [table/plugin.ts:38](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/plugin.ts#L38)
 
 #### Parameters
 
 ##### resource
 
-`Partial`\<[`Resource`](/reference/_frictionless-ts/metadata/resource/)\>
+`Partial`\<[`Resource`](/reference/frictionless-ts/resource/)\>
 
 ##### options?
 
@@ -53,13 +53,13 @@ Defined in: [table/plugin.ts:38](https://github.com/datisthq/frictionless-ts/blo
 
 #### Returns
 
-`Promise`\<`undefined` \| [`Schema`](/reference/_frictionless-ts/metadata/schema/)\>
+`Promise`\<`undefined` \| [`Schema`](/reference/frictionless-ts/schema/)\>
 
 ***
 
 ### loadPackage()?
 
-> `optional` **loadPackage**(`source`): `Promise`\<`any`\>
+> `optional` **loadPackage**(`source`): `Promise`\<`undefined` \| [`Package`](/reference/frictionless-ts/package/)\>
 
 Defined in: dataset/build/plugin.d.ts:7
 
@@ -71,11 +71,11 @@ Defined in: dataset/build/plugin.d.ts:7
 
 #### Returns
 
-`Promise`\<`any`\>
+`Promise`\<`undefined` \| [`Package`](/reference/frictionless-ts/package/)\>
 
 #### Inherited from
 
-[`DatasetPlugin`](/reference/_frictionless-ts/dataset/datasetplugin/).[`loadPackage`](/reference/_frictionless-ts/dataset/datasetplugin/#loadpackage)
+[`DatasetPlugin`](/reference/frictionless-ts/datasetplugin/).[`loadPackage`](/reference/frictionless-ts/datasetplugin/#loadpackage)
 
 ***
 
@@ -83,13 +83,13 @@ Defined in: dataset/build/plugin.d.ts:7
 
 > `optional` **loadTable**(`resource`, `options?`): `Promise`\<`undefined` \| [`Table`](/reference/_frictionless-ts/table/table/)\>
 
-Defined in: [table/plugin.ts:43](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/plugin.ts#L43)
+Defined in: [table/plugin.ts:43](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/plugin.ts#L43)
 
 #### Parameters
 
 ##### resource
 
-`Partial`\<[`Resource`](/reference/_frictionless-ts/metadata/resource/)\>
+`Partial`\<[`Resource`](/reference/frictionless-ts/resource/)\>
 
 ##### options?
 
@@ -105,17 +105,17 @@ Defined in: [table/plugin.ts:43](https://github.com/datisthq/frictionless-ts/blo
 
 > `optional` **savePackage**(`dataPackage`, `options`): `Promise`\<`undefined` \| \{ `path?`: `string`; \}\>
 
-Defined in: [table/plugin.ts:28](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/plugin.ts#L28)
+Defined in: [table/plugin.ts:28](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/plugin.ts#L28)
 
 #### Parameters
 
 ##### dataPackage
 
-[`Package`](/reference/_frictionless-ts/metadata/package/)
+[`Package`](/reference/frictionless-ts/package/)
 
 ##### options
 
-[`SavePackageOptions`](/reference/_frictionless-ts/dataset/savepackageoptions/) & `object`
+[`SavePackageOptions`](/reference/frictionless-ts/savepackageoptions/) & `object`
 
 #### Returns
 
@@ -123,7 +123,7 @@ Defined in: [table/plugin.ts:28](https://github.com/datisthq/frictionless-ts/blo
 
 #### Overrides
 
-[`DatasetPlugin`](/reference/_frictionless-ts/dataset/datasetplugin/).[`savePackage`](/reference/_frictionless-ts/dataset/datasetplugin/#savepackage)
+[`DatasetPlugin`](/reference/frictionless-ts/datasetplugin/).[`savePackage`](/reference/frictionless-ts/datasetplugin/#savepackage)
 
 ***
 
@@ -131,7 +131,7 @@ Defined in: [table/plugin.ts:28](https://github.com/datisthq/frictionless-ts/blo
 
 > `optional` **saveTable**(`table`, `options`): `Promise`\<`undefined` \| `string`\>
 
-Defined in: [table/plugin.ts:48](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/plugin.ts#L48)
+Defined in: [table/plugin.ts:48](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/plugin.ts#L48)
 
 #### Parameters
 

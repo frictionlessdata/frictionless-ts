@@ -7,7 +7,7 @@ title: "loadFileStream"
 
 > **loadFileStream**(`path`, `options?`): `Promise`\<`Readable` \| `ReadStream`\>
 
-Defined in: [dataset/stream/load.ts:5](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/dataset/stream/load.ts#L5)
+Defined in: [dataset/stream/load.ts:5](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/dataset/stream/load.ts#L5)
 
 ## Parameters
 

@@ -5,7 +5,7 @@ prev: false
 title: "DataError"
 ---
 
-Defined in: [error/types/Data.ts:3](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/Data.ts#L3)
+Defined in: [error/types/Data.ts:3](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Data.ts#L3)
 
 ## Extends
 
@@ -17,7 +17,7 @@ Defined in: [error/types/Data.ts:3](https://github.com/datisthq/frictionless-ts/
 
 > **message**: `string`
 
-Defined in: [error/types/Data.ts:5](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/Data.ts#L5)
+Defined in: [error/types/Data.ts:5](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Data.ts#L5)
 
 ***
 
@@ -25,7 +25,7 @@ Defined in: [error/types/Data.ts:5](https://github.com/datisthq/frictionless-ts/
 
 > **type**: `"data"`
 
-Defined in: [error/types/Data.ts:4](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/Data.ts#L4)
+Defined in: [error/types/Data.ts:4](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Data.ts#L4)
 
 #### Overrides
 

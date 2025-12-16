@@ -5,7 +5,7 @@ prev: false
 title: "TimeConstraints"
 ---
 
-Defined in: [field/types/Time.ts:24](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Time.ts#L24)
+Defined in: [field/types/Time.ts:24](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Time.ts#L24)
 
 Time-specific constraints
 
@@ -19,7 +19,7 @@ Time-specific constraints
 
 > `optional` **enum**: `string`[]
 
-Defined in: [field/types/Time.ts:49](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Time.ts#L49)
+Defined in: [field/types/Time.ts:49](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Time.ts#L49)
 
 Restrict values to a specified set of times
 Should be in string time format (e.g., "HH:MM:SS")
@@ -30,7 +30,7 @@ Should be in string time format (e.g., "HH:MM:SS")
 
 > `optional` **exclusiveMaximum**: `string`
 
-Defined in: [field/types/Time.ts:43](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Time.ts#L43)
+Defined in: [field/types/Time.ts:43](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Time.ts#L43)
 
 Exclusive maximum time value
 
@@ -40,7 +40,7 @@ Exclusive maximum time value
 
 > `optional` **exclusiveMinimum**: `string`
 
-Defined in: [field/types/Time.ts:38](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Time.ts#L38)
+Defined in: [field/types/Time.ts:38](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Time.ts#L38)
 
 Exclusive minimum time value
 
@@ -50,7 +50,7 @@ Exclusive minimum time value
 
 > `optional` **maximum**: `string`
 
-Defined in: [field/types/Time.ts:33](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Time.ts#L33)
+Defined in: [field/types/Time.ts:33](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Time.ts#L33)
 
 Maximum allowed time value
 
@@ -60,7 +60,7 @@ Maximum allowed time value
 
 > `optional` **minimum**: `string`
 
-Defined in: [field/types/Time.ts:28](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Time.ts#L28)
+Defined in: [field/types/Time.ts:28](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Time.ts#L28)
 
 Minimum allowed time value
 
@@ -70,7 +70,7 @@ Minimum allowed time value
 
 > `optional` **required**: `boolean`
 
-Defined in: [field/types/Base.ts:62](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Base.ts#L62)
+Defined in: [field/types/Base.ts:62](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L62)
 
 Indicates if field is allowed to be null/empty
 
@@ -84,7 +84,7 @@ Indicates if field is allowed to be null/empty
 
 > `optional` **unique**: `boolean`
 
-Defined in: [field/types/Base.ts:67](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Base.ts#L67)
+Defined in: [field/types/Base.ts:67](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L67)
 
 Indicates if values must be unique within the column
 

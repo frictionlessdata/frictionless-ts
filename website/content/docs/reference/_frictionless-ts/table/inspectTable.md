@@ -5,9 +5,9 @@ prev: false
 title: "inspectTable"
 ---
 
-> **inspectTable**(`table`, `options?`): `Promise`\<[`TableError`](/reference/_frictionless-ts/metadata/tableerror/)[]\>
+> **inspectTable**(`table`, `options?`): `Promise`\<[`TableError`](/reference/frictionless-ts/tableerror/)[]\>
 
-Defined in: [table/table/inspect.ts:15](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/table/inspect.ts#L15)
+Defined in: [table/table/inspect.ts:15](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/table/inspect.ts#L15)
 
 ## Parameters
 
@@ -27,8 +27,8 @@ Defined in: [table/table/inspect.ts:15](https://github.com/datisthq/frictionless
 
 #### schema?
 
-[`Schema`](/reference/_frictionless-ts/metadata/schema/)
+[`Schema`](/reference/frictionless-ts/schema/)
 
 ## Returns
 
-`Promise`\<[`TableError`](/reference/_frictionless-ts/metadata/tableerror/)[]\>
+`Promise`\<[`TableError`](/reference/frictionless-ts/tableerror/)[]\>

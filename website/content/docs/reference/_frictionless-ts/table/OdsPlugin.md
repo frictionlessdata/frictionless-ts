@@ -5,7 +5,7 @@ prev: false
 title: "OdsPlugin"
 ---
 
-Defined in: [table/plugins/ods/plugin.ts:12](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/plugins/ods/plugin.ts#L12)
+Defined in: [table/plugins/ods/plugin.ts:12](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/plugins/ods/plugin.ts#L12)
 
 ## Implements
 
@@ -27,13 +27,13 @@ Defined in: [table/plugins/ods/plugin.ts:12](https://github.com/datisthq/frictio
 
 > **loadTable**(`resource`, `options?`): `Promise`\<`undefined` \| `LazyDataFrame`\<`any`\>\>
 
-Defined in: [table/plugins/ods/plugin.ts:13](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/plugins/ods/plugin.ts#L13)
+Defined in: [table/plugins/ods/plugin.ts:13](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/plugins/ods/plugin.ts#L13)
 
 #### Parameters
 
 ##### resource
 
-`Partial`\<[`Resource`](/reference/_frictionless-ts/metadata/resource/)\>
+`Partial`\<[`Resource`](/reference/frictionless-ts/resource/)\>
 
 ##### options?
 
@@ -53,7 +53,7 @@ Defined in: [table/plugins/ods/plugin.ts:13](https://github.com/datisthq/frictio
 
 > **saveTable**(`table`, `options`): `Promise`\<`undefined` \| `string`\>
 
-Defined in: [table/plugins/ods/plugin.ts:20](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/plugins/ods/plugin.ts#L20)
+Defined in: [table/plugins/ods/plugin.ts:20](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/plugins/ods/plugin.ts#L20)
 
 #### Parameters
 

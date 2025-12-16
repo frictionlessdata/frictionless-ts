@@ -115,7 +115,7 @@ Defined in: table/build/schema/Options.d.ts:5
 
 ### fieldTypes?
 
-> `optional` **fieldTypes**: `Record`\<`string`, `FieldType`\>
+> `optional` **fieldTypes**: `Record`\<`string`, [`FieldType`](/reference/frictionless-ts/fieldtype/)\>
 
 Defined in: table/build/schema/Options.d.ts:6
 
@@ -127,7 +127,7 @@ Defined in: table/build/schema/Options.d.ts:6
 
 ### geojsonFormat?
 
-> `optional` **geojsonFormat**: `any`
+> `optional` **geojsonFormat**: `"default"` \| `"topojson"`
 
 Defined in: table/build/schema/Options.d.ts:21
 
@@ -139,7 +139,7 @@ Defined in: table/build/schema/Options.d.ts:21
 
 ### geopointFormat?
 
-> `optional` **geopointFormat**: `any`
+> `optional` **geopointFormat**: `"object"` \| `"default"` \| `"array"`
 
 Defined in: table/build/schema/Options.d.ts:20
 
@@ -183,7 +183,7 @@ Defined in: table/build/schema/Options.d.ts:18
 
 ### listItemType?
 
-> `optional` **listItemType**: `any`
+> `optional` **listItemType**: `"string"` \| `"number"` \| `"boolean"` \| `"integer"` \| `"date"` \| `"time"` \| `"datetime"`
 
 Defined in: table/build/schema/Options.d.ts:19
 
@@ -223,7 +223,7 @@ Defined in: table/build/schema/infer.d.ts:6
 
 ### stringFormat?
 
-> `optional` **stringFormat**: `any`
+> `optional` **stringFormat**: `"email"` \| `"uri"` \| `"binary"` \| `"uuid"`
 
 Defined in: table/build/schema/Options.d.ts:8
 

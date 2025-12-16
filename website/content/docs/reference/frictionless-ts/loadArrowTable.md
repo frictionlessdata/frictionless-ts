@@ -13,7 +13,7 @@ Defined in: table/build/plugins/arrow/table/load.d.ts:4
 
 ### resource
 
-`Resource`
+`Partial`\<[`Resource`](/reference/frictionless-ts/resource/)\>
 
 ### options?
 

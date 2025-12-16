@@ -43,7 +43,7 @@ Human-readable description
 
 #### Inherited from
 
-[`ArrayField`](/reference/frictionless-ts/arrayfield/).[`description`](/reference/frictionless-ts/arrayfield/#description)
+`BaseField.description`
 
 ***
 
@@ -57,7 +57,7 @@ Example value for this field
 
 #### Inherited from
 
-[`ArrayField`](/reference/frictionless-ts/arrayfield/).[`example`](/reference/frictionless-ts/arrayfield/#example)
+`BaseField.example`
 
 ***
 
@@ -71,7 +71,7 @@ Examples for this field
 
 #### Inherited from
 
-[`ArrayField`](/reference/frictionless-ts/arrayfield/).[`examples`](/reference/frictionless-ts/arrayfield/#examples)
+`BaseField.examples`
 
 ***
 
@@ -85,7 +85,7 @@ Field format -- optional addition to the type
 
 #### Inherited from
 
-[`ArrayField`](/reference/frictionless-ts/arrayfield/).[`format`](/reference/frictionless-ts/arrayfield/#format)
+`BaseField.format`
 
 ***
 
@@ -115,7 +115,7 @@ Name of the field matching the column name
 
 #### Inherited from
 
-[`ArrayField`](/reference/frictionless-ts/arrayfield/).[`name`](/reference/frictionless-ts/arrayfield/#name)
+`BaseField.name`
 
 ***
 
@@ -129,7 +129,7 @@ URI for semantic type (RDF)
 
 #### Inherited from
 
-[`ArrayField`](/reference/frictionless-ts/arrayfield/).[`rdfType`](/reference/frictionless-ts/arrayfield/#rdftype)
+`BaseField.rdfType`
 
 ***
 
@@ -143,7 +143,7 @@ Human-readable title
 
 #### Inherited from
 
-[`ArrayField`](/reference/frictionless-ts/arrayfield/).[`title`](/reference/frictionless-ts/arrayfield/#title)
+`BaseField.title`
 
 ***
 

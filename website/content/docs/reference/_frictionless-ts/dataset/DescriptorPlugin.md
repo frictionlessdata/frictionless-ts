@@ -5,7 +5,7 @@ prev: false
 title: "DescriptorPlugin"
 ---
 
-Defined in: [dataset/plugins/descriptor/plugin.ts:8](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/dataset/plugins/descriptor/plugin.ts#L8)
+Defined in: [dataset/plugins/descriptor/plugin.ts:8](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/dataset/plugins/descriptor/plugin.ts#L8)
 
 ## Implements
 
@@ -27,7 +27,7 @@ Defined in: [dataset/plugins/descriptor/plugin.ts:8](https://github.com/datisthq
 
 > **loadPackage**(`source`): `Promise`\<`undefined` \| [`Package`](/reference/frictionless-ts/package/)\>
 
-Defined in: [dataset/plugins/descriptor/plugin.ts:9](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/dataset/plugins/descriptor/plugin.ts#L9)
+Defined in: [dataset/plugins/descriptor/plugin.ts:9](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/dataset/plugins/descriptor/plugin.ts#L9)
 
 #### Parameters
 
@@ -49,7 +49,7 @@ Defined in: [dataset/plugins/descriptor/plugin.ts:9](https://github.com/datisthq
 
 > **savePackage**(`dataPackage`, `options`): `Promise`\<`undefined` \| \{ `path`: `string`; \}\>
 
-Defined in: [dataset/plugins/descriptor/plugin.ts:17](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/dataset/plugins/descriptor/plugin.ts#L17)
+Defined in: [dataset/plugins/descriptor/plugin.ts:17](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/dataset/plugins/descriptor/plugin.ts#L17)
 
 #### Parameters
 

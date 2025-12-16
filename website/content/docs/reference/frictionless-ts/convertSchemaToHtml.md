@@ -13,7 +13,7 @@ Defined in: document/build/schema/convert/toHtml.d.ts:2
 
 ### schema
 
-`Schema`
+[`Schema`](/reference/frictionless-ts/schema/)
 
 ### options?
 

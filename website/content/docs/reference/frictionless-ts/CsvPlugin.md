@@ -33,7 +33,7 @@ Defined in: table/build/plugins/csv/plugin.d.ts:6
 
 ##### resource
 
-`Resource`
+`Partial`\<[`Resource`](/reference/frictionless-ts/resource/)\>
 
 ##### options?
 

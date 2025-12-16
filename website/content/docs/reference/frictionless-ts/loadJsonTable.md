@@ -13,7 +13,7 @@ Defined in: table/build/plugins/json/table/load.d.ts:4
 
 ### resource
 
-`any`
+`Partial`\<[`Resource`](/reference/frictionless-ts/resource/)\> & `object`
 
 ### options?
 

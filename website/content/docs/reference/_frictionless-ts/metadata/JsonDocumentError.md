@@ -5,7 +5,7 @@ prev: false
 title: "JsonDocumentError"
 ---
 
-Defined in: [error/types/Document.ts:5](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/Document.ts#L5)
+Defined in: [error/types/Document.ts:5](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Document.ts#L5)
 
 ## Extends
 
@@ -17,7 +17,7 @@ Defined in: [error/types/Document.ts:5](https://github.com/datisthq/frictionless
 
 > **message**: `string`
 
-Defined in: [error/types/Document.ts:8](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/Document.ts#L8)
+Defined in: [error/types/Document.ts:8](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Document.ts#L8)
 
 ***
 
@@ -25,7 +25,7 @@ Defined in: [error/types/Document.ts:8](https://github.com/datisthq/frictionless
 
 > **pointer**: `string`
 
-Defined in: [error/types/Document.ts:7](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/Document.ts#L7)
+Defined in: [error/types/Document.ts:7](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Document.ts#L7)
 
 ***
 
@@ -33,7 +33,7 @@ Defined in: [error/types/Document.ts:7](https://github.com/datisthq/frictionless
 
 > **type**: `"document/json"`
 
-Defined in: [error/types/Document.ts:6](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/Document.ts#L6)
+Defined in: [error/types/Document.ts:6](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Document.ts#L6)
 
 #### Overrides
 

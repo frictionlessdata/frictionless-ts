@@ -7,7 +7,7 @@ title: "PolarsField"
 
 > **PolarsField** = `object`
 
-Defined in: [table/field/Field.ts:3](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/field/Field.ts#L3)
+Defined in: [table/field/Field.ts:3](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/field/Field.ts#L3)
 
 ## Properties
 
@@ -15,7 +15,7 @@ Defined in: [table/field/Field.ts:3](https://github.com/datisthq/frictionless-ts
 
 > **name**: `string`
 
-Defined in: [table/field/Field.ts:4](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/field/Field.ts#L4)
+Defined in: [table/field/Field.ts:4](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/field/Field.ts#L4)
 
 ***
 
@@ -23,4 +23,4 @@ Defined in: [table/field/Field.ts:4](https://github.com/datisthq/frictionless-ts
 
 > **type**: `pl.DataType`
 
-Defined in: [table/field/Field.ts:5](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/field/Field.ts#L5)
+Defined in: [table/field/Field.ts:5](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/field/Field.ts#L5)

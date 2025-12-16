@@ -11,7 +11,7 @@ Defined in: metadata/build/report/Report.d.ts:2
 
 ### T
 
-`T` *extends* [`DpkitError`](/reference/frictionless-ts/dpkiterror/) = [`DpkitError`](/reference/frictionless-ts/dpkiterror/)
+`T` *extends* [`FrictionlessError`](/reference/frictionless-ts/frictionlesserror/) = [`FrictionlessError`](/reference/frictionless-ts/frictionlesserror/)
 
 ## Properties
 

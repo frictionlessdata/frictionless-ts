@@ -5,7 +5,7 @@ prev: false
 title: "IntegerField"
 ---
 
-Defined in: [field/types/Integer.ts:6](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Integer.ts#L6)
+Defined in: [field/types/Integer.ts:6](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Integer.ts#L6)
 
 Integer field type
 
@@ -23,7 +23,7 @@ Integer field type
 
 > `optional` **bareNumber**: `boolean`
 
-Defined in: [field/types/Integer.ts:20](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Integer.ts#L20)
+Defined in: [field/types/Integer.ts:20](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Integer.ts#L20)
 
 Whether number is presented without currency symbols or percent signs
 
@@ -33,7 +33,7 @@ Whether number is presented without currency symbols or percent signs
 
 > `optional` **categories**: `number`[] \| `object`[]
 
-Defined in: [field/types/Integer.ts:26](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Integer.ts#L26)
+Defined in: [field/types/Integer.ts:26](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Integer.ts#L26)
 
 Categories for enum values
 Can be an array of values or an array of {value, label} objects
@@ -44,7 +44,7 @@ Can be an array of values or an array of {value, label} objects
 
 > `optional` **categoriesOrdered**: `boolean`
 
-Defined in: [field/types/Integer.ts:31](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Integer.ts#L31)
+Defined in: [field/types/Integer.ts:31](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Integer.ts#L31)
 
 Whether categories should be considered to have a natural order
 
@@ -54,7 +54,7 @@ Whether categories should be considered to have a natural order
 
 > `optional` **constraints**: [`IntegerConstraints`](/reference/_frictionless-ts/metadata/integerconstraints/)
 
-Defined in: [field/types/Base.ts:52](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Base.ts#L52)
+Defined in: [field/types/Base.ts:52](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L52)
 
 Validation constraints applied to values
 
@@ -68,7 +68,7 @@ Validation constraints applied to values
 
 > `optional` **description**: `string`
 
-Defined in: [field/types/Base.ts:25](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Base.ts#L25)
+Defined in: [field/types/Base.ts:25](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L25)
 
 Human-readable description
 
@@ -82,7 +82,7 @@ Human-readable description
 
 > `optional` **example**: `any`
 
-Defined in: [field/types/Base.ts:30](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Base.ts#L30)
+Defined in: [field/types/Base.ts:30](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L30)
 
 Example value for this field
 
@@ -96,7 +96,7 @@ Example value for this field
 
 > `optional` **examples**: `any`[]
 
-Defined in: [field/types/Base.ts:35](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Base.ts#L35)
+Defined in: [field/types/Base.ts:35](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L35)
 
 Examples for this field
 
@@ -110,7 +110,7 @@ Examples for this field
 
 > `optional` **format**: `string`
 
-Defined in: [field/types/Base.ts:15](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Base.ts#L15)
+Defined in: [field/types/Base.ts:15](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L15)
 
 Field format -- optional addition to the type
 
@@ -124,7 +124,7 @@ Field format -- optional addition to the type
 
 > `optional` **groupChar**: `string`
 
-Defined in: [field/types/Integer.ts:15](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Integer.ts#L15)
+Defined in: [field/types/Integer.ts:15](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Integer.ts#L15)
 
 Character used as thousands separator
 
@@ -134,7 +134,7 @@ Character used as thousands separator
 
 > `optional` **missingValues**: (`string` \| \{ `label`: `string`; `value`: `string`; \})[]
 
-Defined in: [field/types/Base.ts:47](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Base.ts#L47)
+Defined in: [field/types/Base.ts:47](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L47)
 
 Values representing missing data for this field
 Can be a simple array of strings or an array of {value, label} objects
@@ -150,7 +150,7 @@ where label provides context for why the data is missing
 
 > **name**: `string`
 
-Defined in: [field/types/Base.ts:10](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Base.ts#L10)
+Defined in: [field/types/Base.ts:10](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L10)
 
 Name of the field matching the column name
 
@@ -164,7 +164,7 @@ Name of the field matching the column name
 
 > `optional` **rdfType**: `string`
 
-Defined in: [field/types/Base.ts:40](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Base.ts#L40)
+Defined in: [field/types/Base.ts:40](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L40)
 
 URI for semantic type (RDF)
 
@@ -178,7 +178,7 @@ URI for semantic type (RDF)
 
 > `optional` **title**: `string`
 
-Defined in: [field/types/Base.ts:20](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Base.ts#L20)
+Defined in: [field/types/Base.ts:20](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L20)
 
 Human-readable title
 
@@ -192,6 +192,6 @@ Human-readable title
 
 > **type**: `"integer"`
 
-Defined in: [field/types/Integer.ts:10](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Integer.ts#L10)
+Defined in: [field/types/Integer.ts:10](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Integer.ts#L10)
 
 Field type - discriminator property

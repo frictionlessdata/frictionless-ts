@@ -25,7 +25,7 @@ Defined in: dataset/build/plugins/datahub/plugin.d.ts:2
 
 ### loadPackage()
 
-> **loadPackage**(`source`): `Promise`\<`any`\>
+> **loadPackage**(`source`): `Promise`\<`undefined` \| [`Package`](/reference/frictionless-ts/package/)\>
 
 Defined in: dataset/build/plugins/datahub/plugin.d.ts:3
 
@@ -37,7 +37,7 @@ Defined in: dataset/build/plugins/datahub/plugin.d.ts:3
 
 #### Returns
 
-`Promise`\<`any`\>
+`Promise`\<`undefined` \| [`Package`](/reference/frictionless-ts/package/)\>
 
 #### Implementation of
 

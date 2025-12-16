@@ -5,7 +5,7 @@ prev: false
 title: "inferDatabaseSchema"
 ---
 
-> **inferDatabaseSchema**(`resource`): `Promise`\<`any`\>
+> **inferDatabaseSchema**(`resource`): `Promise`\<[`Schema`](/reference/frictionless-ts/schema/)\>
 
 Defined in: database/build/schema/infer.d.ts:2
 
@@ -13,8 +13,8 @@ Defined in: database/build/schema/infer.d.ts:2
 
 ### resource
 
-`any`
+`Partial`\<[`Resource`](/reference/frictionless-ts/resource/)\> & `object`
 
 ## Returns
 
-`Promise`\<`any`\>
+`Promise`\<[`Schema`](/reference/frictionless-ts/schema/)\>

@@ -9,13 +9,13 @@ Defined in: table/build/plugin.d.ts:17
 
 ## Extends
 
-- `unknown`
+- [`DatasetPlugin`](/reference/frictionless-ts/datasetplugin/)
 
 ## Methods
 
 ### inferDialect()?
 
-> `optional` **inferDialect**(`resource`, `options?`): `Promise`\<`any`\>
+> `optional` **inferDialect**(`resource`, `options?`): `Promise`\<`undefined` \| [`Dialect`](/reference/frictionless-ts/dialect/)\>
 
 Defined in: table/build/plugin.d.ts:23
 
@@ -23,7 +23,7 @@ Defined in: table/build/plugin.d.ts:23
 
 ##### resource
 
-`Resource`
+`Partial`\<[`Resource`](/reference/frictionless-ts/resource/)\>
 
 ##### options?
 
@@ -31,13 +31,13 @@ Defined in: table/build/plugin.d.ts:23
 
 #### Returns
 
-`Promise`\<`any`\>
+`Promise`\<`undefined` \| [`Dialect`](/reference/frictionless-ts/dialect/)\>
 
 ***
 
 ### inferSchema()?
 
-> `optional` **inferSchema**(`resource`, `options?`): `Promise`\<`any`\>
+> `optional` **inferSchema**(`resource`, `options?`): `Promise`\<`undefined` \| [`Schema`](/reference/frictionless-ts/schema/)\>
 
 Defined in: table/build/plugin.d.ts:24
 
@@ -45,7 +45,7 @@ Defined in: table/build/plugin.d.ts:24
 
 ##### resource
 
-`Resource`
+`Partial`\<[`Resource`](/reference/frictionless-ts/resource/)\>
 
 ##### options?
 
@@ -53,7 +53,29 @@ Defined in: table/build/plugin.d.ts:24
 
 #### Returns
 
-`Promise`\<`any`\>
+`Promise`\<`undefined` \| [`Schema`](/reference/frictionless-ts/schema/)\>
+
+***
+
+### loadPackage()?
+
+> `optional` **loadPackage**(`source`): `Promise`\<`undefined` \| [`Package`](/reference/frictionless-ts/package/)\>
+
+Defined in: dataset/build/plugin.d.ts:7
+
+#### Parameters
+
+##### source
+
+`string`
+
+#### Returns
+
+`Promise`\<`undefined` \| [`Package`](/reference/frictionless-ts/package/)\>
+
+#### Inherited from
+
+[`DatasetPlugin`](/reference/frictionless-ts/datasetplugin/).[`loadPackage`](/reference/frictionless-ts/datasetplugin/#loadpackage)
 
 ***
 
@@ -67,7 +89,7 @@ Defined in: table/build/plugin.d.ts:25
 
 ##### resource
 
-`Resource`
+`Partial`\<[`Resource`](/reference/frictionless-ts/resource/)\>
 
 ##### options?
 
@@ -89,15 +111,19 @@ Defined in: table/build/plugin.d.ts:18
 
 ##### dataPackage
 
-`Package`
+[`Package`](/reference/frictionless-ts/package/)
 
 ##### options
 
-`any`
+[`SavePackageOptions`](/reference/frictionless-ts/savepackageoptions/) & `object`
 
 #### Returns
 
 `Promise`\<`undefined` \| \{ `path?`: `string`; \}\>
+
+#### Overrides
+
+[`DatasetPlugin`](/reference/frictionless-ts/datasetplugin/).[`savePackage`](/reference/frictionless-ts/datasetplugin/#savepackage)
 
 ***
 

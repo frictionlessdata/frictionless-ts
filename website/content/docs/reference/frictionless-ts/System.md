@@ -5,7 +5,7 @@ prev: false
 title: "System"
 ---
 
-Defined in: [frictionless/system.ts:18](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/frictionless/system.ts#L18)
+Defined in: [frictionless/system.ts:18](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/frictionless/system.ts#L18)
 
 ## Constructors
 
@@ -23,7 +23,7 @@ Defined in: [frictionless/system.ts:18](https://github.com/datisthq/frictionless
 
 > **plugins**: [`TablePlugin`](/reference/frictionless-ts/tableplugin/)[] = `[]`
 
-Defined in: [frictionless/system.ts:19](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/frictionless/system.ts#L19)
+Defined in: [frictionless/system.ts:19](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/frictionless/system.ts#L19)
 
 ## Methods
 
@@ -31,7 +31,7 @@ Defined in: [frictionless/system.ts:19](https://github.com/datisthq/frictionless
 
 > **register**(`PluginClass`): `void`
 
-Defined in: [frictionless/system.ts:21](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/frictionless/system.ts#L21)
+Defined in: [frictionless/system.ts:21](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/frictionless/system.ts#L21)
 
 #### Parameters
 

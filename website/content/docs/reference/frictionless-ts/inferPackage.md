@@ -7,7 +7,7 @@ title: "inferPackage"
 
 > **inferPackage**(`dataPackage`, `options?`): `Promise`\<\{ `$schema?`: `string`; `contributors?`: [`Contributor`](/reference/frictionless-ts/contributor/)[]; `created?`: `string`; `description?`: `string`; `homepage?`: `string`; `image?`: `string`; `keywords?`: `string`[]; `licenses?`: [`License`](/reference/frictionless-ts/license/)[]; `name?`: `string`; `resources`: `object`[]; `sources?`: [`Source`](/reference/frictionless-ts/source/)[]; `title?`: `string`; `version?`: `string`; \}\>
 
-Defined in: [frictionless/package/infer.ts:14](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/frictionless/package/infer.ts#L14)
+Defined in: [frictionless/package/infer.ts:14](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/frictionless/package/infer.ts#L14)
 
 ## Parameters
 

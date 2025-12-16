@@ -5,7 +5,7 @@ prev: false
 title: "YearConstraints"
 ---
 
-Defined in: [field/types/Year.ts:16](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Year.ts#L16)
+Defined in: [field/types/Year.ts:16](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Year.ts#L16)
 
 Year-specific constraints
 
@@ -19,7 +19,7 @@ Year-specific constraints
 
 > `optional` **enum**: `string`[] \| `number`[]
 
-Defined in: [field/types/Year.ts:41](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Year.ts#L41)
+Defined in: [field/types/Year.ts:41](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Year.ts#L41)
 
 Restrict values to a specified set of years
 Can be an array of numbers or strings that parse to years
@@ -30,7 +30,7 @@ Can be an array of numbers or strings that parse to years
 
 > `optional` **exclusiveMaximum**: `string` \| `number`
 
-Defined in: [field/types/Year.ts:35](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Year.ts#L35)
+Defined in: [field/types/Year.ts:35](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Year.ts#L35)
 
 Exclusive maximum year value
 
@@ -40,7 +40,7 @@ Exclusive maximum year value
 
 > `optional` **exclusiveMinimum**: `string` \| `number`
 
-Defined in: [field/types/Year.ts:30](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Year.ts#L30)
+Defined in: [field/types/Year.ts:30](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Year.ts#L30)
 
 Exclusive minimum year value
 
@@ -50,7 +50,7 @@ Exclusive minimum year value
 
 > `optional` **maximum**: `string` \| `number`
 
-Defined in: [field/types/Year.ts:25](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Year.ts#L25)
+Defined in: [field/types/Year.ts:25](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Year.ts#L25)
 
 Maximum allowed year
 
@@ -60,7 +60,7 @@ Maximum allowed year
 
 > `optional` **minimum**: `string` \| `number`
 
-Defined in: [field/types/Year.ts:20](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Year.ts#L20)
+Defined in: [field/types/Year.ts:20](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Year.ts#L20)
 
 Minimum allowed year
 
@@ -70,7 +70,7 @@ Minimum allowed year
 
 > `optional` **required**: `boolean`
 
-Defined in: [field/types/Base.ts:62](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Base.ts#L62)
+Defined in: [field/types/Base.ts:62](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L62)
 
 Indicates if field is allowed to be null/empty
 
@@ -84,7 +84,7 @@ Indicates if field is allowed to be null/empty
 
 > `optional` **unique**: `boolean`
 
-Defined in: [field/types/Base.ts:67](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/types/Base.ts#L67)
+Defined in: [field/types/Base.ts:67](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/types/Base.ts#L67)
 
 Indicates if values must be unique within the column
 

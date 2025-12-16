@@ -5,7 +5,7 @@ prev: false
 title: "FieldNameError"
 ---
 
-Defined in: [error/types/Field.ts:10](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/Field.ts#L10)
+Defined in: [error/types/Field.ts:10](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Field.ts#L10)
 
 ## Extends
 
@@ -17,7 +17,7 @@ Defined in: [error/types/Field.ts:10](https://github.com/datisthq/frictionless-t
 
 > **actualFieldName**: `string`
 
-Defined in: [error/types/Field.ts:12](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/Field.ts#L12)
+Defined in: [error/types/Field.ts:12](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Field.ts#L12)
 
 ***
 
@@ -25,7 +25,7 @@ Defined in: [error/types/Field.ts:12](https://github.com/datisthq/frictionless-t
 
 > **fieldName**: `string`
 
-Defined in: [error/types/Field.ts:7](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/Field.ts#L7)
+Defined in: [error/types/Field.ts:7](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Field.ts#L7)
 
 #### Inherited from
 
@@ -37,7 +37,7 @@ Defined in: [error/types/Field.ts:7](https://github.com/datisthq/frictionless-ts
 
 > **type**: `"field/name"`
 
-Defined in: [error/types/Field.ts:11](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/Field.ts#L11)
+Defined in: [error/types/Field.ts:11](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Field.ts#L11)
 
 #### Overrides
 

@@ -7,7 +7,7 @@ title: "savePackageDescriptor"
 
 > **savePackageDescriptor**(`dataPackage`, `options`): `Promise`\<`void`\>
 
-Defined in: [package/save.ts:12](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/package/save.ts#L12)
+Defined in: [package/save.ts:12](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/package/save.ts#L12)
 
 Save a Package to a file path
 Works in Node.js environments

@@ -5,7 +5,7 @@ prev: false
 title: "loadPackageFromDatabase"
 ---
 
-> **loadPackageFromDatabase**(`connectionString`, `options`): `Promise`\<`Package`\>
+> **loadPackageFromDatabase**(`connectionString`, `options`): `Promise`\<[`Package`](/reference/frictionless-ts/package/)\>
 
 Defined in: database/build/package/load.d.ts:3
 
@@ -31,4 +31,4 @@ Defined in: database/build/package/load.d.ts:3
 
 ## Returns
 
-`Promise`\<`Package`\>
+`Promise`\<[`Package`](/reference/frictionless-ts/package/)\>

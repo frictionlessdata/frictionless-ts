@@ -5,7 +5,7 @@ prev: false
 title: "ForeignKeyError"
 ---
 
-Defined in: [error/types/ForeignKey.ts:4](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/ForeignKey.ts#L4)
+Defined in: [error/types/ForeignKey.ts:4](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/ForeignKey.ts#L4)
 
 ## Extends
 
@@ -17,7 +17,7 @@ Defined in: [error/types/ForeignKey.ts:4](https://github.com/datisthq/frictionle
 
 > **cells**: `string`[]
 
-Defined in: [error/types/ForeignKey.ts:7](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/ForeignKey.ts#L7)
+Defined in: [error/types/ForeignKey.ts:7](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/ForeignKey.ts#L7)
 
 ***
 
@@ -25,7 +25,7 @@ Defined in: [error/types/ForeignKey.ts:7](https://github.com/datisthq/frictionle
 
 > **foreignKey**: `ForeignKey`
 
-Defined in: [error/types/ForeignKey.ts:6](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/ForeignKey.ts#L6)
+Defined in: [error/types/ForeignKey.ts:6](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/ForeignKey.ts#L6)
 
 ***
 
@@ -33,7 +33,7 @@ Defined in: [error/types/ForeignKey.ts:6](https://github.com/datisthq/frictionle
 
 > **type**: `"foreignKey"`
 
-Defined in: [error/types/ForeignKey.ts:5](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/ForeignKey.ts#L5)
+Defined in: [error/types/ForeignKey.ts:5](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/ForeignKey.ts#L5)
 
 #### Overrides
 

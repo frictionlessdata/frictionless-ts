@@ -25,7 +25,7 @@ Defined in: dataset/build/plugins/zip/plugin.d.ts:3
 
 ### loadPackage()
 
-> **loadPackage**(`source`): `Promise`\<`any`\>
+> **loadPackage**(`source`): `Promise`\<`undefined` \| [`Package`](/reference/frictionless-ts/package/)\>
 
 Defined in: dataset/build/plugins/zip/plugin.d.ts:4
 
@@ -37,7 +37,7 @@ Defined in: dataset/build/plugins/zip/plugin.d.ts:4
 
 #### Returns
 
-`Promise`\<`any`\>
+`Promise`\<`undefined` \| [`Package`](/reference/frictionless-ts/package/)\>
 
 #### Implementation of
 
@@ -55,7 +55,7 @@ Defined in: dataset/build/plugins/zip/plugin.d.ts:5
 
 ##### dataPackage
 
-`Package`
+[`Package`](/reference/frictionless-ts/package/)
 
 ##### options
 

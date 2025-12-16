@@ -13,6 +13,6 @@ Defined in: table/build/field/denormalize.d.ts:3
 
 ### nativeTypes?
 
-> `optional` **nativeTypes**: `Exclude`\<`Field`\[`"type"`\], `undefined`\>[]
+> `optional` **nativeTypes**: `Exclude`\<[`Field`](/reference/frictionless-ts/field/)\[`"type"`\], `undefined`\>[]
 
 Defined in: table/build/field/denormalize.d.ts:4

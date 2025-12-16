@@ -5,7 +5,7 @@ prev: false
 title: "GithubPlugin"
 ---
 
-Defined in: [dataset/plugins/github/plugin.ts:5](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/dataset/plugins/github/plugin.ts#L5)
+Defined in: [dataset/plugins/github/plugin.ts:5](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/dataset/plugins/github/plugin.ts#L5)
 
 ## Implements
 
@@ -27,7 +27,7 @@ Defined in: [dataset/plugins/github/plugin.ts:5](https://github.com/datisthq/fri
 
 > **loadPackage**(`source`): `Promise`\<`undefined` \| \{\[`key`: `` `${string}:${string}` ``\]: `any`; `$schema?`: `string`; `contributors?`: [`Contributor`](/reference/frictionless-ts/contributor/)[]; `created?`: `string`; `description?`: `string`; `homepage?`: `string`; `image?`: `string`; `keywords?`: `string`[]; `licenses?`: [`License`](/reference/frictionless-ts/license/)[]; `name?`: `string`; `resources`: [`Resource`](/reference/frictionless-ts/resource/)[]; `sources?`: [`Source`](/reference/frictionless-ts/source/)[]; `title?`: `string`; `version?`: `string`; \}\>
 
-Defined in: [dataset/plugins/github/plugin.ts:6](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/dataset/plugins/github/plugin.ts#L6)
+Defined in: [dataset/plugins/github/plugin.ts:6](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/dataset/plugins/github/plugin.ts#L6)
 
 #### Parameters
 

@@ -5,7 +5,7 @@ prev: false
 title: "savePackageToFolder"
 ---
 
-> **savePackageToFolder**(`dataPackage`, `options`): `Promise`\<\{ `resources`: `Descriptor`[]; \}\>
+> **savePackageToFolder**(`dataPackage`, `options`): `Promise`\<\{ `resources`: [`Descriptor`](/reference/frictionless-ts/descriptor/)[]; \}\>
 
 Defined in: dataset/build/plugins/folder/package/save.d.ts:2
 
@@ -13,7 +13,7 @@ Defined in: dataset/build/plugins/folder/package/save.d.ts:2
 
 ### dataPackage
 
-`Package`
+[`Package`](/reference/frictionless-ts/package/)
 
 ### options
 
@@ -27,4 +27,4 @@ Defined in: dataset/build/plugins/folder/package/save.d.ts:2
 
 ## Returns
 
-`Promise`\<\{ `resources`: `Descriptor`[]; \}\>
+`Promise`\<\{ `resources`: [`Descriptor`](/reference/frictionless-ts/descriptor/)[]; \}\>

@@ -15,7 +15,7 @@ Save a package to a Github repository
 
 ### dataPackage
 
-`Package`
+[`Package`](/reference/frictionless-ts/package/)
 
 ### options
 

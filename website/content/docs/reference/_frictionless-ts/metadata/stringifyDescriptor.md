@@ -7,7 +7,7 @@ title: "stringifyDescriptor"
 
 > **stringifyDescriptor**(`descriptor`): `string`
 
-Defined in: [descriptor/process/stringify.ts:3](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/descriptor/process/stringify.ts#L3)
+Defined in: [descriptor/process/stringify.ts:3](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/descriptor/process/stringify.ts#L3)
 
 ## Parameters
 

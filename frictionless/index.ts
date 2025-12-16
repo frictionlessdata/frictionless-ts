@@ -1,11 +1,8 @@
-export * from "@frictionless-ts/audio"
 export * from "@frictionless-ts/dataset"
 export * from "@frictionless-ts/database"
 export * from "@frictionless-ts/document"
-export * from "@frictionless-ts/image"
 export * from "@frictionless-ts/metadata"
 export * from "@frictionless-ts/table"
-export * from "@frictionless-ts/video"
 
 export type { Plugin } from "./plugin.ts"
 

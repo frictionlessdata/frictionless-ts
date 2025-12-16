@@ -5,7 +5,7 @@ prev: false
 title: "Package"
 ---
 
-Defined in: [package/Package.ts:9](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/package/Package.ts#L9)
+Defined in: [package/Package.ts:9](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/package/Package.ts#L9)
 
 Data Package interface built on top of the Frictionless Data specification
 
@@ -27,7 +27,7 @@ https://datapackage.org/standard/data-package/
 
 > `optional` **$schema**: `string`
 
-Defined in: [package/Package.ts:13](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/package/Package.ts#L13)
+Defined in: [package/Package.ts:13](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/package/Package.ts#L13)
 
 URL of profile (optional)
 
@@ -37,7 +37,7 @@ URL of profile (optional)
 
 > `optional` **contributors**: [`Contributor`](/reference/_frictionless-ts/metadata/contributor/)[]
 
-Defined in: [package/Package.ts:55](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/package/Package.ts#L55)
+Defined in: [package/Package.ts:55](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/package/Package.ts#L55)
 
 List of contributors
 
@@ -47,7 +47,7 @@ List of contributors
 
 > `optional` **created**: `string`
 
-Defined in: [package/Package.ts:71](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/package/Package.ts#L71)
+Defined in: [package/Package.ts:71](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/package/Package.ts#L71)
 
 Create time of the package
 
@@ -61,7 +61,7 @@ ISO 8601 format
 
 > `optional` **description**: `string`
 
-Defined in: [package/Package.ts:34](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/package/Package.ts#L34)
+Defined in: [package/Package.ts:34](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/package/Package.ts#L34)
 
 A description of the package
 
@@ -71,7 +71,7 @@ A description of the package
 
 > `optional` **homepage**: `string`
 
-Defined in: [package/Package.ts:39](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/package/Package.ts#L39)
+Defined in: [package/Package.ts:39](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/package/Package.ts#L39)
 
 A URL for the home page of the package
 
@@ -81,7 +81,7 @@ A URL for the home page of the package
 
 > `optional` **image**: `string`
 
-Defined in: [package/Package.ts:76](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/package/Package.ts#L76)
+Defined in: [package/Package.ts:76](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/package/Package.ts#L76)
 
 Package image
 
@@ -91,7 +91,7 @@ Package image
 
 > `optional` **keywords**: `string`[]
 
-Defined in: [package/Package.ts:65](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/package/Package.ts#L65)
+Defined in: [package/Package.ts:65](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/package/Package.ts#L65)
 
 Keywords for the package
 
@@ -101,7 +101,7 @@ Keywords for the package
 
 > `optional` **licenses**: [`License`](/reference/_frictionless-ts/metadata/license/)[]
 
-Defined in: [package/Package.ts:50](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/package/Package.ts#L50)
+Defined in: [package/Package.ts:50](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/package/Package.ts#L50)
 
 License information
 
@@ -111,7 +111,7 @@ License information
 
 > `optional` **name**: `string`
 
-Defined in: [package/Package.ts:24](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/package/Package.ts#L24)
+Defined in: [package/Package.ts:24](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/package/Package.ts#L24)
 
 Unique package identifier
 Should use lowercase alphanumeric characters, periods, hyphens, and underscores
@@ -122,7 +122,7 @@ Should use lowercase alphanumeric characters, periods, hyphens, and underscores
 
 > **resources**: [`Resource`](/reference/_frictionless-ts/metadata/resource/)[]
 
-Defined in: [package/Package.ts:18](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/package/Package.ts#L18)
+Defined in: [package/Package.ts:18](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/package/Package.ts#L18)
 
 Data resources in this package (required)
 
@@ -132,7 +132,7 @@ Data resources in this package (required)
 
 > `optional` **sources**: [`Source`](/reference/_frictionless-ts/metadata/source/)[]
 
-Defined in: [package/Package.ts:60](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/package/Package.ts#L60)
+Defined in: [package/Package.ts:60](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/package/Package.ts#L60)
 
 Data sources for this package
 
@@ -142,7 +142,7 @@ Data sources for this package
 
 > `optional` **title**: `string`
 
-Defined in: [package/Package.ts:29](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/package/Package.ts#L29)
+Defined in: [package/Package.ts:29](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/package/Package.ts#L29)
 
 Human-readable title
 
@@ -152,7 +152,7 @@ Human-readable title
 
 > `optional` **version**: `string`
 
-Defined in: [package/Package.ts:45](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/package/Package.ts#L45)
+Defined in: [package/Package.ts:45](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/package/Package.ts#L45)
 
 Version of the package using SemVer
 

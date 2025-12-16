@@ -5,7 +5,7 @@ prev: false
 title: "InferDialectOptions"
 ---
 
-Defined in: [table/dialect/infer.ts:5](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/dialect/infer.ts#L5)
+Defined in: [table/dialect/infer.ts:5](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/dialect/infer.ts#L5)
 
 ## Extends
 
@@ -17,7 +17,7 @@ Defined in: [table/dialect/infer.ts:5](https://github.com/datisthq/frictionless-
 
 > `optional` **delimiter**: `string`
 
-Defined in: [table/dialect/Options.ts:4](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/dialect/Options.ts#L4)
+Defined in: [table/dialect/Options.ts:4](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/dialect/Options.ts#L4)
 
 #### Inherited from
 
@@ -29,4 +29,4 @@ Defined in: [table/dialect/Options.ts:4](https://github.com/datisthq/frictionles
 
 > `optional` **sampleBytes**: `number`
 
-Defined in: [table/dialect/infer.ts:6](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/dialect/infer.ts#L6)
+Defined in: [table/dialect/infer.ts:6](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/dialect/infer.ts#L6)

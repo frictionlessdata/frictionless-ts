@@ -5,7 +5,7 @@ prev: false
 title: "inspectTable"
 ---
 
-> **inspectTable**(`table`, `options?`): `Promise`\<`TableError`[]\>
+> **inspectTable**(`table`, `options?`): `Promise`\<[`TableError`](/reference/frictionless-ts/tableerror/)[]\>
 
 Defined in: table/build/table/inspect.d.ts:4
 
@@ -27,8 +27,8 @@ Defined in: table/build/table/inspect.d.ts:4
 
 #### schema?
 
-`any`
+[`Schema`](/reference/frictionless-ts/schema/)
 
 ## Returns
 
-`Promise`\<`TableError`[]\>
+`Promise`\<[`TableError`](/reference/frictionless-ts/tableerror/)[]\>

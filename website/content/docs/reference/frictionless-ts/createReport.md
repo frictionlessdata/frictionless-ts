@@ -13,7 +13,7 @@ Defined in: metadata/build/report/create.d.ts:2
 
 ### T
 
-`T` = [`DpkitError`](/reference/frictionless-ts/dpkiterror/)
+`T` = [`FrictionlessError`](/reference/frictionless-ts/frictionlesserror/)
 
 ## Parameters
 

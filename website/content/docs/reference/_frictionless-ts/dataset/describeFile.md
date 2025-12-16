@@ -7,7 +7,7 @@ title: "describeFile"
 
 > **describeFile**(`path`, `options?`): `Promise`\<\{ `bytes`: `number`; `hash`: `string`; \}\>
 
-Defined in: [dataset/file/describe.ts:5](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/dataset/file/describe.ts#L5)
+Defined in: [dataset/file/describe.ts:5](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/dataset/file/describe.ts#L5)
 
 ## Parameters
 

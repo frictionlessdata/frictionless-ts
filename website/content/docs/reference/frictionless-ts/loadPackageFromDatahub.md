@@ -5,7 +5,7 @@ prev: false
 title: "loadPackageFromDatahub"
 ---
 
-> **loadPackageFromDatahub**(`datasetUrl`): `Promise`\<`any`\>
+> **loadPackageFromDatahub**(`datasetUrl`): `Promise`\<[`Package`](/reference/frictionless-ts/package/)\>
 
 Defined in: dataset/build/plugins/datahub/package/load.d.ts:1
 
@@ -17,4 +17,4 @@ Defined in: dataset/build/plugins/datahub/package/load.d.ts:1
 
 ## Returns
 
-`Promise`\<`any`\>
+`Promise`\<[`Package`](/reference/frictionless-ts/package/)\>

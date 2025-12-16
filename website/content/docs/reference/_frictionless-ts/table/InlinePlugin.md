@@ -5,7 +5,7 @@ prev: false
 title: "InlinePlugin"
 ---
 
-Defined in: [table/plugins/inline/plugin.ts:5](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/plugins/inline/plugin.ts#L5)
+Defined in: [table/plugins/inline/plugin.ts:5](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/plugins/inline/plugin.ts#L5)
 
 ## Implements
 
@@ -27,13 +27,13 @@ Defined in: [table/plugins/inline/plugin.ts:5](https://github.com/datisthq/frict
 
 > **loadTable**(`resource`, `options?`): `Promise`\<`undefined` \| `LazyDataFrame`\<\{\[`key`: `string`\]: `any`; \}\>\>
 
-Defined in: [table/plugins/inline/plugin.ts:6](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/plugins/inline/plugin.ts#L6)
+Defined in: [table/plugins/inline/plugin.ts:6](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/plugins/inline/plugin.ts#L6)
 
 #### Parameters
 
 ##### resource
 
-[`Resource`](/reference/_frictionless-ts/metadata/resource/)
+[`Resource`](/reference/frictionless-ts/resource/)
 
 ##### options?
 

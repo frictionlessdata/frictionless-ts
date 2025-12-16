@@ -13,11 +13,11 @@ Defined in: database/build/package/save.d.ts:5
 
 ### dataPackage
 
-`Package`
+[`Package`](/reference/frictionless-ts/package/)
 
 ### options
 
-`any`
+[`SavePackageOptions`](/reference/frictionless-ts/savepackageoptions/) & `object`
 
 ## Returns
 

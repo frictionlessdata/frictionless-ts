@@ -5,7 +5,7 @@ prev: false
 title: "RowUniqueError"
 ---
 
-Defined in: [error/types/Row.ts:9](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/Row.ts#L9)
+Defined in: [error/types/Row.ts:9](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Row.ts#L9)
 
 ## Extends
 
@@ -17,7 +17,7 @@ Defined in: [error/types/Row.ts:9](https://github.com/datisthq/frictionless-ts/b
 
 > **fieldNames**: `string`[]
 
-Defined in: [error/types/Row.ts:11](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/Row.ts#L11)
+Defined in: [error/types/Row.ts:11](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Row.ts#L11)
 
 ***
 
@@ -25,7 +25,7 @@ Defined in: [error/types/Row.ts:11](https://github.com/datisthq/frictionless-ts/
 
 > **rowNumber**: `number`
 
-Defined in: [error/types/Row.ts:6](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/Row.ts#L6)
+Defined in: [error/types/Row.ts:6](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Row.ts#L6)
 
 #### Inherited from
 
@@ -37,7 +37,7 @@ Defined in: [error/types/Row.ts:6](https://github.com/datisthq/frictionless-ts/b
 
 > **type**: `"row/unique"`
 
-Defined in: [error/types/Row.ts:10](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/Row.ts#L10)
+Defined in: [error/types/Row.ts:10](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Row.ts#L10)
 
 #### Overrides
 

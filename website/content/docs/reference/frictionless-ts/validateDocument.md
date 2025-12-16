@@ -5,7 +5,7 @@ prev: false
 title: "validateDocument"
 ---
 
-> **validateDocument**(`resource`): `Promise`\<\{ `errors`: `any`[]; `valid`: `boolean`; \}\>
+> **validateDocument**(`resource`): `Promise`\<\{ `errors`: [`FrictionlessError`](/reference/frictionless-ts/frictionlesserror/)[]; `valid`: `boolean`; \}\>
 
 Defined in: document/build/document/validate.d.ts:2
 
@@ -13,8 +13,8 @@ Defined in: document/build/document/validate.d.ts:2
 
 ### resource
 
-`Resource`
+`Partial`\<[`Resource`](/reference/frictionless-ts/resource/)\>
 
 ## Returns
 
-`Promise`\<\{ `errors`: `any`[]; `valid`: `boolean`; \}\>
+`Promise`\<\{ `errors`: [`FrictionlessError`](/reference/frictionless-ts/frictionlesserror/)[]; `valid`: `boolean`; \}\>

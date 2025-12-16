@@ -5,7 +5,7 @@ prev: false
 title: "SchemaOptions"
 ---
 
-Defined in: [table/schema/Options.ts:9](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/schema/Options.ts#L9)
+Defined in: [table/schema/Options.ts:9](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/schema/Options.ts#L9)
 
 ## Extended by
 
@@ -17,7 +17,7 @@ Defined in: [table/schema/Options.ts:9](https://github.com/datisthq/frictionless
 
 > `optional` **arrayType**: `"array"` \| `"list"`
 
-Defined in: [table/schema/Options.ts:22](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/schema/Options.ts#L22)
+Defined in: [table/schema/Options.ts:22](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/schema/Options.ts#L22)
 
 ***
 
@@ -25,7 +25,7 @@ Defined in: [table/schema/Options.ts:22](https://github.com/datisthq/frictionles
 
 > `optional` **bareNumber**: `boolean`
 
-Defined in: [table/schema/Options.ts:16](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/schema/Options.ts#L16)
+Defined in: [table/schema/Options.ts:16](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/schema/Options.ts#L16)
 
 ***
 
@@ -33,7 +33,7 @@ Defined in: [table/schema/Options.ts:16](https://github.com/datisthq/frictionles
 
 > `optional` **dateFormat**: `string`
 
-Defined in: [table/schema/Options.ts:20](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/schema/Options.ts#L20)
+Defined in: [table/schema/Options.ts:20](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/schema/Options.ts#L20)
 
 ***
 
@@ -41,7 +41,7 @@ Defined in: [table/schema/Options.ts:20](https://github.com/datisthq/frictionles
 
 > `optional` **datetimeFormat**: `string`
 
-Defined in: [table/schema/Options.ts:19](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/schema/Options.ts#L19)
+Defined in: [table/schema/Options.ts:19](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/schema/Options.ts#L19)
 
 ***
 
@@ -49,7 +49,7 @@ Defined in: [table/schema/Options.ts:19](https://github.com/datisthq/frictionles
 
 > `optional` **decimalChar**: `string`
 
-Defined in: [table/schema/Options.ts:14](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/schema/Options.ts#L14)
+Defined in: [table/schema/Options.ts:14](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/schema/Options.ts#L14)
 
 ***
 
@@ -57,7 +57,7 @@ Defined in: [table/schema/Options.ts:14](https://github.com/datisthq/frictionles
 
 > `optional` **falseValues**: `string`[]
 
-Defined in: [table/schema/Options.ts:18](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/schema/Options.ts#L18)
+Defined in: [table/schema/Options.ts:18](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/schema/Options.ts#L18)
 
 ***
 
@@ -65,15 +65,15 @@ Defined in: [table/schema/Options.ts:18](https://github.com/datisthq/frictionles
 
 > `optional` **fieldNames**: `string`[]
 
-Defined in: [table/schema/Options.ts:10](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/schema/Options.ts#L10)
+Defined in: [table/schema/Options.ts:10](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/schema/Options.ts#L10)
 
 ***
 
 ### fieldTypes?
 
-> `optional` **fieldTypes**: `Record`\<`string`, [`FieldType`](/reference/_frictionless-ts/metadata/fieldtype/)\>
+> `optional` **fieldTypes**: `Record`\<`string`, [`FieldType`](/reference/frictionless-ts/fieldtype/)\>
 
-Defined in: [table/schema/Options.ts:11](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/schema/Options.ts#L11)
+Defined in: [table/schema/Options.ts:11](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/schema/Options.ts#L11)
 
 ***
 
@@ -81,7 +81,7 @@ Defined in: [table/schema/Options.ts:11](https://github.com/datisthq/frictionles
 
 > `optional` **geojsonFormat**: `"default"` \| `"topojson"`
 
-Defined in: [table/schema/Options.ts:26](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/schema/Options.ts#L26)
+Defined in: [table/schema/Options.ts:26](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/schema/Options.ts#L26)
 
 ***
 
@@ -89,7 +89,7 @@ Defined in: [table/schema/Options.ts:26](https://github.com/datisthq/frictionles
 
 > `optional` **geopointFormat**: `"object"` \| `"array"` \| `"default"`
 
-Defined in: [table/schema/Options.ts:25](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/schema/Options.ts#L25)
+Defined in: [table/schema/Options.ts:25](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/schema/Options.ts#L25)
 
 ***
 
@@ -97,7 +97,7 @@ Defined in: [table/schema/Options.ts:25](https://github.com/datisthq/frictionles
 
 > `optional` **groupChar**: `string`
 
-Defined in: [table/schema/Options.ts:15](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/schema/Options.ts#L15)
+Defined in: [table/schema/Options.ts:15](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/schema/Options.ts#L15)
 
 ***
 
@@ -105,7 +105,7 @@ Defined in: [table/schema/Options.ts:15](https://github.com/datisthq/frictionles
 
 > `optional` **listDelimiter**: `string`
 
-Defined in: [table/schema/Options.ts:23](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/schema/Options.ts#L23)
+Defined in: [table/schema/Options.ts:23](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/schema/Options.ts#L23)
 
 ***
 
@@ -113,7 +113,7 @@ Defined in: [table/schema/Options.ts:23](https://github.com/datisthq/frictionles
 
 > `optional` **listItemType**: `"string"` \| `"number"` \| `"boolean"` \| `"integer"` \| `"date"` \| `"time"` \| `"datetime"`
 
-Defined in: [table/schema/Options.ts:24](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/schema/Options.ts#L24)
+Defined in: [table/schema/Options.ts:24](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/schema/Options.ts#L24)
 
 ***
 
@@ -121,7 +121,7 @@ Defined in: [table/schema/Options.ts:24](https://github.com/datisthq/frictionles
 
 > `optional` **missingValues**: `string`[]
 
-Defined in: [table/schema/Options.ts:12](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/schema/Options.ts#L12)
+Defined in: [table/schema/Options.ts:12](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/schema/Options.ts#L12)
 
 ***
 
@@ -129,7 +129,7 @@ Defined in: [table/schema/Options.ts:12](https://github.com/datisthq/frictionles
 
 > `optional` **stringFormat**: `"email"` \| `"uri"` \| `"binary"` \| `"uuid"`
 
-Defined in: [table/schema/Options.ts:13](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/schema/Options.ts#L13)
+Defined in: [table/schema/Options.ts:13](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/schema/Options.ts#L13)
 
 ***
 
@@ -137,7 +137,7 @@ Defined in: [table/schema/Options.ts:13](https://github.com/datisthq/frictionles
 
 > `optional` **timeFormat**: `string`
 
-Defined in: [table/schema/Options.ts:21](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/schema/Options.ts#L21)
+Defined in: [table/schema/Options.ts:21](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/schema/Options.ts#L21)
 
 ***
 
@@ -145,4 +145,4 @@ Defined in: [table/schema/Options.ts:21](https://github.com/datisthq/frictionles
 
 > `optional` **trueValues**: `string`[]
 
-Defined in: [table/schema/Options.ts:17](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/schema/Options.ts#L17)
+Defined in: [table/schema/Options.ts:17](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/schema/Options.ts#L17)

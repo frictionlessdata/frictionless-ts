@@ -7,11 +7,16 @@ title: "DatasetPlugin"
 
 Defined in: dataset/build/plugin.d.ts:6
 
+## Extended by
+
+- [`TablePlugin`](/reference/frictionless-ts/tableplugin/)
+- [`TablePlugin`](/reference/_frictionless-ts/table/tableplugin/)
+
 ## Methods
 
 ### loadPackage()?
 
-> `optional` **loadPackage**(`source`): `Promise`\<`any`\>
+> `optional` **loadPackage**(`source`): `Promise`\<`undefined` \| [`Package`](/reference/frictionless-ts/package/)\>
 
 Defined in: dataset/build/plugin.d.ts:7
 
@@ -23,7 +28,7 @@ Defined in: dataset/build/plugin.d.ts:7
 
 #### Returns
 
-`Promise`\<`any`\>
+`Promise`\<`undefined` \| [`Package`](/reference/frictionless-ts/package/)\>
 
 ***
 
@@ -37,7 +42,7 @@ Defined in: dataset/build/plugin.d.ts:8
 
 ##### dataPackage
 
-`Package`
+[`Package`](/reference/frictionless-ts/package/)
 
 ##### options
 

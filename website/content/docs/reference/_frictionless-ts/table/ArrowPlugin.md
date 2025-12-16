@@ -5,7 +5,7 @@ prev: false
 title: "ArrowPlugin"
 ---
 
-Defined in: [table/plugins/arrow/plugin.ts:11](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/plugins/arrow/plugin.ts#L11)
+Defined in: [table/plugins/arrow/plugin.ts:11](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/plugins/arrow/plugin.ts#L11)
 
 ## Implements
 
@@ -27,13 +27,13 @@ Defined in: [table/plugins/arrow/plugin.ts:11](https://github.com/datisthq/frict
 
 > **loadTable**(`resource`, `options?`): `Promise`\<`undefined` \| `LazyDataFrame`\<`any`\>\>
 
-Defined in: [table/plugins/arrow/plugin.ts:12](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/plugins/arrow/plugin.ts#L12)
+Defined in: [table/plugins/arrow/plugin.ts:12](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/plugins/arrow/plugin.ts#L12)
 
 #### Parameters
 
 ##### resource
 
-`Partial`\<[`Resource`](/reference/_frictionless-ts/metadata/resource/)\>
+`Partial`\<[`Resource`](/reference/frictionless-ts/resource/)\>
 
 ##### options?
 
@@ -53,7 +53,7 @@ Defined in: [table/plugins/arrow/plugin.ts:12](https://github.com/datisthq/frict
 
 > **saveTable**(`table`, `options`): `Promise`\<`undefined` \| `string`\>
 
-Defined in: [table/plugins/arrow/plugin.ts:19](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/plugins/arrow/plugin.ts#L19)
+Defined in: [table/plugins/arrow/plugin.ts:19](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/plugins/arrow/plugin.ts#L19)
 
 #### Parameters
 

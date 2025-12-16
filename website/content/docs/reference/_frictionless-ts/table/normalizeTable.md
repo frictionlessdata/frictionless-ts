@@ -7,7 +7,7 @@ title: "normalizeTable"
 
 > **normalizeTable**(`table`, `schema`): `Promise`\<`LazyDataFrame`\<`any`\>\>
 
-Defined in: [table/table/normalize.ts:11](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/table/normalize.ts#L11)
+Defined in: [table/table/normalize.ts:11](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/table/normalize.ts#L11)
 
 ## Parameters
 
@@ -17,7 +17,7 @@ Defined in: [table/table/normalize.ts:11](https://github.com/datisthq/frictionle
 
 ### schema
 
-[`Schema`](/reference/_frictionless-ts/metadata/schema/)
+[`Schema`](/reference/frictionless-ts/schema/)
 
 ## Returns
 

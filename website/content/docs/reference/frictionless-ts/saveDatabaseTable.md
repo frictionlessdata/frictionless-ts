@@ -13,11 +13,11 @@ Defined in: database/build/table/save.d.ts:2
 
 ### table
 
-`Table`
+[`Table`](/reference/frictionless-ts/table/)
 
 ### options
 
-`any`
+[`DialectOptions`](/reference/frictionless-ts/dialectoptions/) & [`SchemaOptions`](/reference/frictionless-ts/schemaoptions/) & `object` & `object`
 
 ## Returns
 

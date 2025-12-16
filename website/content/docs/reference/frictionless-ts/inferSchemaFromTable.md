@@ -5,7 +5,7 @@ prev: false
 title: "inferSchemaFromTable"
 ---
 
-> **inferSchemaFromTable**(`table`, `options?`): `Promise`\<`Schema`\>
+> **inferSchemaFromTable**(`table`, `options?`): `Promise`\<[`Schema`](/reference/frictionless-ts/schema/)\>
 
 Defined in: table/build/schema/infer.d.ts:12
 
@@ -21,4 +21,4 @@ Defined in: table/build/schema/infer.d.ts:12
 
 ## Returns
 
-`Promise`\<`Schema`\>
+`Promise`\<[`Schema`](/reference/frictionless-ts/schema/)\>

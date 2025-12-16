@@ -7,7 +7,7 @@ title: "saveDatabaseTable"
 
 > **saveDatabaseTable**(`table`, `options`): `Promise`\<`string`\>
 
-Defined in: [database/table/save.ts:11](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/database/table/save.ts#L11)
+Defined in: [database/table/save.ts:11](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/database/table/save.ts#L11)
 
 ## Parameters
 

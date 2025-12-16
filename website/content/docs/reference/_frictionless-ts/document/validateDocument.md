@@ -5,9 +5,9 @@ prev: false
 title: "validateDocument"
 ---
 
-> **validateDocument**(`resource`): `Promise`\<\{ `errors`: [`DpkitError`](/reference/frictionless-ts/dpkiterror/)[]; `valid`: `boolean`; \}\>
+> **validateDocument**(`resource`): `Promise`\<\{ `errors`: [`FrictionlessError`](/reference/frictionless-ts/frictionlesserror/)[]; `valid`: `boolean`; \}\>
 
-Defined in: [document/document/validate.ts:8](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/document/document/validate.ts#L8)
+Defined in: [document/document/validate.ts:8](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/document/document/validate.ts#L8)
 
 ## Parameters
 
@@ -17,4 +17,4 @@ Defined in: [document/document/validate.ts:8](https://github.com/datisthq/fricti
 
 ## Returns
 
-`Promise`\<\{ `errors`: [`DpkitError`](/reference/frictionless-ts/dpkiterror/)[]; `valid`: `boolean`; \}\>
+`Promise`\<\{ `errors`: [`FrictionlessError`](/reference/frictionless-ts/frictionlesserror/)[]; `valid`: `boolean`; \}\>

@@ -13,11 +13,11 @@ Defined in: database/build/table/load.d.ts:4
 
 ### resource
 
-`any`
+`Partial`\<[`Resource`](/reference/frictionless-ts/resource/)\> & `object`
 
 ### options?
 
-`any`
+[`LoadTableOptions`](/reference/frictionless-ts/loadtableoptions/)
 
 ## Returns
 

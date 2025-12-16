@@ -5,7 +5,7 @@ prev: false
 title: "inferSchemaFromSample"
 ---
 
-> **inferSchemaFromSample**(`sample`, `options?`): `Schema`
+> **inferSchemaFromSample**(`sample`, `options?`): [`Schema`](/reference/frictionless-ts/schema/)
 
 Defined in: table/build/schema/infer.d.ts:13
 
@@ -21,4 +21,4 @@ Defined in: table/build/schema/infer.d.ts:13
 
 ## Returns
 
-`Schema`
+[`Schema`](/reference/frictionless-ts/schema/)

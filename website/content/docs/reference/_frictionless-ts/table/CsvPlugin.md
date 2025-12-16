@@ -5,7 +5,7 @@ prev: false
 title: "CsvPlugin"
 ---
 
-Defined in: [table/plugins/csv/plugin.ts:8](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/plugins/csv/plugin.ts#L8)
+Defined in: [table/plugins/csv/plugin.ts:8](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/plugins/csv/plugin.ts#L8)
 
 ## Implements
 
@@ -27,13 +27,13 @@ Defined in: [table/plugins/csv/plugin.ts:8](https://github.com/datisthq/friction
 
 > **loadTable**(`resource`, `options?`): `Promise`\<`undefined` \| `LazyDataFrame`\<`any`\>\>
 
-Defined in: [table/plugins/csv/plugin.ts:9](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/plugins/csv/plugin.ts#L9)
+Defined in: [table/plugins/csv/plugin.ts:9](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/plugins/csv/plugin.ts#L9)
 
 #### Parameters
 
 ##### resource
 
-`Partial`\<[`Resource`](/reference/_frictionless-ts/metadata/resource/)\>
+`Partial`\<[`Resource`](/reference/frictionless-ts/resource/)\>
 
 ##### options?
 
@@ -53,7 +53,7 @@ Defined in: [table/plugins/csv/plugin.ts:9](https://github.com/datisthq/friction
 
 > **saveTable**(`table`, `options`): `Promise`\<`undefined` \| `string`\>
 
-Defined in: [table/plugins/csv/plugin.ts:16](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/plugins/csv/plugin.ts#L16)
+Defined in: [table/plugins/csv/plugin.ts:16](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/plugins/csv/plugin.ts#L16)
 
 #### Parameters
 

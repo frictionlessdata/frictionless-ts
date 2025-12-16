@@ -5,7 +5,7 @@ prev: false
 title: "CellMaximumError"
 ---
 
-Defined in: [error/types/Cell.ts:39](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/Cell.ts#L39)
+Defined in: [error/types/Cell.ts:39](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Cell.ts#L39)
 
 ## Extends
 
@@ -17,7 +17,7 @@ Defined in: [error/types/Cell.ts:39](https://github.com/datisthq/frictionless-ts
 
 > **cell**: `string`
 
-Defined in: [error/types/Cell.ts:21](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/Cell.ts#L21)
+Defined in: [error/types/Cell.ts:21](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Cell.ts#L21)
 
 #### Inherited from
 
@@ -29,7 +29,7 @@ Defined in: [error/types/Cell.ts:21](https://github.com/datisthq/frictionless-ts
 
 > **fieldName**: `string`
 
-Defined in: [error/types/Cell.ts:19](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/Cell.ts#L19)
+Defined in: [error/types/Cell.ts:19](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Cell.ts#L19)
 
 #### Inherited from
 
@@ -41,7 +41,7 @@ Defined in: [error/types/Cell.ts:19](https://github.com/datisthq/frictionless-ts
 
 > **maximum**: `string`
 
-Defined in: [error/types/Cell.ts:41](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/Cell.ts#L41)
+Defined in: [error/types/Cell.ts:41](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Cell.ts#L41)
 
 ***
 
@@ -49,7 +49,7 @@ Defined in: [error/types/Cell.ts:41](https://github.com/datisthq/frictionless-ts
 
 > **rowNumber**: `number`
 
-Defined in: [error/types/Cell.ts:20](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/Cell.ts#L20)
+Defined in: [error/types/Cell.ts:20](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Cell.ts#L20)
 
 #### Inherited from
 
@@ -61,7 +61,7 @@ Defined in: [error/types/Cell.ts:20](https://github.com/datisthq/frictionless-ts
 
 > **type**: `"cell/maximum"`
 
-Defined in: [error/types/Cell.ts:40](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/Cell.ts#L40)
+Defined in: [error/types/Cell.ts:40](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Cell.ts#L40)
 
 #### Overrides
 

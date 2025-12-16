@@ -13,7 +13,7 @@ Defined in: dataset/build/plugins/ckan/package/save.d.ts:2
 
 ### dataPackage
 
-`Package`
+[`Package`](/reference/frictionless-ts/package/)
 
 ### options
 

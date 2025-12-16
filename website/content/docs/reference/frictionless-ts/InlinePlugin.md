@@ -33,7 +33,7 @@ Defined in: table/build/plugins/inline/plugin.d.ts:4
 
 ##### resource
 
-`Resource`
+[`Resource`](/reference/frictionless-ts/resource/)
 
 ##### options?
 

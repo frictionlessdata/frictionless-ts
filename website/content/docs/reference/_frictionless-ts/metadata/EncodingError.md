@@ -5,7 +5,7 @@ prev: false
 title: "EncodingError"
 ---
 
-Defined in: [error/types/Encoding.ts:3](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/Encoding.ts#L3)
+Defined in: [error/types/Encoding.ts:3](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Encoding.ts#L3)
 
 ## Extends
 
@@ -17,7 +17,7 @@ Defined in: [error/types/Encoding.ts:3](https://github.com/datisthq/frictionless
 
 > **actualEncoding**: `string`
 
-Defined in: [error/types/Encoding.ts:6](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/Encoding.ts#L6)
+Defined in: [error/types/Encoding.ts:6](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Encoding.ts#L6)
 
 ***
 
@@ -25,7 +25,7 @@ Defined in: [error/types/Encoding.ts:6](https://github.com/datisthq/frictionless
 
 > **encoding**: `string`
 
-Defined in: [error/types/Encoding.ts:5](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/Encoding.ts#L5)
+Defined in: [error/types/Encoding.ts:5](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Encoding.ts#L5)
 
 ***
 
@@ -33,7 +33,7 @@ Defined in: [error/types/Encoding.ts:5](https://github.com/datisthq/frictionless
 
 > **type**: `"file/encoding"`
 
-Defined in: [error/types/Encoding.ts:4](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/Encoding.ts#L4)
+Defined in: [error/types/Encoding.ts:4](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Encoding.ts#L4)
 
 #### Overrides
 

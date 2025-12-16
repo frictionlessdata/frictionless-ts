@@ -17,7 +17,6 @@
     "starlight-scroll-to-top": "0.3.1",
     "starlight-typedoc": "0.21.3",
     "typedoc": "0.28.9",
-    "typedoc-plugin-markdown": "4.8.0",
-    "wrangler": "4.46.0"
+    "typedoc-plugin-markdown": "4.8.0"
   }
 }

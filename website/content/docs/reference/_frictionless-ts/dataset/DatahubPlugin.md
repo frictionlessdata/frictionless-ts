@@ -5,7 +5,7 @@ prev: false
 title: "DatahubPlugin"
 ---
 
-Defined in: [dataset/plugins/datahub/plugin.ts:5](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/dataset/plugins/datahub/plugin.ts#L5)
+Defined in: [dataset/plugins/datahub/plugin.ts:5](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/dataset/plugins/datahub/plugin.ts#L5)
 
 ## Implements
 
@@ -27,7 +27,7 @@ Defined in: [dataset/plugins/datahub/plugin.ts:5](https://github.com/datisthq/fr
 
 > **loadPackage**(`source`): `Promise`\<`undefined` \| [`Package`](/reference/frictionless-ts/package/)\>
 
-Defined in: [dataset/plugins/datahub/plugin.ts:6](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/dataset/plugins/datahub/plugin.ts#L6)
+Defined in: [dataset/plugins/datahub/plugin.ts:6](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/dataset/plugins/datahub/plugin.ts#L6)
 
 #### Parameters
 

@@ -7,7 +7,7 @@ title: "savePackageToGithub"
 
 > **savePackageToGithub**(`dataPackage`, `options`): `Promise`\<\{ `path`: `string`; `repoUrl`: `string`; \}\>
 
-Defined in: [dataset/plugins/github/package/save.ts:17](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/dataset/plugins/github/package/save.ts#L17)
+Defined in: [dataset/plugins/github/package/save.ts:17](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/dataset/plugins/github/package/save.ts#L17)
 
 Save a package to a Github repository
 

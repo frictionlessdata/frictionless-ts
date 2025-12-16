@@ -17,7 +17,7 @@ Defined in: table/build/table/normalize.d.ts:5
 
 ### schema
 
-`Schema`
+[`Schema`](/reference/frictionless-ts/schema/)
 
 ## Returns
 

@@ -15,7 +15,7 @@ Save a package to Zenodo
 
 ### dataPackage
 
-`Package`
+[`Package`](/reference/frictionless-ts/package/)
 
 ### options
 

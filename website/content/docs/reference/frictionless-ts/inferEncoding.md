@@ -13,7 +13,7 @@ Defined in: dataset/build/file/infer.d.ts:7
 
 ### resource
 
-`Resource`
+`Partial`\<[`Resource`](/reference/frictionless-ts/resource/)\>
 
 ### options?
 

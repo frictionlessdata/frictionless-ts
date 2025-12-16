@@ -7,4 +7,4 @@ title: "FieldType"
 
 > **FieldType** = `Exclude`\<[`Field`](/reference/_frictionless-ts/metadata/field/)\[`"type"`\], `undefined`\>
 
-Defined in: [field/Type.ts:3](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/field/Type.ts#L3)
+Defined in: [field/Type.ts:3](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/field/Type.ts#L3)

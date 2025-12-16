@@ -7,7 +7,7 @@ title: "saveOdsTable"
 
 > **saveOdsTable**(`table`, `options`): `Promise`\<`string`\>
 
-Defined in: [table/plugins/ods/table/save.ts:9](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/table/plugins/ods/table/save.ts#L9)
+Defined in: [table/plugins/ods/table/save.ts:9](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/table/plugins/ods/table/save.ts#L9)
 
 ## Parameters
 

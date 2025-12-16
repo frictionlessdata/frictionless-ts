@@ -5,7 +5,7 @@ prev: false
 title: "BaseFieldError"
 ---
 
-Defined in: [error/types/Field.ts:6](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/Field.ts#L6)
+Defined in: [error/types/Field.ts:6](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Field.ts#L6)
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: [error/types/Field.ts:6](https://github.com/datisthq/frictionless-ts
 
 > **fieldName**: `string`
 
-Defined in: [error/types/Field.ts:7](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/Field.ts#L7)
+Defined in: [error/types/Field.ts:7](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Field.ts#L7)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [error/types/Field.ts:7](https://github.com/datisthq/frictionless-ts
 
 > **type**: `string`
 
-Defined in: [error/types/Base.ts:2](https://github.com/datisthq/frictionless-ts/blob/00601b0a4e9f476621340273fef9eeb54295b4e4/metadata/error/types/Base.ts#L2)
+Defined in: [error/types/Base.ts:2](https://github.com/datisthq/frictionless-ts/blob/276d18737d0d8f84b375d13c9be2d3205ceda86a/metadata/error/types/Base.ts#L2)
 
 #### Inherited from
 

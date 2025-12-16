@@ -5,7 +5,7 @@ prev: false
 title: "validateFile"
 ---
 
-> **validateFile**(`resource`): `Promise`\<\{ `errors`: `FileError`[]; `valid`: `boolean`; \}\>
+> **validateFile**(`resource`): `Promise`\<\{ `errors`: [`FileError`](/reference/frictionless-ts/fileerror/)[]; `valid`: `boolean`; \}\>
 
 Defined in: dataset/build/file/validate.d.ts:3
 
@@ -13,8 +13,8 @@ Defined in: dataset/build/file/validate.d.ts:3
 
 ### resource
 
-`Resource`
+`Partial`\<[`Resource`](/reference/frictionless-ts/resource/)\>
 
 ## Returns
 
-`Promise`\<\{ `errors`: `FileError`[]; `valid`: `boolean`; \}\>
+`Promise`\<\{ `errors`: [`FileError`](/reference/frictionless-ts/fileerror/)[]; `valid`: `boolean`; \}\>
