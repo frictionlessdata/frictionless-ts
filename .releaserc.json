@@ -6,7 +6,17 @@
       "@semantic-release/release-notes-generator",
       { "preset": "conventionalcommits" }
     ],
-    ["@semantic-release/github", { "draftRelease": true }],
-    ["@semantic-release/exec", { "publishCmd": "echo ${nextRelease.version}" }]
+    [
+      "@semantic-release/exec",
+      { "prepareCmd": "pnpm version:ci ${nextRelease.version}" }
+    ],
+    [
+      "@semantic-release/exec",
+      {
+        "prepareCmd": "pnpm build",
+        "publishCmd": "pnpm publish:ci"
+      }
+    ],
+    ["@semantic-release/github"]
   ]
 }
