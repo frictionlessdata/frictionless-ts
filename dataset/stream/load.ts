@@ -1,6 +1,6 @@
 import { createReadStream } from "node:fs"
 import { Readable, Transform } from "node:stream"
-import { isRemotePath } from "@dpkit/metadata"
+import { isRemotePath } from "@frictionless-ts/metadata"
 
 export async function loadFileStream(
   path: string | string[],

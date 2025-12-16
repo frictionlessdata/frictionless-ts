@@ -9,35 +9,7 @@ on:
       - main
 
 jobs:
-  test-compile:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v5
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
-      - name: Setup Pnpm
-        uses: pnpm/action-setup@v4
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          cache: pnpm
-          node-version-file: package.json
-      - name: Install Dependencies
-        run: pnpm install:ci
-      - name: Build Packages
-        run: pnpm build
-      - name: Compile Binaries
-        run: pnpm compile
-      - name: Upload Binaries
-        uses: actions/upload-artifact@v4
-        with:
-          name: binaries
-          path: terminal/compile/binaries/*.zip
-
   test-linux:
-    needs: [test-compile]
     runs-on: ubuntu-latest
 
     steps:
@@ -64,15 +36,7 @@ jobs:
       - name: Upload Coverage
         uses: codecov/codecov-action@v5
         with:
-          slug: datisthq/dpkit
-      - name: Download Binaries
-        uses: actions/download-artifact@v5
-        with:
-          name: binaries
-          path: terminal/compile/binaries
-      - name: Test Binaries
-        working-directory: terminal/compile/binaries
-        run: unzip -j *linux-x64.zip && ./dpkit --version
+          slug: frictionlessdata/frictionless-ts
 
     services:
       postgres:
@@ -94,7 +58,6 @@ jobs:
           - 3306:3306
 
   test-macos:
-    needs: [test-compile]
     runs-on: macos-latest
 
     steps:
@@ -115,17 +78,8 @@ jobs:
         run: pnpm build
       - name: Test Packages
         run: pnpm test
-      - name: Download Binaries
-        uses: actions/download-artifact@v5
-        with:
-          name: binaries
-          path: terminal/compile/binaries
-      - name: Test Binaries
-        working-directory: terminal/compile/binaries
-        run: unzip -j *macos-arm64.zip && ./dpkit --version
 
   test-windows:
-    needs: [test-compile]
     runs-on: windows-latest
 
     steps:
@@ -146,15 +100,6 @@ jobs:
         run: pnpm build
       - name: Test Packages
         run: pnpm test:win
-      - name: Download Binaries
-        uses: actions/download-artifact@v5
-        with:
-          name: binaries
-          path: terminal/compile/binaries
-      - name: Test Binaries
-        shell: bash
-        working-directory: terminal/compile/binaries
-        run: unzip -j *windows-x64.zip && ./dpkit.exe --version
 
   # We have to split the release step because for some reason
   # using semantic-release before compilation inflates the binary sizes

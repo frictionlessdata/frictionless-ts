@@ -1,4 +1,4 @@
-import type { Schema } from "@dpkit/metadata"
+import type { Schema } from "@frictionless-ts/metadata"
 import { describe, expect, it } from "vitest"
 import { convertSchemaToHtml } from "./toHtml.tsx"
 

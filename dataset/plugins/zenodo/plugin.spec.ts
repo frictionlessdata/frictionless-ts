@@ -1,4 +1,4 @@
-import type { Package } from "@dpkit/metadata"
+import type { Package } from "@frictionless-ts/metadata"
 import { beforeEach, describe, expect, it, vi } from "vitest"
 import * as packageModule from "./package/load.ts"
 import { ZenodoPlugin } from "./plugin.ts"

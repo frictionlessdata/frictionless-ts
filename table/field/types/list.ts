@@ -1,4 +1,4 @@
-import type { ListField } from "@dpkit/metadata"
+import type { ListField } from "@frictionless-ts/metadata"
 import * as pl from "nodejs-polars"
 
 // TODO:

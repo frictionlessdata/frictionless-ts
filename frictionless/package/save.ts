@@ -1,5 +1,5 @@
-import type { SavePackageOptions } from "@dpkit/dataset"
-import type { Package } from "@dpkit/metadata"
+import type { SavePackageOptions } from "@frictionless-ts/dataset"
+import type { Package } from "@frictionless-ts/metadata"
 import { system } from "../system.ts"
 
 export async function savePackage(

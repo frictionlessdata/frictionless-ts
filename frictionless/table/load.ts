@@ -1,5 +1,5 @@
-import type { Resource } from "@dpkit/metadata"
-import type { LoadTableOptions } from "@dpkit/table"
+import type { Resource } from "@frictionless-ts/metadata"
+import type { LoadTableOptions } from "@frictionless-ts/table"
 import { system } from "../system.ts"
 
 export async function loadTable(

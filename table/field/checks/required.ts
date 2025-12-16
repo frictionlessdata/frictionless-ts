@@ -1,5 +1,5 @@
-import type { Field } from "@dpkit/metadata"
-import type { CellRequiredError } from "@dpkit/metadata"
+import type { Field } from "@frictionless-ts/metadata"
+import type { CellRequiredError } from "@frictionless-ts/metadata"
 import type { CellMapping } from "../Mapping.ts"
 
 export function checkCellRequired(field: Field, mapping: CellMapping) {

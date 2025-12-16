@@ -1,4 +1,4 @@
-import type { Field, Schema } from "@dpkit/metadata"
+import type { Field, Schema } from "@frictionless-ts/metadata"
 import type {
   ArrayField,
   BooleanField,
@@ -9,7 +9,7 @@ import type {
   ObjectField,
   StringField,
   TimeField,
-} from "@dpkit/metadata"
+} from "@frictionless-ts/metadata"
 import type { CkanField } from "../Field.ts"
 import type { CkanSchema } from "../Schema.ts"
 

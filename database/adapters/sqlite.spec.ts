@@ -1,5 +1,5 @@
-import { getTempFilePath } from "@dpkit/dataset"
-import type { Package } from "@dpkit/metadata"
+import { getTempFilePath } from "@frictionless-ts/dataset"
+import type { Package } from "@frictionless-ts/metadata"
 import * as pl from "nodejs-polars"
 import { describe, expect, it } from "vitest"
 import { useRecording } from "vitest-polly"

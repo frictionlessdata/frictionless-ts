@@ -1,4 +1,4 @@
-import type { Package } from "@dpkit/metadata"
+import type { Package } from "@frictionless-ts/metadata"
 import { createAdapter } from "../adapters/create.ts"
 import type { DatabaseFormat } from "../resource/index.ts"
 

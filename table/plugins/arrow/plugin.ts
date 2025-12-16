@@ -1,5 +1,5 @@
-import type { Resource } from "@dpkit/metadata"
-import { inferFormat } from "@dpkit/metadata"
+import type { Resource } from "@frictionless-ts/metadata"
+import { inferFormat } from "@frictionless-ts/metadata"
 import type {
   LoadTableOptions,
   SaveTableOptions,

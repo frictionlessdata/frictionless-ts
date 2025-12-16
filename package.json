@@ -1,5 +1,5 @@
 {
-  "name": "dpkit-project",
+  "name": "@frictionless-ts/project",
   "type": "module",
   "version": "0.0.0-dev",
   "private": true,

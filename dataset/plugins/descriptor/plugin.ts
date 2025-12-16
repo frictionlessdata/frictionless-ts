@@ -1,8 +1,8 @@
-import { inferFormat } from "@dpkit/metadata"
-import type { Package } from "@dpkit/metadata"
-import { isRemotePath } from "@dpkit/metadata"
-import { loadPackageDescriptor } from "@dpkit/metadata"
-import { savePackageDescriptor } from "@dpkit/metadata"
+import { inferFormat } from "@frictionless-ts/metadata"
+import type { Package } from "@frictionless-ts/metadata"
+import { isRemotePath } from "@frictionless-ts/metadata"
+import { loadPackageDescriptor } from "@frictionless-ts/metadata"
+import { savePackageDescriptor } from "@frictionless-ts/metadata"
 import type { DatasetPlugin } from "../../plugin.ts"
 
 export class DescriptorPlugin implements DatasetPlugin {

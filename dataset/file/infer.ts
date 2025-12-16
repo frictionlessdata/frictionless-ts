@@ -1,5 +1,5 @@
 import { stat } from "node:fs/promises"
-import type { Resource } from "@dpkit/metadata"
+import type { Resource } from "@frictionless-ts/metadata"
 import chardet from "chardet"
 import * as hasha from "hasha"
 import { isBinaryFile } from "isbinaryfile"

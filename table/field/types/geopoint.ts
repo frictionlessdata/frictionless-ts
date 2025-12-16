@@ -1,4 +1,4 @@
-import type { GeopointField } from "@dpkit/metadata"
+import type { GeopointField } from "@frictionless-ts/metadata"
 import * as pl from "nodejs-polars"
 
 // TODO:

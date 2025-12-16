@@ -1,4 +1,4 @@
-import { isRemotePath } from "@dpkit/metadata"
+import { isRemotePath } from "@frictionless-ts/metadata"
 import type { DatasetPlugin } from "../../plugin.ts"
 import { loadPackageFromDatahub } from "./package/index.ts"
 

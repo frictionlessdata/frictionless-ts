@@ -1,4 +1,4 @@
-import type { Package } from "@dpkit/metadata"
+import type { Package } from "@frictionless-ts/metadata"
 import { describe, expect, it } from "vitest"
 import { validatePackageIntegrity } from "./integrity.ts"
 

@@ -7,7 +7,7 @@
   "files": ["build"],
   "license": "MIT",
   "author": "Evgeny Karev",
-  "repository": "https://github.com/datisthq/dpkit",
+  "repository": "https://github.com/frictionlessdata/frictionless-ts",
   "description": "Fast TypeScript data management framework built on top of the Data Package standard and Polars DataFrames",
   "keywords": [
     "frictionless",
@@ -23,14 +23,11 @@
     "lib"
   ],
   "dependencies": {
-    "@dpkit/audio": "workspace:*",
-    "@dpkit/dataset": "workspace:*",
-    "@dpkit/database": "workspace:*",
-    "@dpkit/document": "workspace:*",
-    "@dpkit/image": "workspace:*",
-    "@dpkit/metadata": "workspace:*",
-    "@dpkit/table": "workspace:*",
-    "@dpkit/video": "workspace:*",
+    "@frictionless-ts/dataset": "workspace:*",
+    "@frictionless-ts/database": "workspace:*",
+    "@frictionless-ts/document": "workspace:*",
+    "@frictionless-ts/metadata": "workspace:*",
+    "@frictionless-ts/table": "workspace:*",
     "p-all": "^5.0.1"
   },
   "scripts": {

@@ -1,4 +1,4 @@
-import { getTempFilePath } from "@dpkit/dataset"
+import { getTempFilePath } from "@frictionless-ts/dataset"
 import * as pl from "nodejs-polars"
 import { describe, expect, it } from "vitest"
 import { loadParquetTable } from "./load.ts"

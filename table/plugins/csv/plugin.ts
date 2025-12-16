@@ -1,5 +1,5 @@
-import type { Resource } from "@dpkit/metadata"
-import { inferFormat } from "@dpkit/metadata"
+import type { Resource } from "@frictionless-ts/metadata"
+import { inferFormat } from "@frictionless-ts/metadata"
 import type { LoadTableOptions, SaveTableOptions } from "../../plugin.ts"
 import type { TablePlugin } from "../../plugin.ts"
 import type { Table } from "../../table/index.ts"

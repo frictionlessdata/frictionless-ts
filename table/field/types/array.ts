@@ -1,4 +1,4 @@
-import type { ArrayField } from "@dpkit/metadata"
+import type { ArrayField } from "@frictionless-ts/metadata"
 import type { Table } from "../../table/index.ts"
 import { inspectJsonField } from "./json.ts"
 

@@ -1,11 +1,11 @@
 import os from "node:os"
-import type { Package, Resource } from "@dpkit/metadata"
-import type { InferDialectOptions } from "@dpkit/table"
-import type { InferSchemaOptions } from "@dpkit/table"
+import type { Package, Resource } from "@frictionless-ts/metadata"
+import type { InferDialectOptions } from "@frictionless-ts/table"
+import type { InferSchemaOptions } from "@frictionless-ts/table"
 import pAll from "p-all"
 import { inferResource } from "../resource/index.ts"
 
-// TODO: Move PartialPackage/Resource to @dpkit/metadata?
+// TODO: Move PartialPackage/Resource to @frictionless-ts/metadata?
 
 interface PartialPackage extends Omit<Package, "resources"> {
   resources: Partial<Resource>[]

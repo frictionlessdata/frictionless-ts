@@ -1,6 +1,6 @@
-import type { Resource } from "@dpkit/metadata"
-import { resolveDialect, resolveSchema } from "@dpkit/metadata"
-import { inferSchemaFromTable } from "@dpkit/table"
+import type { Resource } from "@frictionless-ts/metadata"
+import { resolveDialect, resolveSchema } from "@frictionless-ts/metadata"
+import { inferSchemaFromTable } from "@frictionless-ts/table"
 import { inferDialect } from "../dialect/index.ts"
 import { loadTable } from "./load.ts"
 

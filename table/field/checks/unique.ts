@@ -1,5 +1,5 @@
-import type { Field } from "@dpkit/metadata"
-import type { CellUniqueError } from "@dpkit/metadata"
+import type { Field } from "@frictionless-ts/metadata"
+import type { CellUniqueError } from "@frictionless-ts/metadata"
 import type { CellMapping } from "../Mapping.ts"
 
 // TODO: Support schema.primaryKey and schema.uniqueKeys

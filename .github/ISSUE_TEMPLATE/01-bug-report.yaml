@@ -10,8 +10,8 @@ body:
   - type: input
     id: version
     attributes:
-      label: What dpkit version are you using?
-      placeholder: v2.0.0
+      label: What version are you using?
+      placeholder: v1.0.0
     validations:
       required: true
   - type: textarea

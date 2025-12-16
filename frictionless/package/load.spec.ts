@@ -1,5 +1,5 @@
 import { basename } from "node:path"
-import { writeTempFile } from "@dpkit/dataset"
+import { writeTempFile } from "@frictionless-ts/dataset"
 import { describe, expect, it } from "vitest"
 import { loadPackage } from "./load.ts"
 

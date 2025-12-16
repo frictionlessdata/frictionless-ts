@@ -1,4 +1,4 @@
-import type { Resource } from "@dpkit/metadata"
+import type { Resource } from "@frictionless-ts/metadata"
 import type { LoadTableOptions, TablePlugin } from "../../plugin.ts"
 import { loadInlineTable } from "./table/index.ts"
 

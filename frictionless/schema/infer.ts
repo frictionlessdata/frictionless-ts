@@ -1,6 +1,6 @@
-import type { Resource } from "@dpkit/metadata"
-import type { InferSchemaOptions } from "@dpkit/table"
-import { inferSchemaFromTable } from "@dpkit/table"
+import type { Resource } from "@frictionless-ts/metadata"
+import type { InferSchemaOptions } from "@frictionless-ts/table"
+import { inferSchemaFromTable } from "@frictionless-ts/table"
 import { system } from "../system.ts"
 import { loadTable } from "../table/index.ts"
 

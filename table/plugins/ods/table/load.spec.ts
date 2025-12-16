@@ -1,4 +1,4 @@
-import { getTempFilePath } from "@dpkit/dataset"
+import { getTempFilePath } from "@frictionless-ts/dataset"
 import { describe, expect, it } from "vitest"
 import { useRecording } from "vitest-polly"
 import { loadOdsTable } from "./load.ts"

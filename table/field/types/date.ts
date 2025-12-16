@@ -1,4 +1,4 @@
-import type { DateField } from "@dpkit/metadata"
+import type { DateField } from "@frictionless-ts/metadata"
 import * as pl from "nodejs-polars"
 
 const DEFAULT_FORMAT = "%Y-%m-%d"

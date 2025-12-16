@@ -1,6 +1,6 @@
 import { text } from "node:stream/consumers"
-import { loadFileStream } from "@dpkit/dataset"
-import type { Dialect, Resource } from "@dpkit/metadata"
+import { loadFileStream } from "@frictionless-ts/dataset"
+import type { Dialect, Resource } from "@frictionless-ts/metadata"
 import { default as CsvSnifferFactory } from "csv-sniffer"
 
 const CSV_DELIMITERS = [",", ";", ":", "|", "\t", "^", "*", "&"]

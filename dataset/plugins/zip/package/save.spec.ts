@@ -1,5 +1,5 @@
 import { readFile } from "node:fs/promises"
-import type { Package } from "@dpkit/metadata"
+import type { Package } from "@frictionless-ts/metadata"
 import { beforeEach, describe, expect, it } from "vitest"
 import { getTempFilePath, writeTempFile } from "../../../file/index.ts"
 import { loadPackageFromZip } from "./load.ts"

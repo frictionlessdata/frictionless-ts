@@ -1,5 +1,5 @@
 import { access, unlink } from "node:fs/promises"
-import { writeTempFile } from "@dpkit/dataset"
+import { writeTempFile } from "@frictionless-ts/dataset"
 import { describe, expect, it } from "vitest"
 import { assert } from "vitest"
 import { loadTable } from "./load.ts"

@@ -1,4 +1,4 @@
-import type { SaveTableOptions, Table } from "@dpkit/table"
+import type { SaveTableOptions, Table } from "@frictionless-ts/table"
 import { system } from "../system.ts"
 
 export async function saveTable(table: Table, options: SaveTableOptions) {

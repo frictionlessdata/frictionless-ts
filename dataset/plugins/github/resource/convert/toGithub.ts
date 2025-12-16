@@ -1,4 +1,4 @@
-import type { Resource } from "@dpkit/metadata"
+import type { Resource } from "@frictionless-ts/metadata"
 import type { GithubResource } from "../Resource.ts"
 
 export function convertResourceToGithub(

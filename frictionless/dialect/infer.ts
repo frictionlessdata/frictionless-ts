@@ -1,5 +1,5 @@
-import type { Dialect, Resource } from "@dpkit/metadata"
-import type { InferDialectOptions } from "@dpkit/table"
+import type { Dialect, Resource } from "@frictionless-ts/metadata"
+import type { InferDialectOptions } from "@frictionless-ts/table"
 import { system } from "../system.ts"
 
 // TODO: review default values being {} vs undefined

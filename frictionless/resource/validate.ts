@@ -1,10 +1,10 @@
-import { validateFile } from "@dpkit/dataset"
-import { validateDocument } from "@dpkit/document"
-import type { Descriptor, Resource } from "@dpkit/metadata"
-import { createReport } from "@dpkit/metadata"
-import { loadDescriptor, validateResourceMetadata } from "@dpkit/metadata"
-import { resolveBasepath } from "@dpkit/metadata"
-import type { InferSchemaOptions } from "@dpkit/table"
+import { validateFile } from "@frictionless-ts/dataset"
+import { validateDocument } from "@frictionless-ts/document"
+import type { Descriptor, Resource } from "@frictionless-ts/metadata"
+import { createReport } from "@frictionless-ts/metadata"
+import { loadDescriptor, validateResourceMetadata } from "@frictionless-ts/metadata"
+import { resolveBasepath } from "@frictionless-ts/metadata"
+import type { InferSchemaOptions } from "@frictionless-ts/table"
 import { validateTable } from "../table/index.ts"
 
 export async function validateResource(

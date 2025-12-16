@@ -1,4 +1,4 @@
-import type { Field } from "@dpkit/metadata"
+import type { Field } from "@frictionless-ts/metadata"
 import * as pl from "nodejs-polars"
 import { desubstituteField } from "./desubstitute.ts"
 import { stringifyField } from "./stringify.ts"

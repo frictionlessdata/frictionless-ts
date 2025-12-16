@@ -1,4 +1,4 @@
-import type { Package } from "@dpkit/metadata"
+import type { Package } from "@frictionless-ts/metadata"
 import type { SetRequired } from "type-fest"
 import type { CkanResource } from "../../resource/Resource.ts"
 import { convertResourceToCkan } from "../../resource/index.ts"

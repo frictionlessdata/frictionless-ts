@@ -1,8 +1,8 @@
-import type { Package } from "@dpkit/metadata"
-import { createReport } from "@dpkit/metadata"
-import { resolveSchema } from "@dpkit/metadata"
-import type { BoundError } from "@dpkit/metadata"
-import type { Table } from "@dpkit/table"
+import type { Package } from "@frictionless-ts/metadata"
+import { createReport } from "@frictionless-ts/metadata"
+import { resolveSchema } from "@frictionless-ts/metadata"
+import type { BoundError } from "@frictionless-ts/metadata"
+import type { Table } from "@frictionless-ts/table"
 import { loadTable } from "../table/index.ts"
 
 // TODO: foreign key fields definition should be validated as well (metadata/here?)
