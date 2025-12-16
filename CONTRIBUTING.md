@@ -3,27 +3,21 @@ title: Contributing
 sidebar:
   order: 2
 ---
-Thank you for your interest in contributing to dpkit! This document provides guidelines and instructions for contributing to this project.
+Thank you for your interest in contributing to frictionless-ts! This document provides guidelines and instructions for contributing to this project.
 
 ## Project Overview
 
 Project is a monorepo with the following packages:
 
-- `@dpkit/metadata`: Core metadata functionality
-- `@dpkit/dataset`: File-related functionality
-- `@dpkit/table`: Table-related functionality
-- `@dpkit/<name>`: Domain-specific functionality
-- `@dpkit/library`: All-in-one package that re-exports all functionality
-- `@dpkit/terminal`: Terminal interface for running tasks
-- `@dpkit/website`: Website-related functionality
-- `dpkit`: Meta-package that re-exports the underlying functionality
+- `@frictionless-ts/metadata`: Core metadata functionality
+- `@frictionless-ts/dataset`: File-related functionality
+- `@frictionless-ts/table`: Table-related functionality
+- `@frictionless-ts/<name>`: Domain-specific functionality
+- `frictionless-ts`: Meta-package that re-exports the underlying functionality
 
 ## Development Environment
 
 ### Prerequisites
-
-> [!TIP]
-> For CLI compilation and development, we recommend using [Bun](https://bun.sh/). For example, to run CLI in dev `bun cli/main.ts`
 
 - **Node.js**: v24.0.0 or higher
 - **PNPM**: v10.0.0 or higher
@@ -32,8 +26,8 @@ Project is a monorepo with the following packages:
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/dpkit.git dpkit
-   cd dpkit
+   git clone https://github.com/yourusername/frictionless-ts.git frictionless-ts
+   cd frictionless-ts
    ```
 
 2. Install dependencies
@@ -118,6 +112,6 @@ When adding new functionality:
 
 ## License
 
-By contributing to dpkit, you agree that your contributions will be licensed under the project's license.
+By contributing to frictionless-ts, you agree that your contributions will be licensed under the project's license.
 
 Thank you for your contribution!

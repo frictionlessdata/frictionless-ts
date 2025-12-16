@@ -1,4 +1,4 @@
-import type { Package } from "@dpkit/metadata"
+import type { Package } from "@frictionless-ts/metadata"
 import type { ZenodoCreator } from "../Creator.ts"
 import type { ZenodoPackage } from "../Package.ts"
 
@@ -18,7 +18,7 @@ export function convertPackageToZenodo(
   } else if (dataPackage.title) {
     metadata.description = dataPackage.title
   } else {
-    metadata.description = "Dataset created with @dpkit/zenodo"
+    metadata.description = "Dataset created with @frictionless-ts/zenodo"
   }
 
   if (dataPackage.version) {

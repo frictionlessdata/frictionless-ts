@@ -1,4 +1,4 @@
-import type { Package } from "@dpkit/metadata"
+import type { Package } from "@frictionless-ts/metadata"
 import type { DatasetPlugin } from "../../plugin.ts"
 import { loadPackageFromZip, savePackageToZip } from "./package/index.ts"
 

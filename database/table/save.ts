@@ -1,5 +1,5 @@
-import type { SaveTableOptions, Table } from "@dpkit/table"
-import { denormalizeTable, inferSchemaFromTable } from "@dpkit/table"
+import type { SaveTableOptions, Table } from "@frictionless-ts/table"
+import { denormalizeTable, inferSchemaFromTable } from "@frictionless-ts/table"
 import type { Kysely } from "kysely"
 import { createAdapter } from "../adapters/create.ts"
 import type { DatabaseSchema } from "../schema/index.ts"

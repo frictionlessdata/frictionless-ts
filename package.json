@@ -1,5 +1,5 @@
 {
-  "name": "dpkit-project",
+  "name": "@frictionless-ts/project",
   "type": "module",
   "version": "0.0.0-dev",
   "private": true,
@@ -8,10 +8,9 @@
     "pnpm": "^10.0.0"
   },
   "scripts": {
-    "build": "pnpm -F !website -F !desktop -F !portal build",
+    "build": "pnpm -F !website build",
     "bump": "ncu -ws -u",
     "clean": "rm -rf **/node_modules",
-    "compile": "pnpm -F terminal compile",
     "coverage": "sensible-browser coverage/index.html",
     "format": "biome check --write",
     "lint": "biome check",
@@ -19,11 +18,10 @@
     "install:ci": "pnpm install --ignore-scripts",
     "prepare": "husky",
     "publish:ci": "pnpm -r publish --access public --ignore-scripts --no-git-checks",
-    "start:web": "pnpm --parallel -F engine -F website start",
     "spec": "vitest run",
     "test": "pnpm lint && pnpm type && pnpm spec",
     "test:win": "pnpm spec",
-    "type": "tsc --noEmit && pnpm -F website type",
+    "type": "tsc --noEmit",
     "version:ci": "pnpm --include-workspace-root -r exec pnpm version --no-git-tag-version"
   },
   "devDependencies": {

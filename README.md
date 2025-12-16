@@ -1,10 +1,10 @@
-# dpkit
+# frictionless-ts
 
-[![Build](https://img.shields.io/github/actions/workflow/status/datisthq/dpkit/general.yaml?branch=main)](https://github.com/datisthq/dpkit/actions)
-[![Coverage](https://img.shields.io/codecov/c/github/datisthq/dpkit/main)](https://codecov.io/gh/datisthq/dpkit)
-[![Version](https://img.shields.io/npm/v/dpkit)](https://www.npmjs.com/package/dpkit)
+[![Build](https://img.shields.io/github/actions/workflow/status/frictionlessdata/frictionless-ts/general.yaml?branch=main)](https://github.com/frictionlessdata/frictionless-ts/actions)
+[![Coverage](https://img.shields.io/codecov/c/github/frictionlessdata/frictionless-ts/main)](https://codecov.io/gh/frictionlessdata/frictionless-ts)
+[![Version](https://img.shields.io/npm/v/frictionless-ts)](https://www.npmjs.com/package/frictionless-ts)
 
-dpkit is a fast data management framework built on top of the Data Package standard and Polars DataFrames. It supports various formats like CSV, JSON, and Parquet and integrates with data platforms such as CKAN, Zenodo, and GitHub. For more information, please visit the [project's website](https://dpkit.app).
+frictionless-ts is a fast TypeScript data management framework built on top of the Data Package standard and Polars DataFrames. It supports various formats like CSV, JSON, and Parquet and integrates with data platforms such as CKAN, Zenodo, and GitHub. For more information, please read the [project's documentation](https://frictionlessdata.github.io/frictionless-ts/).
 
 ## Funding
 

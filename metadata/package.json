@@ -1,5 +1,5 @@
 {
-  "name": "@dpkit/metadata",
+  "name": "@frictionless-ts/metadata",
   "type": "module",
   "version": "0.0.0-dev",
   "exports": "./build/index.js",
@@ -7,9 +7,10 @@
   "files": ["build"],
   "license": "MIT",
   "author": "Evgeny Karev",
-  "repository": "https://github.com/datisthq/dpkit",
+  "repository": "https://github.com/frictionlessdata/frictionless-ts",
   "description": "Fast TypeScript data management framework built on top of the Data Package standard and Polars DataFrames",
   "keywords": [
+    "frictionless",
     "data",
     "polars",
     "dataframe",

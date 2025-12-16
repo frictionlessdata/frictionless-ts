@@ -1,5 +1,5 @@
-import type { Field } from "@dpkit/metadata"
-import type { CellMaxLengthError } from "@dpkit/metadata"
+import type { Field } from "@frictionless-ts/metadata"
+import type { CellMaxLengthError } from "@frictionless-ts/metadata"
 import type { CellMapping } from "../Mapping.ts"
 
 export function checkCellMaxLength(field: Field, mapping: CellMapping) {

@@ -1,5 +1,5 @@
 {
-  "name": "@dpkit/database",
+  "name": "@frictionless-ts/database",
   "type": "module",
   "version": "0.0.0-dev",
   "exports": "./build/index.js",
@@ -7,9 +7,10 @@
   "files": ["build"],
   "license": "MIT",
   "author": "Evgeny Karev",
-  "repository": "https://github.com/datisthq/dpkit",
+  "repository": "https://github.com/frictionlessdata/frictionless-ts",
   "description": "Fast TypeScript data management framework built on top of the Data Package standard and Polars DataFrames",
   "keywords": [
+    "frictionless",
     "data",
     "polars",
     "dataframe",
@@ -25,8 +26,8 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@dpkit/metadata": "workspace:*",
-    "@dpkit/table": "workspace:*",
+    "@frictionless-ts/metadata": "workspace:*",
+    "@frictionless-ts/table": "workspace:*",
     "kysely": "^0.28.5",
     "kysely-bun-sqlite": "^0.4.0",
     "kysely-generic-sqlite": "^1.2.1",
@@ -36,7 +37,7 @@
     "pg": "^8.16.3"
   },
   "devDependencies": {
-    "@dpkit/dataset": "workspace:*",
+    "@frictionless-ts/dataset": "workspace:*",
     "@types/pg": "^8.15.5"
   }
 }

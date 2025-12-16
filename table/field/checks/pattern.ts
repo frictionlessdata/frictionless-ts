@@ -1,5 +1,5 @@
-import type { Field } from "@dpkit/metadata"
-import type { CellPatternError } from "@dpkit/metadata"
+import type { Field } from "@frictionless-ts/metadata"
+import type { CellPatternError } from "@frictionless-ts/metadata"
 import type { CellMapping } from "../Mapping.ts"
 
 export function checkCellPattern(field: Field, mapping: CellMapping) {

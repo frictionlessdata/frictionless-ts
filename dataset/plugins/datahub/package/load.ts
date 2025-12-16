@@ -1,4 +1,4 @@
-import { loadPackageDescriptor } from "@dpkit/metadata"
+import { loadPackageDescriptor } from "@frictionless-ts/metadata"
 
 export async function loadPackageFromDatahub(datasetUrl: string) {
   const url = new URL(datasetUrl)

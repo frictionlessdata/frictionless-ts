@@ -1,4 +1,4 @@
-import type { RowUniqueError } from "@dpkit/metadata"
+import type { RowUniqueError } from "@frictionless-ts/metadata"
 import * as pl from "nodejs-polars"
 import type { SchemaMapping } from "../../schema/index.ts"
 

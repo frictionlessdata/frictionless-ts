@@ -1,0 +1,24 @@
+---
+editUrl: false
+next: false
+prev: false
+title: "loadCsvTable"
+---
+
+> **loadCsvTable**(`resource`, `options?`): `Promise`\<`LazyDataFrame`\<`any`\>\>
+
+Defined in: table/build/plugins/csv/table/load.d.ts:4
+
+## Parameters
+
+### resource
+
+`Partial`\<[`Resource`](/reference/frictionless-ts/resource/)\> & `object`
+
+### options?
+
+[`LoadTableOptions`](/reference/frictionless-ts/loadtableoptions/)
+
+## Returns
+
+`Promise`\<`LazyDataFrame`\<`any`\>\>

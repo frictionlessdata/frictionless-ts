@@ -1,5 +1,5 @@
-import type { Field } from "@dpkit/metadata"
-import type { CellEnumError } from "@dpkit/metadata"
+import type { Field } from "@frictionless-ts/metadata"
+import type { CellEnumError } from "@frictionless-ts/metadata"
 import * as pl from "nodejs-polars"
 import { evaluateExpression } from "../../helpers.ts"
 import type { CellMapping } from "../Mapping.ts"

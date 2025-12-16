@@ -1,5 +1,5 @@
-import type { Contributor, Package } from "@dpkit/metadata"
-import type { License } from "@dpkit/metadata"
+import type { Contributor, Package } from "@frictionless-ts/metadata"
+import type { License } from "@frictionless-ts/metadata"
 import { convertResourceFromCkan } from "../../resource/index.ts"
 import type { CkanPackage } from "../Package.ts"
 

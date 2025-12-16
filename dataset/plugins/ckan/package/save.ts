@@ -1,11 +1,11 @@
 import { blob } from "node:stream/consumers"
-import type { Descriptor, Package } from "@dpkit/metadata"
+import type { Descriptor, Package } from "@frictionless-ts/metadata"
 import {
   convertPackageToDescriptor,
   getFilename,
   getFormat,
   stringifyDescriptor,
-} from "@dpkit/metadata"
+} from "@frictionless-ts/metadata"
 import { getPackageBasepath } from "../../../package/index.ts"
 import { saveResourceFiles } from "../../../resource/index.ts"
 import { loadFileStream } from "../../../stream/index.ts"

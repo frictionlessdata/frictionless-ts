@@ -1,4 +1,4 @@
-import type { Field } from "@dpkit/metadata"
+import type { Field } from "@frictionless-ts/metadata"
 import type { SchemaMapping } from "./Mapping.ts"
 
 export function matchSchemaField(

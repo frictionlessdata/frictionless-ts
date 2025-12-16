@@ -1,4 +1,4 @@
-import type { Contributor, License, Package } from "@dpkit/metadata"
+import type { Contributor, License, Package } from "@frictionless-ts/metadata"
 import { convertResourceFromZenodo } from "../../resource/index.ts"
 import type { ZenodoPackage } from "../Package.ts"
 

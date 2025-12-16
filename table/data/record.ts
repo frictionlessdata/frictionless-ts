@@ -1,4 +1,4 @@
-import type { Dialect } from "@dpkit/metadata"
+import type { Dialect } from "@frictionless-ts/metadata"
 
 export type DataRow = unknown[]
 export type DataRecord = Record<string, unknown>

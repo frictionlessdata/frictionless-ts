@@ -1,7 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises"
 import { mkdir } from "node:fs/promises"
 import { dirname, join } from "node:path"
-import { loadPackageDescriptor } from "@dpkit/metadata"
+import { loadPackageDescriptor } from "@frictionless-ts/metadata"
 import { getTempFolderPath } from "../../../folder/index.ts"
 import { unzip } from "fflate"
 

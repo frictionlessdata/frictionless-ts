@@ -1,4 +1,4 @@
-import type { BooleanField } from "@dpkit/metadata"
+import type { BooleanField } from "@frictionless-ts/metadata"
 import * as pl from "nodejs-polars"
 
 const DEFAULT_TRUE_VALUES = ["true", "True", "TRUE", "1"]

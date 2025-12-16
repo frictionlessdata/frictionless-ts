@@ -1,4 +1,4 @@
-import type { YearField } from "@dpkit/metadata"
+import type { YearField } from "@frictionless-ts/metadata"
 import * as pl from "nodejs-polars"
 
 export function parseYearField(_field: YearField, fieldExpr: pl.Expr) {

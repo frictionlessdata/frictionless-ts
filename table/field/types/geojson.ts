@@ -1,4 +1,4 @@
-import type { GeojsonField } from "@dpkit/metadata"
+import type { GeojsonField } from "@frictionless-ts/metadata"
 import geojson from "../../assets/geojson.json" with { type: "json" }
 import topojson from "../../assets/topojson.json" with { type: "json" }
 import type { Table } from "../../table/index.ts"

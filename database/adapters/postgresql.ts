@@ -1,4 +1,4 @@
-import type { FieldType } from "@dpkit/metadata"
+import type { FieldType } from "@frictionless-ts/metadata"
 import { PostgresDialect } from "kysely"
 import { Pool } from "pg"
 import type { DatabaseType } from "../field/index.ts"

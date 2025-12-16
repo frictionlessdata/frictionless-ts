@@ -1,9 +1,9 @@
-import type { Resource } from "@dpkit/metadata"
-import type { DataError } from "@dpkit/metadata"
-import type { JsonDocumentError } from "@dpkit/metadata"
-import { createReport } from "@dpkit/metadata"
-import { resolveJsonSchema } from "@dpkit/metadata"
-import { inspectJsonValue } from "@dpkit/metadata"
+import type { Resource } from "@frictionless-ts/metadata"
+import type { DataError } from "@frictionless-ts/metadata"
+import type { JsonDocumentError } from "@frictionless-ts/metadata"
+import { createReport } from "@frictionless-ts/metadata"
+import { resolveJsonSchema } from "@frictionless-ts/metadata"
+import { inspectJsonValue } from "@frictionless-ts/metadata"
 
 export async function validateDocument(resource: Partial<Resource>) {
   if (resource.jsonSchema) {

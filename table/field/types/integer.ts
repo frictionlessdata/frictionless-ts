@@ -1,4 +1,4 @@
-import type { IntegerField } from "@dpkit/metadata"
+import type { IntegerField } from "@frictionless-ts/metadata"
 import * as pl from "nodejs-polars"
 
 // TODO: support categories

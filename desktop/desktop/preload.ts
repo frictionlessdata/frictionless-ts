@@ -1,4 +1,0 @@
-import { contextBridge } from 'electron'
-
-contextBridge.exposeInMainWorld('dpkit', {
-})

@@ -1,6 +1,10 @@
-import type { GeojsonField, GeopointField, ListField } from "@dpkit/metadata"
-import type { StringField } from "@dpkit/metadata"
-import type { FieldType } from "@dpkit/metadata"
+import type {
+  GeojsonField,
+  GeopointField,
+  ListField,
+} from "@frictionless-ts/metadata"
+import type { StringField } from "@frictionless-ts/metadata"
+import type { FieldType } from "@frictionless-ts/metadata"
 
 export interface SchemaOptions {
   fieldNames?: string[]

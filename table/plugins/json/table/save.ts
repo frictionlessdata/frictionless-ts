@@ -1,5 +1,5 @@
-import { saveFile } from "@dpkit/dataset"
-import type { Dialect } from "@dpkit/metadata"
+import { saveFile } from "@frictionless-ts/dataset"
+import type { Dialect } from "@frictionless-ts/metadata"
 import type { SaveTableOptions } from "../../../plugin.ts"
 import { inferSchemaFromTable } from "../../../schema/index.ts"
 import { denormalizeTable } from "../../../table/index.ts"

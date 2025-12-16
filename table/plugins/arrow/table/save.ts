@@ -1,4 +1,4 @@
-import { assertLocalPathVacant } from "@dpkit/dataset"
+import { assertLocalPathVacant } from "@frictionless-ts/dataset"
 import type { SaveTableOptions } from "../../../plugin.ts"
 import { inferSchemaFromTable } from "../../../schema/index.ts"
 import { denormalizeTable } from "../../../table/index.ts"

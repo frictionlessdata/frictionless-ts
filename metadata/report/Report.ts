@@ -1,6 +1,6 @@
-import type { DpkitError } from "../error/index.ts"
+import type { FrictionlessError } from "../error/index.ts"
 
-export interface Report<T extends DpkitError = DpkitError> {
+export interface Report<T extends FrictionlessError = FrictionlessError> {
   valid: boolean
   errors: T[]
 }

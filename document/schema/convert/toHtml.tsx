@@ -1,4 +1,4 @@
-import type { Field, Schema } from "@dpkit/metadata"
+import type { Field, Schema } from "@frictionless-ts/metadata"
 import { prettify } from "htmlfy"
 import React from "react"
 import { renderToStaticMarkup } from "react-dom/server"

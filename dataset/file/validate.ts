@@ -1,6 +1,6 @@
-import type { FileError } from "@dpkit/metadata"
-import { createReport } from "@dpkit/metadata"
-import type { Resource } from "@dpkit/metadata"
+import type { FileError } from "@frictionless-ts/metadata"
+import { createReport } from "@frictionless-ts/metadata"
+import type { Resource } from "@frictionless-ts/metadata"
 import { prefetchFiles } from "./fetch.ts"
 import { inferBytes, inferEncoding, inferHash } from "./infer.ts"
 

@@ -6,12 +6,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for taking the time to improve the dpkit project! Please fill out this form as completely as possible.
+        Thank you for taking the time to improve the project! Please fill out this form as completely as possible.
   - type: input
     id: version
     attributes:
-      label: What dpkit version are you using?
-      placeholder: v2.0.0
+      label: What version are you using?
+      placeholder: v1.0.0
     validations:
       required: true
   - type: textarea

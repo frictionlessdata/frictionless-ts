@@ -1,4 +1,4 @@
-import type { Field, Schema } from "@dpkit/metadata"
+import type { Field, Schema } from "@frictionless-ts/metadata"
 import * as pl from "nodejs-polars"
 import { getPolarsSchema } from "../schema/index.ts"
 import type { Table } from "../table/index.ts"

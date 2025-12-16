@@ -1,5 +1,5 @@
 {
-  "name": "@dpkit/table",
+  "name": "@frictionless-ts/table",
   "type": "module",
   "version": "0.0.0-dev",
   "exports": "./build/index.js",
@@ -7,9 +7,10 @@
   "files": ["build"],
   "license": "MIT",
   "author": "Evgeny Karev",
-  "repository": "https://github.com/datisthq/dpkit",
+  "repository": "https://github.com/frictionlessdata/frictionless-ts",
   "description": "Data Package implementation in TypeScript.",
   "keywords": [
+    "frictionless",
     "data",
     "polars",
     "dataframe",
@@ -32,8 +33,8 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@dpkit/metadata": "workspace:*",
-    "@dpkit/dataset": "workspace:*",
+    "@frictionless-ts/metadata": "workspace:*",
+    "@frictionless-ts/dataset": "workspace:*",
     "csv-sniffer": "^0.1.1",
     "nodejs-polars": "^0.22.2",
     "p-all": "^5.0.1",

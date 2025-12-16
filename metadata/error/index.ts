@@ -1,4 +1,4 @@
-export type { DpkitError } from "./Error.ts"
+export type { FrictionlessError } from "./Error.ts"
 export type { BoundError } from "./Bound.ts"
 export type { UnboundError } from "./Unbound.ts"
 

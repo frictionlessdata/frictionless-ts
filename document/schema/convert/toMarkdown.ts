@@ -1,4 +1,4 @@
-import type { Schema } from "@dpkit/metadata"
+import type { Schema } from "@frictionless-ts/metadata"
 
 export function convertSchemaToMarkdown(
   schema: Schema,

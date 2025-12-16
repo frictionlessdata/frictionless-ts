@@ -1,10 +1,10 @@
-import type { Resource } from "@dpkit/metadata"
+import type { Resource } from "@frictionless-ts/metadata"
 import {
   convertResourceToDescriptor,
   denormalizePath,
   getFilename,
   isRemotePath,
-} from "@dpkit/metadata"
+} from "@frictionless-ts/metadata"
 import invariant from "tiny-invariant"
 
 export type SaveFile = (options: {

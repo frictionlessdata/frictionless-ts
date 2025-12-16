@@ -1,4 +1,4 @@
-import type { Schema } from "@dpkit/metadata"
+import type { Schema } from "@frictionless-ts/metadata"
 import * as pl from "nodejs-polars"
 import { describe, expect, it } from "vitest"
 import { inspectTable } from "./inspect.ts"

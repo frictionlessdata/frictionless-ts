@@ -1,5 +1,5 @@
-import type { Package } from "@dpkit/metadata"
-import { loadPackageDescriptor } from "@dpkit/metadata"
+import type { Package } from "@frictionless-ts/metadata"
+import { loadPackageDescriptor } from "@frictionless-ts/metadata"
 
 /**
  * Merges a system data package into a user data package if provided

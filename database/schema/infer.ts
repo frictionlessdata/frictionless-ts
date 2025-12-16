@@ -1,5 +1,5 @@
-import type { Resource } from "@dpkit/metadata"
-import { resolveDialect } from "@dpkit/metadata"
+import type { Resource } from "@frictionless-ts/metadata"
+import { resolveDialect } from "@frictionless-ts/metadata"
 import { createAdapter } from "../adapters/create.ts"
 
 export async function inferDatabaseSchema(

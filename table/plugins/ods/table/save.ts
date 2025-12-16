@@ -1,5 +1,5 @@
-import { saveFile } from "@dpkit/dataset"
-import { resolveDialect } from "@dpkit/metadata"
+import { saveFile } from "@frictionless-ts/dataset"
+import { resolveDialect } from "@frictionless-ts/metadata"
 import { utils, write } from "xlsx"
 import type { SaveTableOptions } from "../../../plugin.ts"
 import { inferSchemaFromTable } from "../../../schema/index.ts"

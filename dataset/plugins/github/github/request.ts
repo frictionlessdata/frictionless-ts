@@ -1,4 +1,4 @@
-import type { Descriptor } from "@dpkit/metadata"
+import type { Descriptor } from "@frictionless-ts/metadata"
 
 /**
  * Makes a request to the Github API

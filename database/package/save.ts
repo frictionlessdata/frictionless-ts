@@ -1,8 +1,8 @@
-import type { SavePackageOptions } from "@dpkit/dataset"
-import type { Package } from "@dpkit/metadata"
-import { resolveSchema } from "@dpkit/metadata"
-import { isRemoteResource } from "@dpkit/metadata"
-import type { TablePlugin } from "@dpkit/table"
+import type { SavePackageOptions } from "@frictionless-ts/dataset"
+import type { Package } from "@frictionless-ts/metadata"
+import { resolveSchema } from "@frictionless-ts/metadata"
+import { isRemoteResource } from "@frictionless-ts/metadata"
+import type { TablePlugin } from "@frictionless-ts/table"
 import type { DatabaseFormat } from "../resource/index.ts"
 import { saveDatabaseTable } from "../table/index.ts"
 

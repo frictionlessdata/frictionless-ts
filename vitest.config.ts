@@ -30,13 +30,6 @@ export default defineConfig({
         "**/program.ts",
         "**/index.ts",
         "**/main.ts",
-        "portal/**",
-        // TODO: Enalbe when ready
-        "website/**",
-        // TODO: Enalbe when ready
-        "mobile/**",
-        // TODO: Enalbe when ready
-        "engine/**",
       ],
     },
     resolveSnapshotPath: (testPath, snapExtension) => {

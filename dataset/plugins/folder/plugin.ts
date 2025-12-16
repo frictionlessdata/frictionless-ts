@@ -1,5 +1,5 @@
 import { stat } from "node:fs/promises"
-import { isRemotePath } from "@dpkit/metadata"
+import { isRemotePath } from "@frictionless-ts/metadata"
 import type { DatasetPlugin } from "../../plugin.ts"
 import { loadPackageFromFolder } from "./package/index.ts"
 

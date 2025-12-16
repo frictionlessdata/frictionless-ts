@@ -1,5 +1,5 @@
 import { Buffer } from "node:buffer"
-import { writeTempFile } from "@dpkit/dataset"
+import { writeTempFile } from "@frictionless-ts/dataset"
 import { describe, expect, it } from "vitest"
 import { useRecording } from "vitest-polly"
 import { loadCsvTable } from "./load.ts"
