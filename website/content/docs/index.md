@@ -1,24 +1,24 @@
 ---
-title: dpkit TypeScript
+title: frictionless-ts
 sidebar:
   order: 1
   label: Getting Started
 ---
 
-This guide will help you get started with dpkit in TypeScript. If you are new to the core framework's tecnhologies, please take a look at the [Data Package standard](https://datapackage.org/) and [Polars DataFrames](https://pola.rs/) documentation.
+This guide will help you get started with frictionless-ts. If you are new to the core framework's tecnhologies, please take a look at the [Data Package standard](https://datapackage.org/) and [Polars DataFrames](https://pola.rs/) documentation.
 
 ## Runtimes
 
 > [!TIP]
-> - It is possible to use dpkit in [Jupyter Notebooks](/guides/jupyter)!
+> - It is possible to use frictionless-ts in [Jupyter Notebooks](/guides/jupyter)!
 
-dpkit and all its packages support all the prominent TypeScript runtimes:
+frictionless-ts and all its packages support all the prominent TypeScript runtimes:
 
 - **Node v22+**
 - **Deno v2+**
 - **Bun v1+**
 
-The core package `@dpkit/metadata` additionally supports browser environments:
+The core package `@frictionless-ts/metadata` additionally supports browser environments:
 
 - **Edge v92+**
 - **Chrome v92+**
@@ -30,28 +30,22 @@ The core package `@dpkit/metadata` additionally supports browser environments:
 > [!NOTE]
 > The documentation uses `npm` command to install packages. If you are using other package managers, please adjust the commands accordingly.
 
-The framework can be installed as one package including CLI:
+The framework can be installed as one package:
 
 ```bash
-npm install dpkit
-```
-
-If you don't need CLI, you can install it as:
-
-```bash
-npm install @dpkit/lib
+npm install frictionless-ts
 ```
 
 You car cherry-pick from individual packages:
 
 ```bash
-npm install @dpkit/metadata @dpkit/zenodo
+npm install @frictionless-ts/metadata @frictionless-ts/table
 ```
 
 In the browser, the core package can be just imported using NPM CDNs:
 
 ```js
-import { loadPackageDescriptor } from "https://esm.sh/@dpkit/metadata"
+import { loadPackageDescriptor } from "https://esm.sh/@frictionless-ts/metadata"
 ```
 
 ## TypeScript
@@ -59,14 +53,14 @@ import { loadPackageDescriptor } from "https://esm.sh/@dpkit/metadata"
 > [!TIP]
 > Use **Node v24+** to be able to run TypeScript files directly with the `node` binary like `node my-data-script.ts`
 
-dpkit is built with type safety in mind. It uses TypeScript to provide type definitions for all packages and to enforce type safety throughout the framework. It's highly reccomended to setup a TypeScript aware environment to work with the project.
+frictionless-ts is built with type safety in mind. It uses TypeScript to provide type definitions for all packages and to enforce type safety throughout the framework. It's highly reccomended to setup a TypeScript aware environment to work with the project.
 
 ## Examples
 
 Loading a Data Package from Zenodo merging system Zenodo metadata into a user data package and validating its metadata:
 
 ```ts
-import { loadPackage } from "dpkit"
+import { loadPackage } from "frictionless-ts"
 
 const { dataPackage } = await loadPackage("https://zenodo.org/records/10053903")
 
@@ -82,7 +76,7 @@ console.log(dataPackage)
 Validating an in-memory package descriptor:
 
 ```ts
-import { validatePackageDescriptor } from "dpkit"
+import { validatePackageDescriptor } from "frictionless-ts"
 
 const { valid, errors } = await validatePackageDescriptor({ name: "package" })
 
@@ -109,7 +103,7 @@ import {
   loadPackageFromZip,
   savePackageToZip,
   getTempFilePath,
-} from "dpkit"
+} from "frictionless-ts"
 
 const archivePath = getTempFilePath()
 const sourcePath = await loadPackageDescriptor(
@@ -124,7 +118,7 @@ console.log(targetPackage)
 Reading a CSV table:
 
 ```ts
-import { loadTable } from "dpkit"
+import { loadTable } from "frictionless-ts"
 
 const table = await loadTable({ path: "data.csv" })
 
@@ -141,4 +135,4 @@ const table = await loadTable({
 
 ## Reference
 
-See **API Reference** of each individual package for more details. Note, that `dpkit` and `@dpkit/lib` packages re-export most of the functionality.
+See **API Reference** of each individual package for more details. Note, that `frictionless-ts` package re-export most of the functionality.

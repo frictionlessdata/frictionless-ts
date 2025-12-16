@@ -5,12 +5,12 @@ sidebar:
   order: 4
 ---
 
-The `@dpkit/parquet` package provides efficient support for loading and saving data in Apache Parquet format. It uses Polars DataFrames for high-performance columnar data processing.
+The `@frictionless-ts/table` package provides efficient support for loading and saving data in Apache Parquet format. It uses Polars DataFrames for high-performance columnar data processing.
 
 ## Installation
 
 ```bash
-npm install @dpkit/parquet
+npm install @frictionless-ts/table
 ```
 
 ## Basic Usage
@@ -18,7 +18,7 @@ npm install @dpkit/parquet
 ### Loading Data
 
 ```typescript
-import { loadParquetTable } from "@dpkit/parquet"
+import { loadParquetTable } from "@frictionless-ts/table"
 
 // Load from local file
 const table = await loadParquetTable({ path: "data.parquet" })
@@ -37,7 +37,7 @@ const table = await loadParquetTable({
 ### Saving Data
 
 ```typescript
-import { saveParquetTable } from "@dpkit/parquet"
+import { saveParquetTable } from "@frictionless-ts/table"
 
 // Save as Parquet format
 await saveParquetTable(table, { path: "output.parquet" })

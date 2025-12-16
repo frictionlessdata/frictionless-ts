@@ -9,9 +9,9 @@ Comprehensive Excel (.xlsx) file handling with sheet selection, advanced header 
 ## Introduction
 
 > [!TIP]
-> You can use `loadTable` and `saveTable` from `dpkit` instead of `@dpkit/xlsx` to load and save XLSX files if the framework can infer that files are in the `xlsx` format.
+> You can use `loadTable` and `saveTable` from `frictionless-ts` instead of `@frictionless-ts/table` to load and save XLSX files if the framework can infer that files are in the `xlsx` format.
 
-The XLSX plugin is a part of the [dpkit](https://github.com/datisthq/dpkit) ecosystem providing these capabilities:
+The XLSX plugin provides these capabilities:
 
 - `loadXlsxTable`
 - `saveXlsxTable`
@@ -19,7 +19,7 @@ The XLSX plugin is a part of the [dpkit](https://github.com/datisthq/dpkit) ecos
 For example:
 
 ```typescript
-import { loadXlsxTable, saveXlsxTable } from "@dpkit/xlsx"
+import { loadXlsxTable, saveXlsxTable } from "@frictionless-ts/table"
 
 const table = await loadXlsxTable({path: "table.xlsx"})
 // the field types will be automatically inferred
@@ -36,7 +36,7 @@ await saveXlsxTable(table, {path: "output.xlsx"})
 > The ouput of `loadXlsxTable` is a Polars LazyDataFrame, allowing you to use all of the power of Polars for data processing.
 
 ```typescript
-import { loadXlsxTable } from "@dpkit/xlsx"
+import { loadXlsxTable } from "@frictionless-ts/table"
 
 // Load a simple XLSX file
 const table = await loadXlsxTable({ path: "data.xlsx" })
@@ -63,7 +63,7 @@ frame.describe()
 ### Saving XLSX Files
 
 ```typescript
-import { saveXlsxTable } from "@dpkit/xlsx"
+import { saveXlsxTable } from "@frictionless-ts/table"
 
 // Save with default options
 await saveXlsxTable(table, { path: "output.xlsx" })
@@ -82,7 +82,7 @@ await saveXlsxTable(table, {
 ### Sheet Selection
 
 ```typescript
-import { loadXlsxTable } from "@dpkit/xlsx"
+import { loadXlsxTable } from "@frictionless-ts/table"
 
 // Select by sheet number (1-indexed)
 const table = await loadXlsxTable({
@@ -104,7 +104,7 @@ const table = await loadXlsxTable({
 ### Multi-Header Row Processing
 
 ```typescript
-import { loadXlsxTable } from "@dpkit/xlsx"
+import { loadXlsxTable } from "@frictionless-ts/table"
 
 // XLSX with multiple header rows:
 // Year | 2023 | 2023 | 2024 | 2024
@@ -124,7 +124,7 @@ const table = await loadXlsxTable({
 ### Comment Row Handling
 
 ```typescript
-import { loadXlsxTable } from "@dpkit/xlsx"
+import { loadXlsxTable } from "@frictionless-ts/table"
 
 // XLSX with comment rows
 const table = await loadXlsxTable({
@@ -147,7 +147,7 @@ const table = await loadXlsxTable({
 ### Remote File Loading
 
 ```typescript
-import { loadXlsxTable } from "@dpkit/xlsx"
+import { loadXlsxTable } from "@frictionless-ts/table"
 
 // Load from URL
 const table = await loadXlsxTable({
@@ -166,7 +166,7 @@ const table = await loadXlsxTable({
 ### Header Options
 
 ```typescript
-import { loadXlsxTable } from "@dpkit/xlsx"
+import { loadXlsxTable } from "@frictionless-ts/table"
 
 // No header row (use generated column names)
 const table = await loadXlsxTable({

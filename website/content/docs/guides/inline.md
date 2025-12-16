@@ -5,12 +5,12 @@ sidebar:
   order: 5
 ---
 
-Dpkit provides a package for reading inline data tables embedded directly in data package resources.
+frictionless-ts provides a package for reading inline data tables embedded directly in data package resources.
 
 ## Array Format Data
 
 ```typescript
-import { readInlineTable } from "@dpkit/inline"
+import { readInlineTable } from "@frictionless-ts/table"
 
 const resource = {
   name: "languages",
@@ -65,7 +65,7 @@ const table = await readInlineTable(resource)
 ## Inline Resource Validation
 
 ```typescript
-import { validateInlineTable } from "@dpkit/inline"
+import { validateInlineTable } from "@frictionless-ts/table"
 
 const resource = {
   name: "languages",

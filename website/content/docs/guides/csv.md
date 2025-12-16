@@ -9,9 +9,9 @@ Comprehensive CSV and TSV file handling with automatic format detection, advance
 ## Introduction
 
 > [!TIP]
-> You can use `loadTable` and `saveTable` from `dpkit` instead of `@dpkit/csv` to load and save CSV files if the framework can infer that files are in the `csv/tsv` format.
+> You can use `loadTable` and `saveTable` from `frictionless-ts` instead of `@frictionless-ts/table` to load and save CSV files if the framework can infer that files are in the `csv/tsv` format.
 
-The CSV plugin is a part of the [dpkit](https://github.com/datisthq/dpkit) ecosystem providing these capabilities:
+The CSV plugin provides these capabilities:
 
 - `loadCsvTable`
 - `saveCsvTable`
@@ -20,7 +20,7 @@ The CSV plugin is a part of the [dpkit](https://github.com/datisthq/dpkit) ecosy
 For example:
 
 ```typescript
-import { loadCsvTable } from "@dpkit/csv"
+import { loadCsvTable } from "@frictionless-ts/table"
 
 const table = await loadCsvTable({path: "table.csv"})
 // the field types will be automatically inferred
@@ -32,7 +32,7 @@ const table = await loadCsvTable({path: "table.csv"})
 ### Loading CSV Files
 
 ```typescript
-import { loadCsvTable } from "@dpkit/csv"
+import { loadCsvTable } from "@frictionless-ts/table"
 
 // Load a simple CSV file
 const table = await loadCsvTable({ path: "data.csv" })
@@ -56,7 +56,7 @@ const table = await loadCsvTable({
 ### Saving CSV Files
 
 ```typescript
-import { saveCsvTable } from "@dpkit/csv"
+import { saveCsvTable } from "@frictionless-ts/table"
 
 // Save with default options
 await saveCsvTable(table, { path: "output.csv" })
@@ -74,7 +74,7 @@ await saveCsvTable(table, {
 ### Dialect Detection
 
 ```typescript
-import { inferCsvDialect } from "@dpkit/csv"
+import { inferCsvDialect } from "@frictionless-ts/table"
 
 // Automatically detect CSV format
 const dialect = await inferCsvDialect({ path: "unknown-dialect.csv" })

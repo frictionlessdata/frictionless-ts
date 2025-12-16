@@ -9,9 +9,9 @@ Comprehensive OpenDocument Spreadsheet (ODS) file handling with sheet selection,
 ## Introduction
 
 > [!TIP]
-> You can use `loadTable` and `saveTable` from `dpkit` instead of `@dpkit/ods` to load and save ODS files if the framework can infer that files are in the `ods` format.
+> You can use `loadTable` and `saveTable` from `frictionless-ts` instead of `@frictionless-ts/table` to load and save ODS files if the framework can infer that files are in the `ods` format.
 
-The ODS plugin is a part of the [dpkit](https://github.com/datisthq/dpkit) ecosystem providing these capabilities:
+The ODS plugin provides these capabilities:
 
 - `loadOdsTable`
 - `saveOdsTable`
@@ -19,7 +19,7 @@ The ODS plugin is a part of the [dpkit](https://github.com/datisthq/dpkit) ecosy
 For example:
 
 ```typescript
-import { loadOdsTable, saveOdsTable } from "@dpkit/ods"
+import { loadOdsTable, saveOdsTable } from "@frictionless-ts/table"
 
 const table = await loadOdsTable({path: "table.ods"})
 // the field types will be automatically inferred
@@ -36,7 +36,7 @@ await saveOdsTable(table, {path: "output.ods"})
 > The ouput of `loadOdsTable` is a Polars LazyDataFrame, allowing you to use all of the power of Polars for data processing.
 
 ```typescript
-import { loadOdsTable } from "@dpkit/ods"
+import { loadOdsTable } from "@frictionless-ts/table"
 
 // Load a simple ODS file
 const table = await loadOdsTable({ path: "data.ods" })
@@ -63,7 +63,7 @@ frame.describe()
 ### Saving ODS Files
 
 ```typescript
-import { saveOdsTable } from "@dpkit/ods"
+import { saveOdsTable } from "@frictionless-ts/table"
 
 // Save with default options
 await saveOdsTable(table, { path: "output.ods" })
@@ -82,7 +82,7 @@ await saveOdsTable(table, {
 ### Sheet Selection
 
 ```typescript
-import { loadOdsTable } from "@dpkit/ods"
+import { loadOdsTable } from "@frictionless-ts/table"
 
 // Select by sheet number (1-indexed)
 const table = await loadOdsTable({
@@ -104,7 +104,7 @@ const table = await loadOdsTable({
 ### Multi-Header Row Processing
 
 ```typescript
-import { loadOdsTable } from "@dpkit/ods"
+import { loadOdsTable } from "@frictionless-ts/table"
 
 // ODS with multiple header rows:
 // Year | 2023 | 2023 | 2024 | 2024
@@ -124,7 +124,7 @@ const table = await loadOdsTable({
 ### Comment Row Handling
 
 ```typescript
-import { loadOdsTable } from "@dpkit/ods"
+import { loadOdsTable } from "@frictionless-ts/table"
 
 // ODS with comment rows
 const table = await loadOdsTable({
@@ -147,7 +147,7 @@ const table = await loadOdsTable({
 ### Remote File Loading
 
 ```typescript
-import { loadOdsTable } from "@dpkit/ods"
+import { loadOdsTable } from "@frictionless-ts/table"
 
 // Load from URL
 const table = await loadOdsTable({
@@ -166,7 +166,7 @@ const table = await loadOdsTable({
 ### Header Options
 
 ```typescript
-import { loadOdsTable } from "@dpkit/ods"
+import { loadOdsTable } from "@frictionless-ts/table"
 
 // No header row (use generated column names)
 const table = await loadOdsTable({

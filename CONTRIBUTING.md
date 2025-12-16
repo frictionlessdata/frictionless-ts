@@ -9,11 +9,11 @@ Thank you for your interest in contributing to frictionless-ts! This document pr
 
 Project is a monorepo with the following packages:
 
-- `@datapackage/metadata`: Core metadata functionality
-- `@datapackage/dataset`: File-related functionality
-- `@datapackage/table`: Table-related functionality
-- `@datapackage/<name>`: Domain-specific functionality
-- `frictionless.ts`: Meta-package that re-exports the underlying functionality
+- `@frictionless-ts/metadata`: Core metadata functionality
+- `@frictionless-ts/dataset`: File-related functionality
+- `@frictionless-ts/table`: Table-related functionality
+- `@frictionless-ts/<name>`: Domain-specific functionality
+- `frictionless-ts`: Meta-package that re-exports the underlying functionality
 
 ## Development Environment
 
@@ -112,6 +112,6 @@ When adding new functionality:
 
 ## License
 
-By contributing to dpkit, you agree that your contributions will be licensed under the project's license.
+By contributing to frictionless-ts, you agree that your contributions will be licensed under the project's license.
 
 Thank you for your contribution!

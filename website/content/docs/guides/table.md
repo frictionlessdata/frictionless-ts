@@ -5,7 +5,7 @@ sidebar:
   order: 6
 ---
 
-The `@dpkit/table` package provides high-performance data validation and processing capabilities for tabular data. Built on top of **nodejs-polars** (a Rust-based DataFrame library), it offers robust schema validation, type inference, and error handling for CSV, Excel, and other tabular data formats.
+The `@frictionless-ts/table` package provides high-performance data validation and processing capabilities for tabular data. Built on top of **nodejs-polars** (a Rust-based DataFrame library), it offers robust schema validation, type inference, and error handling for CSV, Excel, and other tabular data formats.
 
 ## Examples
 
@@ -13,8 +13,8 @@ The `@dpkit/table` package provides high-performance data validation and process
 
 ```typescript
 import * as pl from "nodejs-polars"
-import { validateTable } from "@dpkit/table"
-import type { Schema } from "@dpkit/metadata"
+import { validateTable } from "@frictionless-ts/table"
+import type { Schema } from "@frictionless-ts/metadata"
 
 // Create a table from data
 const table = DataFrame({
@@ -40,7 +40,7 @@ console.log(errors) // Array of validation errors
 ### Schema Inference
 
 ```typescript
-import { inferSchema } from "@dpkit/table"
+import { inferSchema } from "@frictionless-ts/table"
 
 // Automatically infer schema from data patterns
 const table = DataFrame({
@@ -85,7 +85,7 @@ const equalSchema: Schema = {
 ### Table Processing
 
 ```typescript
-import { normalizeTable } from "@dpkit/table"
+import { normalizeTable } from "@frictionless-ts/table"
 
 // Process table with schema (converts string columns to proper types)
 const table = DataFrame({
@@ -139,7 +139,7 @@ result.errors.forEach(error => {
 The package uses `LazyDataFrame` from nodejs-polars as its core table representation, enabling lazy evaluation and efficient processing of large datasets through vectorized operations.
 
 ### Schema Integration
-Integrates seamlessly with `@dpkit/metadata` schemas, bridging Data Package field definitions with Polars data types for comprehensive validation workflows.
+Integrates seamlessly with `@frictionless-ts/metadata` schemas, bridging Data Package field definitions with Polars data types for comprehensive validation workflows.
 
 ## Key Features
 

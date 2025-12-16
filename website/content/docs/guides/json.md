@@ -5,25 +5,23 @@ sidebar:
   order: 2
 ---
 
-The `@dpkit/json` package provides comprehensive support for loading and saving data in JSON and JSONL (JSON Lines) formats. It leverages Polars DataFrames for efficient data processing and supports flexible data transformations through dialect configurations.
+The `@frictionless-ts/table` package provides comprehensive support for loading and saving data in JSON and JSONL (JSON Lines) formats. It leverages Polars DataFrames for efficient data processing and supports flexible data transformations through dialect configurations.
 
 ## Installation
 
-The JSON package is part of dpkit's modular architecture:
-
 ```bash
-npm install @dpkit/json
+npm install @frictionless-ts/table
 ```
 
 ## Basic Usage
 
 > [!TIP]
-> You can use `loadTable` and `saveTable` from `dpkit` instead of `@dpkit/json` to load and save JSON files if the framework can infer that files are in the `json/jsonl` format.
+> You can use `loadTable` and `saveTable` from `frictionless-ts` instead of `@frictionless-ts/table` to load and save JSON files if the framework can infer that files are in the `json/jsonl` format.
 
 ### Loading JSON Data
 
 ```typescript
-import { loadJsonTable } from "@dpkit/json"
+import { loadJsonTable } from "@frictionless-ts/table"
 
 // Load from local file
 const table = await loadJsonTable({ path: "data.json" })
@@ -42,7 +40,7 @@ const table = await loadJsonTable({
 ### Loading JSONL Data
 
 ```typescript
-import { loadJsonTable } from "@dpkit/json"
+import { loadJsonTable } from "@frictionless-ts/table"
 
 // Load JSONL (JSON Lines) format
 const table = await loadJsonTable({ path: "data.jsonl", format: 'jsonl' })
@@ -51,7 +49,7 @@ const table = await loadJsonTable({ path: "data.jsonl", format: 'jsonl' })
 ### Saving Data
 
 ```typescript
-import { saveJsonTable } from "@dpkit/json"
+import { saveJsonTable } from "@frictionless-ts/table"
 
 // Save as JSON
 await saveJsonTable(table, { path: "output.json" })

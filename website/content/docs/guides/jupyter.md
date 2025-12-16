@@ -1,5 +1,5 @@
 ---
-title: Using dpkit in Jupyter Notebooks
+title: Using frictionless-ts in Jupyter Notebooks
 sidebar:
   label: Jupyter Notebooks
   order: 10
@@ -23,7 +23,7 @@ For data scientists and data engineers, [Jupyter Notebooks](https://docs.jupyter
 
 1. **Select Deno Kernel in Notebook:** Choose the Deno kernel from your notebook's kernel selection menu. VSCode users may need to install the default Jupyter kernel extensions.
 
-![dpkit in Jupyter Notebooks](./assets/jupyter.png)
+![frictionless-ts in Jupyter Notebooks](./assets/jupyter.png)
 
 ## References
 

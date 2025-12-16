@@ -9,9 +9,9 @@ Database connectivity and operations with support for SQLite, PostgreSQL, and My
 ## Introduction
 
 > [!TIP]
-> You can use `loadTable` and `saveTable` from `dpkit` instead of `@dpkit/database` to load and save database tables if the framework can infer the database connection format.
+> You can use `loadTable` and `saveTable` from `frictionless-ts` instead of `@frictionless-ts/database` to load and save database tables if the framework can infer the database connection format.
 
-The Database plugin is a part of the [dpkit](https://github.com/datisthq/dpkit) ecosystem providing these capabilities:
+The Database plugin provides these capabilities:
 
 - `loadDatabaseTable`
 - `saveDatabaseTable`
@@ -21,7 +21,7 @@ The Database plugin is a part of the [dpkit](https://github.com/datisthq/dpkit) 
 For example:
 
 ```typescript
-import { loadDatabaseTable } from "@dpkit/database"
+import { loadDatabaseTable } from "@frictionless-ts/database"
 
 const table = await loadDatabaseTable({
   path: "sqlite://database.db",
@@ -71,7 +71,7 @@ const mysqlTable = await loadDatabaseTable({
 The database adapter automatically infers Table Schema from database table definitions:
 
 ```typescript
-import { inferDatabaseSchema } from "@dpkit/database"
+import { inferDatabaseSchema } from "@frictionless-ts/database"
 
 const schema = await inferDatabaseSchema({
   path: "sqlite://shop.db",
@@ -85,7 +85,7 @@ const schema = await inferDatabaseSchema({
 Load entire Data Packages from databases:
 
 ```typescript
-import { loadPackageFromDatabase } from "@dpkit/database"
+import { loadPackageFromDatabase } from "@frictionless-ts/database"
 
 const package = await loadPackageFromDatabase("sqlite://catalog.db")
 // Loads all tables as package resources
