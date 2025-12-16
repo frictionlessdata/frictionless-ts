@@ -8,27 +8,23 @@ import starlightScrollToTop from "starlight-scroll-to-top"
 import starlightTypeDoc from "starlight-typedoc"
 
 const PACKAGES = {
-  dpkit: "../dpkit",
-  "@dpkit/audio": "../../audio",
-  "@dpkit/database": "../../database",
-  "@dpkit/dataset": "../../dataset",
-  "@dpkit/image": "../../image",
-  "@dpkit/library": "../../library",
-  "@dpkit/metadata": "../../metadata",
-  "@dpkit/table": "../../table",
-  "@dpkit/terminal": "../../terminal",
-  "@dpkit/video": "../../video",
+  "frictionless-ts": "../frictionless",
+  "@frictionless-ts/database": "../../database",
+  "@frictionless-ts/dataset": "../../dataset",
+  "@frictionless-ts/document": "../../document",
+  "@frictionless-ts/metadata": "../../metadata",
+  "@frictionless-ts/table": "../../table",
 }
 
 export default defineConfig({
-  site: "https://typescript.dpkit.app",
+  site: "https://frictionlessdata.github.io/frictionless-ts",
   srcDir: ".",
   outDir: "build",
   integrations: [
     starlight({
-      title: "dpkit",
+      title: "frictionless-ts",
       description:
-        "dpkit is a fast TypeScript data management framework built on top of the Data Package standard and Polars DataFrames. It supports various formats like CSV, JSON, and Parquet and integrates with data platforms such as CKAN, Zenodo, and GitHub",
+        "frictionless-ts is a fast TypeScript data management framework built on top of the Data Package standard and Polars DataFrames. It supports various formats like CSV, JSON, and Parquet and integrates with data platforms such as CKAN, Zenodo, and GitHub",
       customCss: ["/styles/custom.css"],
       logo: {
         src: "/assets/dpkit-logo.svg",
@@ -38,12 +34,13 @@ export default defineConfig({
         {
           icon: "github",
           label: "GitHub",
-          href: "https://github.com/datisthq/dpkit",
+          href: "https://github.com/frictionlessdata/frictionless-ts",
         },
       ],
       favicon: "favicon.png",
       editLink: {
-        baseUrl: "https://github.com/datisthq/dpkit/edit/main/",
+        baseUrl:
+          "https://github.com/frictionlessdata/frictionless-ts/edit/main/",
       },
       lastUpdated: true,
       tableOfContents: { minHeadingLevel: 2, maxHeadingLevel: 5 },
@@ -90,16 +87,6 @@ export default defineConfig({
               count: 10,
             },
           ]),
-        },
-      ],
-      head: [
-        {
-          tag: "script",
-          attrs: {
-            src: "https://plausible.io/js/script.js",
-            "data-domain": "dpkit.app",
-            defer: true,
-          },
         },
       ],
     }),
