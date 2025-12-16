@@ -62,7 +62,6 @@ build/
 compile/
 dist/
 .astro/
-/docs/content/docs/reference/
 .cursor/
 .claude/
 .serena/
@@ -72,3 +71,4 @@ dist/
 messages.js
 .user/
 tmuxp.yaml
+/website/content/docs/reference/
