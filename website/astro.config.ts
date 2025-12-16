@@ -9,11 +9,11 @@ import starlightTypeDoc from "starlight-typedoc"
 
 const PACKAGES = {
   "frictionless-ts": "../frictionless",
-  "@frictionless-ts/database": "../../database",
-  "@frictionless-ts/dataset": "../../dataset",
-  "@frictionless-ts/document": "../../document",
-  "@frictionless-ts/metadata": "../../metadata",
-  "@frictionless-ts/table": "../../table",
+  "@frictionless-ts/database": "../database",
+  "@frictionless-ts/dataset": "../dataset",
+  "@frictionless-ts/document": "../document",
+  "@frictionless-ts/metadata": "../metadata",
+  "@frictionless-ts/table": "../table",
 }
 
 export default defineConfig({

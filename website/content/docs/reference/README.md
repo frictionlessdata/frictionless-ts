@@ -2,9 +2,14 @@
 editUrl: false
 next: false
 prev: false
-title: "dpkit"
+title: "Documentation"
 ---
 
-# dpkit
+## Packages
 
-dpkit CLI is a fast data management framework built on top of the Data Package standard and Polars DataFrames. It supports various formats like CSV, JSON, and Parquet and integrates with data platforms such as CKAN, Zenodo, and GitHub. For more information, please visit the [project's website](https://dpkit.app).
+- [@frictionless-ts/database](/reference/_frictionless-ts/database/)
+- [@frictionless-ts/dataset](/reference/_frictionless-ts/dataset/)
+- [@frictionless-ts/document](/reference/_frictionless-ts/document/)
+- [@frictionless-ts/metadata](/reference/_frictionless-ts/metadata/)
+- [@frictionless-ts/table](/reference/_frictionless-ts/table/)
+- [frictionless-ts](/reference/frictionless-ts/)

@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "build": "astro build",
-    "preview": "astro preview",
-    "start": "astro dev"
+    "preview": "astro preview --port 5000",
+    "start": "astro dev --port 5000"
   },
   "devDependencies": {
     "@astrojs/starlight": "0.36.0",

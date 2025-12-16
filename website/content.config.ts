@@ -10,8 +10,11 @@ export const collections = {
       {
         base: "changelog",
         provider: "github",
-        owner: "frictionlessdata",
-        repo: "frictionless-ts",
+        owner: "datisthq",
+        repo: "dpkit",
+        // TODO: update to frictionless-ts
+        // owner: "frictionlessdata",
+        // repo: "frictionless-ts",
       },
     ]),
   }),

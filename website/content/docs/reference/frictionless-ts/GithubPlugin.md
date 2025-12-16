@@ -1,0 +1,44 @@
+---
+editUrl: false
+next: false
+prev: false
+title: "GithubPlugin"
+---
+
+Defined in: dataset/build/plugins/github/plugin.d.ts:2
+
+## Implements
+
+- [`DatasetPlugin`](/reference/frictionless-ts/datasetplugin/)
+
+## Constructors
+
+### Constructor
+
+> **new GithubPlugin**(): `GithubPlugin`
+
+#### Returns
+
+`GithubPlugin`
+
+## Methods
+
+### loadPackage()
+
+> **loadPackage**(`source`): `Promise`\<`undefined` \| \{\[`x`: `` `${string}:${string}` ``\]: `any`; `$schema?`: `string`; `contributors?`: `any`[]; `created?`: `string`; `description?`: `string`; `homepage?`: `string`; `image?`: `string`; `keywords?`: `string`[]; `licenses?`: `any`[]; `name?`: `string`; `resources`: `any`[]; `sources?`: `any`[]; `title?`: `string`; `version?`: `string`; \}\>
+
+Defined in: dataset/build/plugins/github/plugin.d.ts:3
+
+#### Parameters
+
+##### source
+
+`string`
+
+#### Returns
+
+`Promise`\<`undefined` \| \{\[`x`: `` `${string}:${string}` ``\]: `any`; `$schema?`: `string`; `contributors?`: `any`[]; `created?`: `string`; `description?`: `string`; `homepage?`: `string`; `image?`: `string`; `keywords?`: `string`[]; `licenses?`: `any`[]; `name?`: `string`; `resources`: `any`[]; `sources?`: `any`[]; `title?`: `string`; `version?`: `string`; \}\>
+
+#### Implementation of
+
+[`DatasetPlugin`](/reference/frictionless-ts/datasetplugin/).[`loadPackage`](/reference/frictionless-ts/datasetplugin/#loadpackage)
