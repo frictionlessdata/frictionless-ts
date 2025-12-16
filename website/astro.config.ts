@@ -18,6 +18,7 @@ const PACKAGES = {
 
 export default defineConfig({
   site: "https://frictionlessdata.github.io/frictionless-ts",
+  base: import.meta.env.PROD ? "/frictionless-ts" : "/",
   srcDir: ".",
   outDir: "build",
   integrations: [
