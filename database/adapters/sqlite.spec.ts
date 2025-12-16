@@ -11,7 +11,7 @@ import { createAdapter } from "./create.ts"
 
 useRecording()
 
-const dialect = { table: "dpkit" }
+const dialect = { table: "frictionless" }
 const record1 = { id: 1, name: "english" }
 const record2 = { id: 2, name: "中文" }
 

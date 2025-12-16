@@ -6,7 +6,7 @@ describe("loadDatabaseTable", () => {
     await expect(
       loadDatabaseTable({
         format: "sqlite",
-        dialect: { table: "dpkit" },
+        dialect: { table: "frictionless" },
       }),
     ).rejects.toThrow("Resource path is not defined")
   })
@@ -25,7 +25,7 @@ describe("loadDatabaseTable", () => {
       loadDatabaseTable({
         path: "path",
         format: "unsupported" as any,
-        dialect: { table: "dpkit" },
+        dialect: { table: "frictionless" },
       }),
     ).rejects.toThrow('Unsupported database format: "unsupported"')
   })

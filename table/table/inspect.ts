@@ -181,25 +181,25 @@ async function inspectRows(
     const rowCheckTable = table
       .withRowCount()
       .withColumn(pl.col("row_nr").add(1))
-      .rename({ row_nr: "dpkit:number" })
+      .rename({ row_nr: "frictionless:number" })
       .withColumn(
         pl
           .when(check.isErrorExpr)
           .then(pl.lit(JSON.stringify(check.errorTemplate)))
           .otherwise(pl.lit(null))
-          .alias("dpkit:error"),
+          .alias("frictionless:error"),
       )
 
     const rowCheckFrame = await rowCheckTable
-      .filter(pl.col("dpkit:error").isNotNull())
+      .filter(pl.col("frictionless:error").isNotNull())
       .head(maxRowErrors)
       .collect()
 
     for (const row of rowCheckFrame.toRecords() as any[]) {
-      const errorTemplate = JSON.parse(row["dpkit:error"]) as RowError
+      const errorTemplate = JSON.parse(row["frictionless:error"]) as RowError
       errors.push({
         ...errorTemplate,
-        rowNumber: row["dpkit:number"],
+        rowNumber: row["frictionless:number"],
       })
     }
 

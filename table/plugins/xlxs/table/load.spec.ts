@@ -40,7 +40,7 @@ describe("loadXlsxTable", () => {
 
     it("should load remote file", async () => {
       const table = await loadXlsxTable({
-        path: "https://raw.githubusercontent.com/datisthq/dpkit/refs/heads/main/xlsx/table/fixtures/table.xlsx",
+        path: "https://github.com/frictionlessdata/frictionless-ts/raw/refs/heads/main/table/plugins/xlxs/table/fixtures/table.xlsx",
       })
 
       expect((await table.collect()).toRecords()).toEqual([
@@ -52,8 +52,8 @@ describe("loadXlsxTable", () => {
     it("should load multipart remote file", async () => {
       const table = await loadXlsxTable({
         path: [
-          "https://raw.githubusercontent.com/datisthq/dpkit/refs/heads/main/xlsx/table/fixtures/table.xlsx",
-          "https://raw.githubusercontent.com/datisthq/dpkit/refs/heads/main/xlsx/table/fixtures/table.xlsx",
+          "https://github.com/frictionlessdata/frictionless-ts/raw/refs/heads/main/table/plugins/xlxs/table/fixtures/table.xlsx",
+          "https://github.com/frictionlessdata/frictionless-ts/raw/refs/heads/main/table/plugins/xlxs/table/fixtures/table.xlsx",
         ],
       })
 

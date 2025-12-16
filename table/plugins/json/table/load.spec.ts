@@ -38,7 +38,7 @@ describe("loadJsonTable", () => {
 
     it("should load remote file", async () => {
       const table = await loadJsonTable({
-        path: "https://raw.githubusercontent.com/datisthq/dpkit/refs/heads/main/json/table/fixtures/table.json",
+        path: "https://github.com/frictionlessdata/frictionless-ts/raw/refs/heads/main/table/plugins/json/table/fixtures/table.json",
       })
 
       expect((await table.collect()).toRecords()).toEqual([
@@ -50,8 +50,8 @@ describe("loadJsonTable", () => {
     it("should load remote file (multipart)", async () => {
       const table = await loadJsonTable({
         path: [
-          "https://raw.githubusercontent.com/datisthq/dpkit/refs/heads/main/json/table/fixtures/table.json",
-          "https://raw.githubusercontent.com/datisthq/dpkit/refs/heads/main/json/table/fixtures/table.json",
+          "https://github.com/frictionlessdata/frictionless-ts/raw/refs/heads/main/table/plugins/json/table/fixtures/table.json",
+          "https://github.com/frictionlessdata/frictionless-ts/raw/refs/heads/main/table/plugins/json/table/fixtures/table.json",
         ],
       })
 
@@ -160,7 +160,7 @@ describe("loadJsonTable (format=jsonl)", () => {
 
     it("should load remote file", async () => {
       const table = await loadJsonTable({
-        path: "https://raw.githubusercontent.com/datisthq/dpkit/refs/heads/main/json/table/fixtures/table.jsonl",
+        path: "https://github.com/frictionlessdata/frictionless-ts/raw/refs/heads/main/table/plugins/json/table/fixtures/table.jsonl",
         format: "jsonl",
       })
 
@@ -173,8 +173,8 @@ describe("loadJsonTable (format=jsonl)", () => {
     it("should load remote file (multipart)", async () => {
       const table = await loadJsonTable({
         path: [
-          "https://raw.githubusercontent.com/datisthq/dpkit/refs/heads/main/json/table/fixtures/table.jsonl",
-          "https://raw.githubusercontent.com/datisthq/dpkit/refs/heads/main/json/table/fixtures/table.jsonl",
+          "https://github.com/frictionlessdata/frictionless-ts/raw/refs/heads/main/table/plugins/json/table/fixtures/table.jsonl",
+          "https://github.com/frictionlessdata/frictionless-ts/raw/refs/heads/main/table/plugins/json/table/fixtures/table.jsonl",
         ],
         format: "jsonl",
       })

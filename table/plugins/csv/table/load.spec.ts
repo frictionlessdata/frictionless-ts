@@ -32,7 +32,7 @@ describe("loadCsvTable", () => {
 
   it.fails("should load remote file", async () => {
     const table = await loadCsvTable({
-      path: "https://raw.githubusercontent.com/datisthq/dpkit/refs/heads/main/csv/table/fixtures/table.csv",
+      path: "https://raw.githubusercontent.com/frictionlessdata/frictionless-ts/refs/heads/main/csv/table/fixtures/table.csv",
     })
 
     expect((await table.collect()).toRecords()).toEqual([
@@ -44,8 +44,8 @@ describe("loadCsvTable", () => {
   it.fails("should load remote file (multipart)", async () => {
     const table = await loadCsvTable({
       path: [
-        "https://raw.githubusercontent.com/datisthq/dpkit/refs/heads/main/csv/table/fixtures/table.csv",
-        "https://raw.githubusercontent.com/datisthq/dpkit/refs/heads/main/csv/table/fixtures/table.csv",
+        "https://raw.githubusercontent.com/frictionlessdata/frictionless-ts/refs/heads/main/csv/table/fixtures/table.csv",
+        "https://raw.githubusercontent.com/frictionlessdata/frictionless-ts/refs/heads/main/csv/table/fixtures/table.csv",
       ],
     })
 

@@ -36,6 +36,7 @@ jobs:
       - name: Upload Coverage
         uses: codecov/codecov-action@v5
         with:
+          token: ${{ secrets.CODECOV_TOKEN }}
           slug: frictionlessdata/frictionless-ts
 
     services:

@@ -40,7 +40,7 @@ describe("loadOdsTable", () => {
 
     it("should load remote file", async () => {
       const table = await loadOdsTable({
-        path: "https://raw.githubusercontent.com/datisthq/dpkit/refs/heads/main/ods/table/fixtures/table.ods",
+        path: "https://github.com/frictionlessdata/frictionless-ts/raw/refs/heads/main/table/plugins/ods/table/fixtures/table.ods",
       })
 
       expect((await table.collect()).toRecords()).toEqual([
@@ -52,8 +52,8 @@ describe("loadOdsTable", () => {
     it("should load multipart remote file", async () => {
       const table = await loadOdsTable({
         path: [
-          "https://raw.githubusercontent.com/datisthq/dpkit/refs/heads/main/ods/table/fixtures/table.ods",
-          "https://raw.githubusercontent.com/datisthq/dpkit/refs/heads/main/ods/table/fixtures/table.ods",
+          "https://github.com/frictionlessdata/frictionless-ts/raw/refs/heads/main/table/plugins/ods/table/fixtures/table.ods",
+          "https://github.com/frictionlessdata/frictionless-ts/raw/refs/heads/main/table/plugins/ods/table/fixtures/table.ods",
         ],
       })
 

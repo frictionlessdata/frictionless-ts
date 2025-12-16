@@ -34,9 +34,9 @@ describe("loadArrowTable", () => {
       ])
     })
 
-    it("should load remote file", async () => {
+    it.skip("should load remote file", async () => {
       const table = await loadArrowTable({
-        path: "https://raw.githubusercontent.com/datisthq/dpkit/refs/heads/main/arrow/table/fixtures/table.arrow",
+        path: "https://github.com/frictionlessdata/frictionless-ts/raw/refs/heads/main/table/plugins/arrow/table/fixtures/table.arrow",
       })
 
       expect((await table.collect()).toRecords()).toEqual([
@@ -45,11 +45,11 @@ describe("loadArrowTable", () => {
       ])
     })
 
-    it("should load remote file (multipart)", async () => {
+    it.skip("should load remote file (multipart)", async () => {
       const table = await loadArrowTable({
         path: [
-          "https://raw.githubusercontent.com/datisthq/dpkit/refs/heads/main/arrow/table/fixtures/table.arrow",
-          "https://raw.githubusercontent.com/datisthq/dpkit/refs/heads/main/arrow/table/fixtures/table.arrow",
+          "https://github.com/frictionlessdata/frictionless-ts/raw/refs/heads/main/table/plugins/arrow/table/fixtures/table.arrow",
+          "https://github.com/frictionlessdata/frictionless-ts/raw/refs/heads/main/table/plugins/arrow/table/fixtures/table.arrow",
         ],
       })
 

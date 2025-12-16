@@ -40,7 +40,7 @@ describe("loadParquetTable", () => {
 
     it("should load remote file", async () => {
       const table = await loadParquetTable({
-        path: "https://raw.githubusercontent.com/datisthq/dpkit/refs/heads/main/parquet/table/fixtures/table.parquet",
+        path: "https://github.com/frictionlessdata/frictionless-ts/raw/refs/heads/main/table/plugins/parquet/table/fixtures/table.parquet",
       })
 
       expect((await table.collect()).toRecords()).toEqual([
@@ -52,8 +52,8 @@ describe("loadParquetTable", () => {
     it("should load remote file (multipart)", async () => {
       const table = await loadParquetTable({
         path: [
-          "https://raw.githubusercontent.com/datisthq/dpkit/refs/heads/main/parquet/table/fixtures/table.parquet",
-          "https://raw.githubusercontent.com/datisthq/dpkit/refs/heads/main/parquet/table/fixtures/table.parquet",
+          "https://github.com/frictionlessdata/frictionless-ts/raw/refs/heads/main/table/plugins/parquet/table/fixtures/table.parquet",
+          "https://github.com/frictionlessdata/frictionless-ts/raw/refs/heads/main/table/plugins/parquet/table/fixtures/table.parquet",
         ],
       })
 

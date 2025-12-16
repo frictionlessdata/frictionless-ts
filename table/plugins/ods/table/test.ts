@@ -2,7 +2,7 @@ import { readFile } from "node:fs/promises"
 import { writeFile } from "node:fs/promises"
 import { read, utils, write } from "xlsx"
 
-// We intentionally don't use dpkit's function here to isolate the tests
+// We intentionally don't use frictionless's function here to isolate the tests
 
 export async function readTestData(path: string) {
   const buffer = await readFile(path)
