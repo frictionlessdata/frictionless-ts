@@ -6,5 +6,5 @@ export const ajv = new Ajv({
   allErrors: true,
   validateSchema: false,
   validateFormats: false,
-  loadSchema: loadJsonSchema,
+  loadSchema: uri => loadJsonSchema(uri, { onlyRemote: true }),
 })
