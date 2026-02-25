@@ -10,7 +10,7 @@ This guide will help you get started with frictionless-ts. If you are new to the
 ## Runtimes
 
 > [!TIP]
-> - It is possible to use frictionless-ts in [Jupyter Notebooks](/guides/jupyter)!
+> - It is possible to use frictionless-ts in [Jupyter Notebooks](/frictionless-ts/guides/jupyter/)!
 
 frictionless-ts and all its packages support all the prominent TypeScript runtimes:
 
